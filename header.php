@@ -40,9 +40,9 @@
 	<div id="wrap">
 
 		<?php
-			// liquid_action( 'before_header' );
-			// liquid_action( 'header' );
-			// liquid_action( 'after_header' );
+			liquid_action( 'before_header' );
+			liquid_action( 'header' );
+			liquid_action( 'after_header' );
 		?>
 
 		<main <?php liquid_helper()->attr( 'content' ); ?>>
