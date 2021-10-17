@@ -14,11 +14,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
-	<link rel="stylesheet" href="/wp-content/themes/hub/css/init.css" />
+	<!-- <link rel="stylesheet" href="/wp-content/themes/hub/css/init.css" />
 	<link rel="stylesheet" href="/wp-content/themes/hub/css/common.css" />
 	<link rel="stylesheet" href="/wp-content/themes/hub/css/layout.css" />
 	<link rel="stylesheet" href="/wp-content/themes/hub/css/owl.carousel.min.css" />
-	<link rel="stylesheet" href="/wp-content/themes/hub/css/owl.theme.default.css" />
+	<link rel="stylesheet" href="/wp-content/themes/hub/css/owl.theme.default.css" /> -->
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 	<script src="/wp-content/themes/hub/js/html5.js"></script>
 	<!-- <script src="/wp-content/themes/hubjs/jquery-1.11.0.min.js"></script> -->
@@ -41,7 +41,7 @@
 
 		<?php
 			liquid_action( 'before_header' );
-			liquid_action( 'header' );
+			// liquid_action( 'header' );
 			liquid_action( 'after_header' );
 		?>
 
