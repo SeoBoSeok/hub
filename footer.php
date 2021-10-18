@@ -12,7 +12,7 @@
 			</div>
 			<?php liquid_action( 'after_contents_wrap' ); ?>
 		</main>
-
+<?php if(is_front_page()) { ?>
 <div class="elementor-section-wrap">
 	<section class="full-width elementor-section-full_width elementor-element">
 		<div class="responsive">
@@ -68,6 +68,7 @@
   ]
 });
 </script>
+<?php } ?>
 		<?php
 		liquid_action( 'before_footer' );
 		liquid_action( 'footer' );
