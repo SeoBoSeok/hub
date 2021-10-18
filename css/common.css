@@ -741,12 +741,15 @@
 	}
 	.section__title-sub {
     font-size: 5.55556vw;
-    margin-bottom: 6.66667vw;
-    line-height: 1.8;
+    /* margin-bottom: 6.66667vw; */
+    line-height: 1.2;
 	}
 	.vc_custom_1605860062467 {
     padding-top: 80px !important;
     padding-bottom: 15px !important;
+	}
+	.main__our_services.second {
+		padding-top: 10vw;
 	}
 }
 
