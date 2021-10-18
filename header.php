@@ -68,19 +68,19 @@
 			<div class="hg_wrap">
 				<ul>
 					<li>
-						<a href="index.html" class="on"><span>HOME</span></a>
+						<a href="/" class="on"><span>HOME</span></a>
 					</li>
 					<li>
-						<a href="about/index.html"><span>공스타 소개</span></a>
+						<a href="/introduce"><span>공스타 소개</span></a>
 					</li>
 					<li>
-						<a href="service/index.html"><span>인터렉티브</span></a>
+						<a href="/category/interactive"><span>인터렉티브</span></a>
 					</li>
 					<li>
-						<a href="portfolio/index.html"><span>액티브</span></a>
+						<a href="/category/active"><span>액티브</span></a>
 					</li>
 					<li>
-						<a href="contact/index.html"><span>네트워크</span></a>
+						<a href="/category/network"><span>네트워크</span></a>
 					</li>
 				</ul>
 			</div>
