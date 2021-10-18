@@ -191,7 +191,7 @@
 	</div>
 
 	<?php liquid_action( 'after' ) ?>
-
+	<script src="/wp-content/themes/hub/js/lib.js"></script>
 	<?php wp_footer(); ?>
 
 </body>
