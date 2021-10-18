@@ -474,10 +474,23 @@
 .main>section.second {
 	padding: 4.6875vw 0vw 7.03125vw
 }
-.section__title-sub {
-	font-size: 3.125vw;
+.section__title-main {
+	color: #D7000F;
+	font-size: 1.875vw;
+	margin-bottom: 1.79688vw;
+	letter-spacing: 0.1em;
+	font-family: "futura-pt",Helvetica,"malgun gothic","Apple SD Gothic Neo","Microsoft NeoGothic","Droid sans",sans-serif;
+	text-transform: uppercase;
 	font-weight: 600;
-	line-height: 1.8;
+	text-align: left;
+}
+.section__title-sub {
+	font-size: 2.325vw;
+	font-weight: 600;
+	line-height: 1.6;
+	color: black;
+	text-align: left;
+	letter-spacing: 1px;
 }
 .main__our_services .section__title-main {
 	margin-top: 30px;
@@ -494,8 +507,8 @@
 }
 .main__our_services .list>.item>.inner {
 	display: block;
-	height: 20.25vw;
-	padding: 1.95313vw 1.95313vw 2.8125vw 2.89063vw;
+	height: 18.25vw;
+	padding: 1.95313vw;
 	border: 1px solid #CCCCCC;
 }
 .main__our_services .list>.item.bigger {
@@ -510,10 +523,13 @@
 	font-weight: 600;
 	letter-spacing: .54688vw;
 }
+.main__our_services .list>.item>.inner>.info {
+	text-align: left;
+}
 .main__our_services .list>.item>.inner>.info .icon {
 	position: relative;
-	width: 7.8125vw;
-	height: 7.8125vw;
+	width: 5.125vw;
+	height: 5.125vw;
 }
 .main__our_services .list>.item>.inner>.info .icon svg {
 	fill: #D7000F;
@@ -537,7 +553,7 @@
 	position: relative;
 	display: inline-block;
 	max-height: 10.15625vw;
-	padding-top: 1.6vw;
+	padding-top: 1vw;
 	font-size: 1.1rem;
 	color: #000;
 	font-weight: 700;
@@ -547,6 +563,7 @@
 	text-overflow: ellipsis;
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 2;
+	margin-bottom: 10px;
 }
 .main__our_services .list>.item>.inner>.info .desc {
 	max-height: 7.03125vw;
@@ -560,6 +577,7 @@
 	-webkit-line-clamp: 3;
 	font-size: .85rem;
 	font-weight: 500;
+	text-align: left;
 }
 .main__our_services .list>.item.tv .info .icon .item3 {
 	-o-animation: opacity_motion 3s infinite;
@@ -595,9 +613,27 @@
 	animation: opacity_motion 3s infinite;
 	animation-delay: 1.2s;
 }
+.main__our_services .list>.item:hover .inner .info {
+	position: relative;
+	z-index: 9;
+}
+.main__our_services .list>.item:hover .inner .info .number, .main__our_services .list>.item:hover .inner .info .title, .main__our_services .list>.item:hover .inner .info .desc {
+	color: #fff;
+	transition: color .3s ease-out;
+}
+.main__our_services .list>.item:hover .inner .info .icon svg {
+	fill: #fff;
+}
+.main__our_services .list>.item:hover .inner .info .number, .main__our_services .list>.item:hover .inner .info .title, .main__our_services .list>.item:hover .inner .info .desc {
+	color: #fff;
+	transition: color .3s ease-out;
+}
 @media (min-width: 1280px) {
 	.main>section.second {
 			padding:60px 0px 90px
+	}
+	.main .more_view {
+    margin-top: 30px;
 	}
 }
 
@@ -650,7 +686,8 @@
 			padding:72px 0px 200px
 	}
 	.main__our_services .list>.item>.inner>.info .title {
-    padding-top: 1.94444vw;
+    padding-top: 1vw;
+		margin-bottom: 10px;
 	}
 	.main__our_services .list>.item>.inner>.info .desc {
     max-height: 13.88889vw;

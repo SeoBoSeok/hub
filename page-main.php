@@ -54,7 +54,6 @@ get_header();
             <li class="item bigger">
                 <h2 class="section__title-main">OUR SERVICES</h2>
                 <p class="section__title-sub">공스타는 고객이 원하는 최상의 가치를 실현합니다.</p>
-                <a href="business-service/index.html" class="more_view right">자세히 보기</a>
             </li>
             <li class="item tv">
                 <a href="business-service/index.html#tv-advertisement" class="inner">
@@ -363,7 +362,7 @@ get_header();
 </svg>
                             </p>
                         </div>
-                        <p class="title">디지털 캠페인&프로모션</p>
+                        <p class="title">프로모션</p>
                         <p class="desc">광고주의 브랜드의 아이덴티티를 위해 최고의 성공사례를 보여드립니다.</p>
                     </div>
                 </a>
