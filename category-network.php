@@ -27,7 +27,7 @@ get_header();
 	// endif;
 	?>
 <style>
-	header.site-header {display: none;}
+	.titlebar {display: none !important;}
 </style>	
 <div id="contents">
 	<section class="c_portfolio">
