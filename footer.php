@@ -35,7 +35,7 @@
   speed: 300,
 	arrows: false,
   slidesToShow: 3,
-  slidesToScroll: 2,
+  slidesToScroll: 1,
   responsive: [
     {
       breakpoint: 1024,
