@@ -2,7 +2,7 @@
 
 <?php do_action( 'liquid_start_single_post_container' ); ?>
 
-<h2 class="ct_m">PORTFOLIO</h2>
+<!-- <h2 class="ct_m">PORTFOLIO</h2> -->
 
 <article <?php liquid_helper()->attr( 'post', array( 'class' => 'lqd-post-content pos-rel' ) ) ?>>
 
@@ -51,7 +51,7 @@
 		
 		<?php endif; ?>
 		
-		<?php et_template_part( 'templates/blog/single/part', 'author' ) ?>
+		<?php get_template_part( 'templates/blog/single/part', 'author' ) ?>
 		<?php liquid_render_post_nav() ?>
 
 		<?php do_action( 'liquid_single_article_footer' ); ?>
@@ -80,3 +80,5 @@
 <?php do_action( 'liquid_single_post_sidebar' ); ?>
 
 <?php do_action( 'liquid_after_single_article' ); ?>
+
+<?php get_footer(); ?>
