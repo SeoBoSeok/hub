@@ -636,7 +636,7 @@
 
 @media all and (max-width:1180px) {
 /* 헤더 */
-#header .h_logo {left:15px; top:25px; width:50px;}
+#header .h_logo {left:15px; top:25px; width:150px;}
 #header .h_logo i.hl_e {left:2px; opacity:0;}
 #header .h_logo i.hl_w {left:2px; opacity:0;}
 #header .h_logo i.hl_b {left:22px;}
@@ -911,7 +911,7 @@
 
 @media all and (max-width:560px) {
 /* 헤더 */
-#header .h_logo {left:10px; top:15px;}
+#header .h_logo {left:10px; top:0;}
 
 #header .h_gnb {right:5px; top:5px;}
 #wrap.main #header .h_logo i.hl_bar {background-color:#fff;}
