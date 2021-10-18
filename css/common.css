@@ -763,6 +763,18 @@
 	.main>section.third {
 			padding:11.11111vw 0vw 13.88889vw
 	}
+	.elementor-547 .elementor-element.elementor-element-d51cf02 {
+    width: 50%;
+	}
+	.elementor-547 .elementor-element.elementor-element-d51cf02 > .elementor-element-populated {
+    padding: 10px 10px 0px 10px;
+	}
+	.elementor-547 .elementor-element.elementor-element-28ae1a5 {
+    width: 50%;
+	}
+	.elementor-547 .elementor-element.elementor-element-28ae1a5 > .elementor-element-populated {
+    padding: 10px 10px 0px 10px;
+	}
 }
 
 @media (max-width: 768px) and (max-width: 360px) {
