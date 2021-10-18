@@ -484,7 +484,7 @@ get_header();
 					<div class="cp_list" id="box_local" style="display:block">
 						<ul>
 						<?php
-							$args = array( 'category' => 29, 'post_type' =>  'post' ); 
+							$args = array( 'category' => 3, 'post_type' =>  'post' ); 
 							$postslist = get_posts( $args );    
 							foreach ($postslist as $post) :  setup_postdata($post); 
 							?> 
