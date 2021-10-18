@@ -704,8 +704,7 @@
 	}
 	.main__our_services .list>.item.bigger {
     width: 100%;
-    padding-left: 0;
-    padding-bottom: 8.33333vw;
+    padding-bottom: 5vw;
 	}
 	.main__our_services .list>.item {
     width: 50%;
