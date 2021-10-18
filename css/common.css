@@ -778,6 +778,16 @@
 	.elementor-547 .elementor-element.elementor-element-bfc26c8 .ld-fh-element {
 		font-size: 28px !important;
 	}
+	.elementor-547 .elementor-element.elementor-element-2619476 > .elementor-widget-container {
+		text-align: center;
+	}
+	.elementor-547 .elementor-element.elementor-element-2619476 > .elementor-widget-container img {
+		height: 100px;
+    width: auto;
+	}
+	.elementor-547 .elementor-element.elementor-element-e0594a6 > .elementor-widget-container .right {
+		text-align: center !important;
+	}
 }
 
 @media (max-width: 768px) and (max-width: 360px) {
