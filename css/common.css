@@ -628,6 +628,10 @@
 	color: #fff;
 	transition: color .3s ease-out;
 }
+.vc_custom_1605860062467 {
+	padding-top: 200px !important;
+	padding-bottom: 15px !important;
+}
 @media (min-width: 1280px) {
 	.main>section.second {
 			padding:60px 0px 90px
@@ -740,6 +744,10 @@
     font-size: 5.55556vw;
     margin-bottom: 6.66667vw;
     line-height: 1.8;
+	}
+	.vc_custom_1605860062467 {
+    padding-top: 80px !important;
+    padding-bottom: 15px !important;
 	}
 }
 
