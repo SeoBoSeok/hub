@@ -8,6 +8,7 @@ get_header();
 .elementor-kit-13{--e-global-color-primary:#FFDA01;--e-global-color-text:#4B4B4B;--e-global-typography-primary-font-family:"DM Sans";--e-global-typography-primary-font-weight:400;--e-global-typography-secondary-font-family:"DM Serif Text";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"DM Sans";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"DM Sans";--e-global-typography-accent-font-weight:500;color:#4B4B4B;font-family:"DM Sans", Sans-serif;font-size:14px;font-weight:400;line-height:1.642em;letter-spacing:0px;}:root{--color-gradient-start:var( --e-global-color-primary );--color-gradient-stop:var( --e-global-color-primary );}h1, .h1{color:#000000;font-family:"DM Serif Text", Sans-serif;font-size:38px;font-weight:400;line-height:1.1em;letter-spacing:0px;}h2, .h2{color:#000000;font-family:"DM Sans", Sans-serif;font-size:32px;font-weight:700;line-height:1.06em;letter-spacing:0px;}h3, .h3{color:#000000;font-family:"DM Serif Text", Sans-serif;font-size:24px;font-weight:400;line-height:1.25em;letter-spacing:0px;}h4, .h4{color:#000000;font-family:"DM Sans", Sans-serif;font-size:24px;font-weight:400;line-height:1.68em;letter-spacing:0px;}h5, .h5{color:#000000;font-family:"DM Serif Text", Sans-serif;font-size:22px;font-weight:400;line-height:1.68em;letter-spacing:0px;}h6, .h6{color:#000000;font-family:"DM Sans", Sans-serif;font-size:13px;font-weight:700;text-transform:uppercase;line-height:1.2em;letter-spacing:1.3px;}.elementor-kit-13 .lqd-post-content,.elementor-kit-13 .lqd-post-header .entry-excerpt{font-family:"DM Sans", Sans-serif;font-size:19px;line-height:1.73em;letter-spacing:0px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1170px;}.elementor-widget:not(:last-child){margin-bottom:0px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1199px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}}
 </style>
 <style id='liquid-stylesheet-inline-css' type='text/css'>.lqd-post-content, .lqd-post-header .entry-excerpt{}.h1,h1{}.h2,h2{}.h3,h3{}.h4,h4{}.h5,h5{}.h6,h6{}.titlebar-inner h1{}.titlebar-inner p{}#lqd-site-content, .page-scheme-dark #lqd-site-content{background-color:#ffffff;}@media screen and (min-width: 992px){body.has-sidebar #lqd-contents-wrap{padding-top:25px;}}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1611647846323{padding-top: 60px !important;padding-right: 15px !important;padding-bottom: 60px !important;padding-left: 15px !important;}.vc_custom_1611647676110{padding-top: 50px !important;padding-bottom: 50px !important;}background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1605866388558{padding-top: 55px !important;padding-right: 20px !important;padding-bottom: 55px !important;padding-left: 20px !important;background-color: #f8f8f8 !important;}.vc_custom_1605862055966{border-left-width: 1px !important;border-left-color: #d6d6d6 !important;border-left-style: solid !important;}.vc_custom_1605861416783{padding-top: 120px !important;padding-bottom: 120px !important;background-image: url(https://asymmetric-corporate.liquid-themes.com/wp-content/uploads/2020/11/Image-1@2x.jpg?id=4405) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1605861706719{padding-top: 45px !important;padding-right: 20px !important;padding-bottom: 45px !important;padding-left: 20px !important;}.vc_custom_1605862068479{border-top-width: 1px !important;border-top-color: #d6d6d6 !important;border-top-style: solid !important;}.vc_custom_1605861771468{padding-top: 80px !important;padding-bottom: 80px !important;background-image: url(https://asymmetric-corporate.liquid-themes.com/wp-content/uploads/2020/11/image@2x.jpg?id=4408) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1605861946359{padding-top: 50px !important;padding-right: 20px !important;padding-bottom: 50px !important;padding-left: 20px !important;}.vc_custom_1605862146064{background-image: url(https://asymmetric-corporate.liquid-themes.com/wp-content/uploads/2020/11/Placeholder@2x.jpg?id=4407) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1605866598911{padding-top: 60px !important;padding-right: 20px !important;padding-bottom: 60px !important;padding-left: 20px !important;background-color: #081b22 !important;}.vc_custom_1605863324342{padding-top: 45vh !important;background-image: url(https://asymmetric-corporate.liquid-themes.com/wp-content/uploads/2020/11/3@2x.jpg?id=4404) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1605863469633{border-right-width: 0px !important;border-right-color: #dbdbdb !important;border-right-style: solid !important;}.vc_custom_1605864705668{margin-bottom: 0px !important;}.vc_custom_1605864495896{margin-bottom: 0px !important;}.vc_custom_1605864517984{margin-bottom: 0px !important;}.vc_custom_1605864727545{margin-bottom: 0px !important;}.vc_custom_1605864542950{margin-bottom: 0px !important;}.vc_custom_1605864739369{margin-bottom: 0px !important;}.vc_custom_1605864517984{margin-bottom: 0px !important;}.vc_custom_1611647696279{padding-right: 15px !important;padding-left: 15px !important;}.vc_custom_1611647573238{padding-right: 15px !important;padding-left: 15px !important;}.vc_custom_1611647710260{padding-right: 15px !important;padding-left: 15px !important;}.vc_custom_1611647585170{padding-right: 15px !important;padding-left: 15px !important;}.vc_custom_1611647721289{padding-right: 15px !important;padding-left: 15px !important;}.vc_custom_1611647900671{margin-top: 20px !important;margin-bottom: 20px !important;}.vc_custom_1611647912775{margin-top: 20px !important;margin-bottom: 20px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	<link rel="stylesheet" href="/wp-content/themes/hub/css/init.css" />
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <!-- <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -723,136 +724,63 @@ get_header();
 	</div>
 	<!-- Contents E -->
 	<hr />
-
-	<!-- Footer S -->
-	<footer id="footer">
-		<div class="wrap">
-			<div class="f_title">
-				<p class="ft_e">
-					<span><mark>The most important step is understanding and</mark></span><br />
-					<span><mark>Empathizing with project.</mark></span>
-				</p>
-				<!-- <p class="ft_k">
-					<span>뉴버드는 e비즈니스 마케팅 에이전시입니다.</span>
-				</p>
-				<h2 class="ft_m">NEWBIRD</h2> -->
+</div>
+<!-- Footer S -->
+<div id="footer">
+	<div class="wrap">
+		<div class="f_title">
+			<p class="ft_e">
+				<span><mark>The most important step is understanding and</mark></span><br />
+				<span><mark>Empathizing with project.</mark></span>
+			</p>
+			<!-- <p class="ft_k">
+				<span>뉴버드는 e비즈니스 마케팅 에이전시입니다.</span>
+			</p>
+			<h2 class="ft_m">NEWBIRD</h2> -->
+		</div>
+		<!-- <div class="f_wrap box">
+			<div class="f_info">
+				<ul>
+					<li>
+						<strong>COMPANY</strong>
+						<span class="cm">(주)뉴버드</span>
+					</li>
+					<li class="fi_address">
+						<strong>ADDRESS</strong>
+						<span>서울특별시 마포구 양화로10길 19, 상록빌딩 2층 202호</span>
+					</li>
+					<li>
+						<strong>BUSINESS LICENSE</strong>
+						<span>332-81-00662</span>
+					</li>
+					<li>
+						<strong>TEL</strong>
+						<span><a href="tel:0264044224">02-6404-4224</a></span>
+					</li>
+					<li>
+						<strong>E-MAIL</strong>
+						<span><a href="mailto:info@newbird.co.kr">info@newbird.co.kr</a></span>
+					</li>
+				</ul>
 			</div>
-			<!-- <div class="f_wrap box">
-				<div class="f_info">
-					<ul>
-						<li>
-							<strong>COMPANY</strong>
-							<span class="cm">(주)뉴버드</span>
-						</li>
-						<li class="fi_address">
-							<strong>ADDRESS</strong>
-							<span>서울특별시 마포구 양화로10길 19, 상록빌딩 2층 202호</span>
-						</li>
-						<li>
-							<strong>BUSINESS LICENSE</strong>
-							<span>332-81-00662</span>
-						</li>
-						<li>
-							<strong>TEL</strong>
-							<span><a href="tel:0264044224">02-6404-4224</a></span>
-						</li>
-						<li>
-							<strong>E-MAIL</strong>
-							<span><a href="mailto:info@newbird.co.kr">info@newbird.co.kr</a></span>
-						</li>
-					</ul>
-				</div>
-				<div class="f_btn">
-					<ul>
-						<li><a href="contact/index.html" class="btn big t2 arrow">REQEUST</a></li>
-						<li><a href="#location" class="btn big arrow">LOCATION</a></li>
-					</ul>
-				</div>
-			</div> -->
-		</div>
-		<!-- <hr />
-		<div class="f_download">
-			<a href="#!"><span><strong>COMPANY</strong> BROCHURE</span><i></i></a>
-		</div>
-		<hr />
-		<div class="f_copyright">
-			&copy; 2020 <strong>NEWBIRD</strong>
+			<div class="f_btn">
+				<ul>
+					<li><a href="contact/index.html" class="btn big t2 arrow">REQEUST</a></li>
+					<li><a href="#location" class="btn big arrow">LOCATION</a></li>
+				</ul>
+			</div>
 		</div> -->
-	</footer>
-	<!-- Footer E -->
-</div>
-
-<!-- 팝업, 오시는 길 S -->
-<div class="popup location">
-	<a href="#!" class="p_close"><span class="blind">닫기</span></a>
-	<div class="p_box">
-		<div class="p_wrap">
-			<div class="p_head">
-				<h3 class="p_title">오시는 길</h3>
-			</div>
-			<div class="p_body">
-				<div class="p_left">
-					<div class="p_map" id="p_map"></div>
-					<!-- <script>
-						function initMap() {
-							var myLatLng = {lat: 37.5508458, lng: 126.9175598};
-
-							// Create a map object and specify the DOM element for display.
-							var map = new google.maps.Map(document.getElementById('p_map'), {
-								center: myLatLng,
-								scrollwheel: false,
-								zoom: 16
-							});
-
-							// Create a marker and set its position.
-							var image = './images/common/icon_location.png';
-							var beachMarker = new google.maps.Marker({
-								position: myLatLng,
-								map: map,
-								icon: image
-							});
-						}
-
-					</script> -->
-					<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7Xp8h4aoIJqisIJdggs6TDsB1JW3k6-A&amp;callback=initMap" async defer></script> -->
-				</div>
-				<div class="p_right">
-					<div class="p_info">
-						<ul>
-							<li>
-								<strong><mark>ADDRESS</mark></strong>
-								<span>서울특별시 마포구 양화로10길 19, 상록빌딩 2층 202호</span>
-							</li>
-							<li>
-								<strong><mark>TEL</mark></strong>
-								<span><a href="tel:0264044224">02-6404-4224</a></span>
-							</li>
-							<li>
-								<strong><mark>SUBWAY</mark></strong>
-								<span>합정역 (2호선, 6호선)</span>
-							</li>
-							<li>
-								<strong><mark>BUS</mark></strong>
-								<span>
-									<span>우리은행서교동지점 (14-844),</span>
-									<span>합정역 (14-219),</span>
-									<span>우리은행서교동지점 (14-761)</span>
-								</span>
-							</li>
-						</ul>
-					</div>
-					<div class="btn_wrap">
-						<ul>
-							<li><a href="http://naver.me/5oO2a5zn" target="_blank" class="btn arrow">NAVER 지도 보기</a></li>
-							<li><a href="http://kko.to/_MHRWZS0j" target="_blank" class="btn t2 arrow">KAKAO 지도 보기</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
 	</div>
-	<a href="#!" class="p_out"><span class="blind">닫기</span></a>
+	<!-- <hr />
+	<div class="f_download">
+		<a href="#!"><span><strong>COMPANY</strong> BROCHURE</span><i></i></a>
+	</div>
+	<hr />
+	<div class="f_copyright">
+		&copy; 2020 <strong>NEWBIRD</strong>
+	</div> -->
 </div>
+<!-- Footer E -->
 <script type="text/javascript" src="/wp-content/themes/hub/assets/vendors/flickity/flickity.pkgd.min.js" id="flickity-js"></script>
 <script type="text/javascript" src="/wp-content/themes/hub/assets/vendors/flickity/flickity-fade.min.js" id="flickity-fade-js"></script>
 <!-- 팝업, 오시는 길 E -->
@@ -866,7 +794,6 @@ get_header();
 	}
 </script>
 <!-- AceCounter Log Gathering Script End -->
-
 <!-- </body> -->
 <!-- </html> -->
 
