@@ -182,7 +182,7 @@ if ( $align ) {
 		} 
 	?>
 	<?php liquid_action( 'header_titlebar' ); ?>
-	<?php if( !is_singular( 'post' ) ) { ?>
+	<?php if( !is_singular( 'post' ) && !is_category() ) { ?>
 	<div class="titlebar-inner">
 		<div class="container titlebar-container">
 			<div class="row titlebar-container d-flex flex-wrap align-items-center">
