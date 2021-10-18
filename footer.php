@@ -52,7 +52,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-2619476 elementor-widget elementor-widget-image" data-id="2619476" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img src="/wp-content/uploads/2021/10/KakaoTalk_Photo_2021-09-28-12-56-29.png" title="" alt="">															</div>
+															<img src="/wp-content/uploads/2021/10/KakaoTalk_Photo_2021-09-28-12-56-29.png" title="" alt="" width="300px">															</div>
 				</div>
 				<div class="elementor-element elementor-element-bfc26c8 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-widget elementor-widget-hub_fancy_heading" data-id="bfc26c8" data-element_type="widget" data-widget_type="hub_fancy_heading.default">
 				<div class="elementor-widget-container">
