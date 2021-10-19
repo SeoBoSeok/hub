@@ -327,9 +327,215 @@
 .popup .p_wrap {padding:50px;}
 }
 
-
-
-
+/*introduce*/
+#sec1 {
+	padding-top: 120px;
+}
+.cross_icon {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 25px;
+	height: 25px;
+	box-sizing: content-box;
+}
+.fusion-layout-column .fusion-column-wrapper {
+	min-height: 1px;
+	background-blend-mode: overlay;
+}
+#main .fullwidth-box .fusion-row {
+	padding-left: 0;
+	padding-right: 0;
+}
+.fusion-fullwidth .fusion-row {
+	position: relative;
+	z-index: 10;
+}
+.fusion-row:after, .fusion-row:before {
+	content: " ";
+	display: table;
+}
+.who_circle_div .who_circle.l_cir {
+	right: -10px;
+}
+.who_circle_div .who_circle {
+	width: 310px !important;
+	height: 310px;
+	margin-right: 0 !important;
+	border: 1px solid #cdcdcd;
+	border-radius: 50%;
+	display: table;
+	position: relative;
+}
+.fusion-column-first {
+	clear: left;
+}
+.who_circle_div .who_circle>div {
+	display: table-cell;
+	vertical-align: middle;
+}
+.fusion-layout-column .fusion-column-wrapper {
+	min-height: 1px;
+	background-blend-mode: overlay;
+}
+.imageframe-align-center {
+	text-align: center;
+}
+.cir_icon {
+	padding-top: 3px;
+	padding-bottom: 11px;
+}
+.fusion-imageframe {
+	display: inline-block;
+	z-index: 1;
+	overflow: hidden;
+	position: relative;
+	vertical-align: middle;
+	max-width: 100%;
+}
+.fusion-imageframe img {
+	vertical-align: top;
+	box-shadow: none!important;
+}
+.post-content p {
+	margin-bottom: 0 !important;
+}
+.cir_tit {
+	font-size: 26px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	text-indent: 1.5px;
+	font-family: 'Titillium Web' !important;
+}
+.cir_stit {
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	text-indent: 0.5px;
+	line-height: 1.4;
+	color: #7f7f7f;
+	padding-bottom: 18px;
+}
+.fusion-layout-column.fusion-one-full {
+	float: none;
+	clear: both;
+}
+.who_circle_div {
+	max-width: 1000px !important;
+	width: 100% !important;
+	margin: 0 auto !important;
+}
+.fusion-layout-column {
+	position: relative;
+	float: left;
+	margin-bottom: 20px;
+}
+.who_circle_div .who_circle.r_cir {
+	left: -10px;
+}
+@media all and (max-width: 980px) {
+	.who_circle_div {
+    max-width: 705px !important;
+	}
+	.who_circle_div .who_circle {
+    width: 235px !important;
+    height: 235px;
+	}
+	.cir_icon {
+    padding-bottom: 7px;
+	}
+	.cir_icon img {
+    width: 80%;
+	}
+	.cir_tit {
+    font-size: 17px;
+	}
+	.cir_stit {
+    padding-bottom: 10px;
+	}
+	.cir_text {
+    font-size: 12px;
+	}
+}
+@media all and (max-width: 900px) {
+	.who_circle_div .who_circle {
+		width: 235px !important;
+		height: 235px;
+	}
+}
+@media all and (max-width: 900px) {
+	.fusion-body .fusion-layout-column {
+    width: 100%!important;
+	}
+	.who_circle_div {
+    max-width: 470px !important;
+    padding-top: 185px;
+	}
+	.who_circle_div .who_circle.l_cir {
+    right: -13px;
+	}
+	.who_circle_div .who_circle.mid_circle {
+    position: absolute;
+    top: -185px;
+    left: 50%;
+    margin-left: -119px !important;
+	}
+	.who_circle_div .who_circle.r_cir {
+    left: -13px;
+	}
+}
+@media all and (max-width: 500px) {
+	.who_circle_div .who_circle {
+    width: 200px !important;
+    height: 200px;
+	}
+	.who_circle_div .who_circle.mid_circle {
+		top: -155px;
+		margin-left: -100px !important;
+	}
+	.cir_stit {
+    padding-bottom: 6px;
+    font-size: 11px;
+	}
+	.cir_text {
+    font-size: 10px;
+    letter-spacing: -0.2px;
+    line-height: 1.5;
+	}
+	.who_circle_div .who_circle.l_cir {
+    right: -20px;
+	}
+	.who_circle_div .who_circle.r_cir {
+    left: 15px;
+	}
+}
+@media all and (max-width: 480px) {
+	.who_circle_div .who_circle.l_cir {
+		position: relative;
+		bottom: -20px;
+	}
+	.who_circle_div .who_circle.l_cir {
+    /* right: 0; */
+	}
+	.who_circle_div .who_circle {
+		margin-right: none !important;
+	}
+	.who_circle_div .who_circle.mid_circle {
+    position: static;
+		margin-left: 50% !important;
+    transform: translateX(-50%);
+	}
+	.who_circle_div .who_circle.r_cir {
+    /* left: 0; */
+    margin-bottom: 0 !important;
+    top: -20px;
+	}
+	#who_circle_div {
+    width: 240px !important;
+    margin: 0 auto !important;
+		padding-top: 30px;
+	}
+}
+/*introduce*/
 
 @media all and (max-width:1180px) {
 /* 영역구분 */

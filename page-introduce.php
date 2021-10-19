@@ -8,7 +8,7 @@
 get_header();
 ?>
 <link rel="stylesheet" href="/wp-content/uploads/elementor/css/custom-frontend-lite.min.css">
-<div id="sec1" class="fusion-fullwidth fullwidth-box fusion-blend-mode who_we_are pad_top pad_bot nonhundred-percent-fullwidth" style="background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;">
+<div id="sec1" class="fusion-fullwidth fullwidth-box fusion-blend-mode who_we_are pad_top pad_bot nonhundred-percent-fullwidth">
   <div class="fusion-builder-row fusion-row ">
     <div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last mobile_padding 1_1" style="margin-top:0px;margin-bottom:0px;">
       <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
@@ -56,40 +56,6 @@ get_header();
       <p class="cir_text" style="text-align: center;">끊임없는 탐구와 개발, 차별화된<br> 디자인 감성으로 브랜드 가치 극대화</p>
     </div>
   </div>
-</div>
-<div class="fusion-builder-row fusion-builder-row-inner fusion-row ">
-  <div data-animationtype="fadeInLeft" data-animationduration="1.0" class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third fusion-column-first who_circle l_cir fusion-one-third fusion-column-first who_circle l_cir fusion-no-medium-visibility fusion-no-large-visibility fusion-animated 1_3" style="margin-top: 0px; margin-bottom: 0px; width: calc(30.6636%); margin-right: 4%; visibility: visible; animation-duration: 1s;">
-    <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
-      <div class="imageframe-align-center">
-        <span class="fusion-imageframe imageframe-none imageframe-4 hover-type-none cir_icon">
-        <img src="http://beesflow.cdn3.cafe24.com/img/B.png" width="" height="" alt="B icon" title="" class="img-responsive"></span>
-      </div><p class="cir_tit" style="text-align: center;">BUSINESS</p>
-    <p class="cir_stit" style="text-align: center;">VALUE CREATOR</p>
-    <p class="cir_text" style="text-align: center;">오랜 노하우를 바탕으로 체계적이고<br> 진보적인 인프라 제공</p>
-  </div>
-</div>
-<div data-animationtype="fadeInDown" data-animationduration="1.0" class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third who_circle c_cir mid_circle fusion-one-third who_circle c_cir mid_circle fusion-no-medium-visibility fusion-no-large-visibility fusion-animated 1_3" style="margin-top: 0px; margin-bottom: 0px; width: calc(30.6636%); margin-right: 4%; visibility: visible; animation-duration: 1s;">
-  <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
-    <div class="imageframe-align-center">
-      <span class="fusion-imageframe imageframe-none imageframe-5 hover-type-none cir_icon">
-      <img src="http://beesflow.cdn3.cafe24.com/img/E.png" width="" height="" alt="E icon" title="" class="img-responsive"></span>
-    </div>
-    <p class="cir_tit" style="text-align: center;">ELECTRONIC</p>
-    <p class="cir_stit" style="text-align: center;">TREND MAKERS</p>
-    <p class="cir_text" style="text-align: center;">뛰어난 기술력과 차별화된 감각으로<br> 최적의 솔루션 제공</p>
-  </div>
-</div>
-<div data-animationtype="fadeInRight" data-animationduration="1.0" class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third fusion-column-last who_circle r_cir fusion-one-third fusion-column-last who_circle r_cir fusion-no-medium-visibility fusion-no-large-visibility fusion-animated 1_3" style="margin-top: 0px; margin-bottom: 0px; width: calc(30.6636%); visibility: visible; animation-duration: 1s;">
-  <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
-    <div class="imageframe-align-center">
-      <span class="fusion-imageframe imageframe-none imageframe-6 hover-type-none cir_icon">
-      <img src="http://beesflow.cdn3.cafe24.com/img/E.png" width="" height="" alt="E icon" title="" class="img-responsive"></span>
-    </div>
-    <p class="cir_tit" style="text-align: center;">EMOTION</p>
-    <p class="cir_stit" style="text-align: center;">INSIGHT PROVIDER</p>
-    <p class="cir_text" style="text-align: center;">끊임없는 탐구와 개발, 차별화된<br> 디자인 감성으로 브랜드 가치 극대화</p>
-  </div>
-</div>
 </div>
 <div class="fusion-sep-clear"></div>
 <?php
