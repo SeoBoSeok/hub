@@ -618,13 +618,13 @@
 	}
 	.who_circle_div .who_circle.mid_circle {
     position: static;
-		margin-left: 46% !important;
+		margin-left: 50% !important;
     transform: translateX(-50%);
 	}
 	.who_circle_div .who_circle.r_cir {
     /* left: 0; */
 		margin: auto;
-    margin-left: 50%;
+    margin-left: 46%;
     transform: translateX(-50%);
     top: -20px;
 	}
