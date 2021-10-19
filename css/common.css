@@ -750,7 +750,7 @@
     font-size: .92857rem;
 	}
 	.main__our_services .list>.item>.inner>.info .desc {
-    max-height: 18.05556vw;
+    max-height: none;
     font-size: .85714rem;
 	}
 	.main__our_services .list>.item>.inner>.info .desc {
@@ -781,7 +781,16 @@
 		height: 38vw;
 	}
 }
-
+@media (max-width: 430px) {
+	.main__our_services .list>.item>.inner {
+		height: 43vw;
+	}
+}
+@media (max-width: 350px) {
+	.main__our_services .list>.item>.inner {
+		height: 55vw;
+	}
+}
 @media (max-width: 768px) and (max-width: 360px) {
 	.main>section.second {
 			padding:22.22222vw 0vw 11.11111vw
