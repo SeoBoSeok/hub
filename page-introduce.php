@@ -7,6 +7,7 @@
 
 get_header();
 ?>
+<link rel="stylesheet" href="/wp-content/uploads/elementor/css/custom-frontend-lite.min.css">
 <div id="sec1" class="fusion-fullwidth fullwidth-box fusion-blend-mode who_we_are pad_top pad_bot nonhundred-percent-fullwidth" style="background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;">
   <div class="fusion-builder-row fusion-row ">
     <div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last mobile_padding 1_1" style="margin-top:0px;margin-bottom:0px;">
