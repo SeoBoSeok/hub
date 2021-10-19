@@ -571,6 +571,12 @@
     left: -13px;
 	}
 }
+@media screen and (max-width: 780px) {
+	.what_table .what_table_in {
+    display: block;
+    width: 100% !important;
+	}
+}
 @media all and (max-width: 500px) {
 	.who_circle_div .who_circle {
     width: 200px !important;
