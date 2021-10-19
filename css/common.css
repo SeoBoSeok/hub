@@ -329,7 +329,7 @@
 
 /*introduce*/
 #sec1 {
-	padding-top: 120px;
+	padding-top: 200px;
 }
 .cross_icon {
 	padding-top: 25px;
@@ -341,6 +341,9 @@
 .fusion-layout-column .fusion-column-wrapper {
 	min-height: 1px;
 	background-blend-mode: overlay;
+}
+.cir_text {
+	font-size: 1rem;
 }
 #main .fullwidth-box .fusion-row {
 	padding-left: 0;
@@ -460,6 +463,9 @@
 	.who_circle_div .who_circle {
 		width: 235px !important;
 		height: 235px;
+	}
+	#sec1 {
+		padding-top: 200px;
 	}
 }
 @media all and (max-width: 900px) {
