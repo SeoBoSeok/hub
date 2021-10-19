@@ -446,7 +446,7 @@
 	overflow: hidden;
 }
 .what_table .what_table_in.what_left {
-	margin-right: 3% !important;
+	/* margin-right: 3% !important; */
 }
 .what_table .what_table_in {
 	/* width: 50% !important;
