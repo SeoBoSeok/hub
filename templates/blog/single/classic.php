@@ -2,6 +2,7 @@
 
 <?php do_action( 'liquid_start_single_post_container' ); ?>
 
+<link rel="stylesheet" href="/wp-content/uploads/elementor/css/custom-frontend-lite.min.css">
 <!-- <h2 class="ct_m">PORTFOLIO</h2> -->
 
 <article <?php liquid_helper()->attr( 'post', array( 'class' => 'lqd-post-content pos-rel' ) ) ?>>
