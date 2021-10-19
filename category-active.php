@@ -69,17 +69,17 @@ get_header();
 										</div>
 										<ul>
 											<li>
-												<strong><mark>CLIENT</mark></strong>
+												<strong><mark>TYPE</mark></strong>
 												<span><?php echo get_post_meta( get_the_ID(), 'post-link-url', true);?></span>
 											</li>
 											<li>
-												<strong><mark>WORK</mark></strong>
+												<strong><mark>DETAILS</mark></strong>
 												<span><?php echo get_post_meta( get_the_ID(), 'post-quote-url', true); ?></span>
 											</li>
 											<li>
 												<strong><mark>URL</mark></strong>
-														<span><a href="<?php the_permalink(); ?>" target="_blank"><?php the_title(); ?></a></span>
-												</li>
+												<span><a href="<?php echo get_post_meta( get_the_ID(), 'post-video-url', true);?>" target="_blank"><?php echo get_post_meta( get_the_ID(), 'post-video-url', true);?></a></span>
+											</li>
 										</ul>
 									</div>
 									<div class="cpl_pic" style="background-image:url('<?php the_post_thumbnail_url('medium'); ?>');">
