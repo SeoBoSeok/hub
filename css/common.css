@@ -642,6 +642,9 @@
 	.main .more_view {
     margin-top: 30px;
 	}
+	.main__our_services .list>.item>.inner {
+		height: 22.5vw;
+	}
 }
 
 .main>section.third {
@@ -698,6 +701,15 @@
 	}
 	.main__our_services .list>.item>.inner>.info .desc {
     max-height: 13.88889vw;
+	}
+}
+
+@media (max-width: 980px) {
+	.main__our_services .list>.item>.inner {
+		height: 22.5vw;
+	}
+	.main__our_services .list>.item>.inner>.info .desc {
+		max-height: none;
 	}
 }
 
