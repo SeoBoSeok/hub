@@ -505,7 +505,7 @@ get_header();
 												</li>
 										</ul>
 									</div>
-									<div class="cpl_pic" style="background-image:url('<?php the_post_thumbnail_url('full'); ?>');">
+									<div class="cpl_pic" style="background-image:url('<?php echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ) ?>');">
 										<div class="cplp_info">
 											<a href="<?php the_permalink(); ?>"><span class="blind">MORE</span></a>
 											<strong>VIEW</strong>
