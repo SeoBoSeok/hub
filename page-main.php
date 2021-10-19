@@ -492,7 +492,7 @@ get_header();
 										</div>
 										<ul>
 											<li>
-												<strong><mark>CLIENT</mark></strong>
+												<strong><mark>TYPE</mark></strong>
 												<span><?php echo get_post_meta( get_the_ID(), 'post-link-url', true);?></span>
 											</li>
 											<li>
