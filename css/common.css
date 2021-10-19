@@ -333,7 +333,7 @@
 
 @media all and (max-width:1180px) {
 /* 영역구분 */
-.wrap {display:block; width:auto !important; max-width:100%; margin:0 80px;}
+.wrap {display:block; width:auto !important; max-width:100%; margin:0;}
 
 
 /* 탭 */
