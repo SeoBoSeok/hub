@@ -436,6 +436,87 @@
 .who_circle_div .who_circle.r_cir {
 	left: -10px;
 }
+#sec3 {
+	padding: 110px 0 !important;
+}
+.what_table {
+	max-width: 1000px !important;
+	width: 100% !important;
+	margin: 0 auto !important;
+	overflow: hidden;
+}
+.what_table .what_table_in.what_left {
+	margin-right: 3% !important;
+}
+.what_table .what_table_in {
+	/* width: 50% !important;
+	display: table-cell;
+	margin-right: 0 !important;
+	float: none !important; */
+}
+.what_table .what_table_in.what_left>div {
+	margin-right: 6% !important;
+}
+.what_table .what_table_in>div {
+	padding: 43px 18px;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #ccc;
+	height: 100%;
+}
+.w_table_tit {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: -0.5px;
+	text-indent: -0.5px;
+	line-height: 1.1;
+}
+.c_7c {
+	color: #7c7c7c !important;
+}
+.w_table_tit::after {
+	content: "";
+	display: block;
+	width: 42px;
+	height: 1px;
+	margin: 0 auto;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	border-bottom: 1px solid #ccc;
+}
+.w_table_serv::after {
+	content: "";
+	display: block;
+	width: 64px;
+	height: 1px;
+	margin: 0 auto;
+	border-bottom: 1px solid #000;
+	position: relative;
+	top: -5px;
+}
+.fusion-clearfix {
+	zoom: 1;
+	clear: both;
+}
+.w_table_text {
+	font-size: 17px;
+	letter-spacing: -0.2px;
+	text-indent: -0.2px;
+}
+.w_table_serv {
+	padding-top: 25px;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-indent: 3.5px;
+	text-transform: uppercase;
+}
+.w_table_item {
+	padding-top: 18px;
+	font-size: 14px;
+	line-height: 1.8;
+	word-spacing: 5px;
+}
 @media all and (max-width: 980px) {
 	.who_circle_div {
     max-width: 705px !important;

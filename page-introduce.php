@@ -57,6 +57,52 @@ get_header();
     </div>
   </div>
 </div>
+<div class="fusion-clearfix"></div>
+<!-- -->
+<div id="sec3" class="fusion-fullwidth fullwidth-box fusion-blend-mode what_we_do pad_top pad_bot mobile_padding nonhundred-percent-fullwidth" style="background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;">
+  <div class="fusion-builder-row fusion-row ">
+    <div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1" style="margin-top:0px;margin-bottom:0px;">
+      <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
+        <div class="fusion-title title fusion-sep-none fusion-title-center fusion-title-size-two section_tit fusion-border-below-title" style="margin-top:0px;margin-bottom:0px;">
+          <h2 class="title-heading-center">What We Do</h2>
+        </div>
+        <p class="section_stit c666" style="text-align: center;">비즈플로우는 E-Business Total Service Provider를 지향하며<br> IMC 차원에서의 마케팅 솔루션을 제공합니다</p>
+        <div class="cross_icon_box">
+          <img class="cross_icon" src="/wp-content/uploads/2021/10/cross_black.svg" alt="cross">
+        </div>
+        <div class="fusion-clearfix"></div>
+      </div>
+    </div>
+    <div id="what_table" class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last what_table 1_1" style="margin-top:0px;margin-bottom:0px;">
+      <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
+        <div class="fusion-builder-row fusion-builder-row-inner fusion-row ">
+          <div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_2  fusion-one-half fusion-column-first what_table_in what_left fusion-one-half fusion-column-first what_table_in what_left 1_2" style="margin-top: 0px;margin-bottom: 0px;width:50%;width:calc(50% - ( ( 4% ) * 0.5 ) );margin-right:4%;">
+            <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
+              <div class="w_table_tit"> Web&amp;Mobile<br>
+                <span class="c_7c">Division</span>
+              </div>
+              <p class="w_table_text" style="text-align: center;">고객의 니즈와 비즈니스에 부합하는<br> 차별화된 맞춤형 디자인개발부로<br> 새로움을 향한 끊임없는 진화된 서비스를 전달합니다</p>
+              <p class="w_table_serv" style="text-align: center;">service</p>
+              <p class="w_table_item" style="text-align: center;">-워드프레스 -반응형웹 -원페이지 -모바일웹<br> -쇼핑몰제작 –랜딩페이지 -상세페이지&amp;사진촬영<br> -어플리케이션&amp;웹개발 -브랜딩&amp;프린팅</p>
+            </div>
+          </div>
+          <div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_2  fusion-one-half fusion-column-last what_table_in what_right fusion-one-half fusion-column-last what_table_in what_right 1_2" style="margin-top: 0px;margin-bottom: 0px;width:50%;width:calc(50% - ( ( 4% ) * 0.5 ) );">
+            <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
+              <div class="w_table_tit"> Event&amp;Promotion<br> 
+                <span class="c_7c">Division</span>
+              </div>
+              <p class="w_table_text" style="text-align: center;">BTL 마케팅, 프로모션 전문 사업부로<br> 젊은 감각과 숙련된 노하우로<br> 이색 프로젝트의 제작과 연출을 진행합니다</p>
+              <p class="w_table_serv" style="text-align: center;">service</p>
+              <p class="w_table_item" style="text-align: center;">-온라인 연계 오프라인 통합 마케팅 -런칭 -전시<br> -기업의 마케팅 프로모션 -문화 행사 -축제-스포츠 이벤트<br> -국제회의 -기업 회의 -세미나 -의전 행사 등</p>
+            </div>
+          </div>
+        </div>
+        <div class="fusion-clearfix"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- -->
 <div class="fusion-sep-clear"></div>
 <?php
 get_footer();
