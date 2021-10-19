@@ -505,7 +505,7 @@ get_header();
 												</li>
 										</ul>
 									</div>
-									<div class="cpl_pic" style="background-image:url('<?php the_post_thumbnail_url('medium'); ?>');">
+									<div class="cpl_pic" style="background-image:url('<?php the_post_thumbnail_url('full'); ?>');">
 										<div class="cplp_info">
 											<a href="<?php the_permalink(); ?>"><span class="blind">MORE</span></a>
 											<strong>VIEW</strong>
