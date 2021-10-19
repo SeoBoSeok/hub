@@ -501,7 +501,7 @@ get_header();
 											</li>
 											<li>
 												<strong><mark>URL</mark></strong>
-														<span><a href="<?php echo get_post_meta( get_the_ID(), 'post-video-url', true);?>" target="_blank"><?php the_title(); ?></a></span>
+														<span><a href="<?php echo get_post_meta( get_the_ID(), 'post-video-url', true);?>" target="_blank"><?php echo get_post_meta( get_the_ID(), 'post-video-url', true);?></a></span>
 												</li>
 										</ul>
 									</div>
