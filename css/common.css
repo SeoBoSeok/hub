@@ -609,6 +609,9 @@
 	}
 	.who_circle_div .who_circle.l_cir {
     /* right: 0; */
+		margin: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
 	}
 	.who_circle_div .who_circle {
 		margin-right: none !important;
@@ -620,11 +623,13 @@
 	}
 	.who_circle_div .who_circle.r_cir {
     /* left: 0; */
-    margin-bottom: 0 !important;
+		margin: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
     top: -20px;
 	}
 	#who_circle_div {
-    width: 240px !important;
+    width: 100% !important;
     margin: 0 auto !important;
 		padding-top: 30px;
 	}
