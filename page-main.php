@@ -496,12 +496,12 @@ get_header();
 												<span><?php echo get_post_meta( get_the_ID(), 'post-link-url', true);?></span>
 											</li>
 											<li>
-												<strong><mark>WORK</mark></strong>
+												<strong><mark>DETAILS</mark></strong>
 												<span><?php echo get_post_meta( get_the_ID(), 'post-quote-url', true); ?></span>
 											</li>
 											<li>
 												<strong><mark>URL</mark></strong>
-														<span><a href="<?php the_permalink(); ?>" target="_blank"><?php the_title(); ?></a></span>
+														<span><a href="<?php echo get_post_meta( get_the_ID(), 'post-video-url', true);?>" target="_blank"><?php the_title(); ?></a></span>
 												</li>
 										</ul>
 									</div>
