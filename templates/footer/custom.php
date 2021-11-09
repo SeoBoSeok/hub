@@ -42,6 +42,7 @@ if( !empty( $footer ) || !empty( $footer_link ) ) {
 		
 		else: 
 		
+			print_r($footer_content);
 			$footer_content = get_post_field( 'post_content', $footer_id );
 			echo do_shortcode( $footer_content );
 			
