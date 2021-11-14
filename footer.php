@@ -207,7 +207,7 @@
 
 																	<span class="link-icon left-icon icon-next-to-label"></span>	
 								
-								인터렉티브  
+								콘텐츠  
 															</a>
 													</li>
 													<li>
@@ -215,7 +215,7 @@
 
 																	<span class="link-icon left-icon icon-next-to-label"></span>	
 								
-								액티브  
+								플레이  
 															</a>
 													</li>
 													<li>

@@ -39,18 +39,14 @@ get_header();
 	<script src="js/jquery.appear.js"></script>
 </head> -->
 <!-- <body> -->
-	<section class="vc_row wpb_row vc_row-fluid vc_custom_1605860062467 row-has-padding-top row-has-padding-bottom liquid-row-shadowbox-606c644b084e3"><div class="ld-container container"><div class="row ld-row"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-8 liquid-column-606c644b14480"><div class="vc_column-inner"><div class="wpb_wrapper ca-initvalues-applied lqd-animations-done" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;all-childs&quot;,&quot;duration&quot;:&quot;1800&quot;,&quot;delay&quot;:&quot;180&quot;,&quot;ease&quot;:&quot;power4.out&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;y&quot;:35,&quot;rotationY&quot;:20,&quot;transformOriginX&quot;:0,&quot;transformOriginY&quot;:50,&quot;transformOriginZ&quot;:&quot;0px&quot;,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;y&quot;:0,&quot;rotationY&quot;:0,&quot;transformOriginX&quot;:50,&quot;transformOriginY&quot;:50,&quot;transformOriginZ&quot;:&quot;0px&quot;,&quot;opacity&quot;:1}}"><div class="wpb_wrapper-inner"><style>.ld_fancy_heading_606c644b14580 h6{color:rgb(0, 0, 0);background:rgb(255, 249, 2);}.ld_fancy_heading_606c644b14580 h6 {font-size:13px; } .ld_fancy_heading_606c644b14580 h6 {font-weight:700; } .ld_fancy_heading_606c644b14580 h6 {letter-spacing:.1em; } .ld_fancy_heading_606c644b14580 h6 {padding-top:5px !important; padding-right:10px !important; padding-bottom:5px !important; padding-left:10px !important;  } .ld_fancy_heading_606c644b14580 h6 {margin-bottom:1.5em !important;  } .ld_fancy_heading_606c644b14580 .lqd-highlight-inner{height:0.275em;bottom:0px;}.ld_fancy_heading_606c644b14580 h6 {font-size:13px; } .ld_fancy_heading_606c644b14580 h6 {font-weight:700; } .ld_fancy_heading_606c644b14580 h6 {letter-spacing:.1em; } .ld_fancy_heading_606c644b14580 h6 {padding-top:5px !important; padding-right:10px !important; padding-bottom:5px !important; padding-left:10px !important;  } .ld_fancy_heading_606c644b14580 h6 {margin-bottom:1.5em !important;  } </style><div class="ld-fancy-heading ld-fh-has-fill text-uppercase ld_fancy_heading_606c644b14580 lqd-unit-animation-done" style="-webkit-transform-origin-z: 0px; -webkit-transform-origin-y: 50%; -webkit-transform-origin-x: 0px;">
-<h6 class="ld-fh-element semi-round lqd-highlight-underline lqd-highlight-grow-left text-decoration-default"><span class="ld-fh-txt"><span class="ld-fh-txt-inner"> Welcome to 공스타</span></span></h6></div><style>.ld-row{margin: auto;}@media (min-width: 768px) { .ld_fancy_heading_606c644b1481b h1 {font-size:70px; }  } .ld_fancy_heading_606c644b1481b h1 {line-height:1em; } .ld_fancy_heading_606c644b1481b h1 {--element-line-height:1em; } .ld_fancy_heading_606c644b1481b h1 {margin-bottom:0.25em !important;  } .ld_fancy_heading_606c644b1481b .lqd-highlight-inner{height:0.275em;bottom:0px;}@media (min-width: 768px) { .ld_fancy_heading_606c644b1481b h1 {font-size:70px; }  } .ld_fancy_heading_606c644b1481b h1 {line-height:1em; } .ld_fancy_heading_606c644b1481b h1 {--element-line-height:1em; } .ld_fancy_heading_606c644b1481b h1 {margin-bottom:0.25em !important;  } </style><div class="ld-fancy-heading ld_fancy_heading_606c644b1481b lqd-unit-animation-done" style="-webkit-transform-origin-z: 0px; -webkit-transform-origin-y: 50%; -webkit-transform-origin-x: 0px;">
-<h1 class="ld-fh-element lqd-highlight-underline lqd-highlight-grow-left text-decoration-default"><span class="ld-fh-txt"><span class="ld-fh-txt-inner"> We build ideas driven by the future<em style="font-family: Playfair Display, sans-serif">.</em></span></span></h1></div><style>.ld_fancy_heading_606c644b14972 p {font-size:19px; } .ld_fancy_heading_606c644b14972 p {line-height:1.315em; } .ld_fancy_heading_606c644b14972 p {--element-line-height:1.315em; } @media (min-width: 1200px) { .ld_fancy_heading_606c644b14972 p {}  } .ld_fancy_heading_606c644b14972 .lqd-highlight-inner{height:0.275em;bottom:0px;}.ld_fancy_heading_606c644b14972 p {font-size:19px; } .ld_fancy_heading_606c644b14972 p {line-height:1.315em; } .ld_fancy_heading_606c644b14972 p {--element-line-height:1.315em; } @media (min-width: 1200px) { .ld_fancy_heading_606c644b14972 p { }  } </style><div class="ld-fancy-heading ld_fancy_heading_606c644b14972 lqd-unit-animation-done" style="-webkit-transform-origin-z: 0px; -webkit-transform-origin-y: 50%; -webkit-transform-origin-x: 0px;">
-<p class="ld-fh-element lqd-highlight-underline lqd-highlight-grow-left text-decoration-default"><span class="ld-fh-txt"><span class="ld-fh-txt-inner"> We build good experiences for our clients, our partners, our team, our subcontractors, and our community.</span></span></p></div></div></div></div></div></div></div></section>
 <section class="main__our_services second"><div class="section__wrap">
     <div class="inner">
         <ul class="list">
-            <li class="item bigger">
+            <!-- <li class="item bigger">
                 <h2 class="section__title-main">OUR SERVICES</h2>
                 <p class="section__title-sub">공스타는 고객이 원하는 최상의 가치를 실현합니다.</p>
-            </li>
-            <li class="item tv">
+            </li> -->
+            <!-- <li class="item tv">
                 <a href="business-service/index.html#tv-advertisement" class="inner">
                     <div class="info">
                         <span class="number">01</span>
@@ -137,11 +133,11 @@ get_header();
                         <p class="desc">정확한 타겟팅, 세심한 광고 관리, 효율적으로 합리적인 검색광고를 보여드립니다.</p>
                     </div>
                 </a>
-            </li>
+            </li> -->
             <li class="item performence">
                 <a href="business-service/index.html#performance-marketing" class="inner">
                     <div class="info">
-                        <span class="number">03</span>
+                        <!-- <span class="number">03</span> -->
                         <div class="icon performence">
                             <p class="item1">
                                 <svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -181,15 +177,15 @@ get_header();
 </svg>
                             </p>
                         </div>
-                        <p class="title">퍼포먼스 광고</p>
-                        <p class="desc">코마스인터렉티브가 보유한 플랫폼으로 최고의 퍼포먼스를 보여드립니다.</p>
+                        <p class="title">공스타 소개</p>
+                        <p class="desc">공주 로컬 콘텐츠 플랫폼</p>
                     </div>
                 </a>
             </li>
             <li class="item app">
                 <a href="business-service/index.html#app-marketing" class="inner">
                     <div class="info">
-                        <span class="number">04</span>
+                        <!-- <span class="number">04</span> -->
                         <div class="icon app">
                             <p class="item1">
                                 <svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -235,15 +231,15 @@ get_header();
 </svg>
                             </p>
                         </div>
-                        <p class="title">APP마케팅</p>
-                        <p class="desc">고객사가 원하는 최상의 APP퍼포먼스를 보여드립니다.</p>
+                        <p class="title">콘텐츠</p>
+                        <p class="desc">공주 로컬 소상공인 콘텐츠</p>
                     </div>
                 </a>
             </li>
             <li class="item sns">
                 <a href="business-service/index.html#sns-marketing" class="inner">
                     <div class="info">
-                        <span class="number">05</span>
+                        <!-- <span class="number">05</span> -->
                         <div class="icon sns">
                             <p class="item1">
                                 <svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -299,15 +295,15 @@ get_header();
 </svg>
                             </p>
                         </div>
-                        <p class="title">SNS마케팅</p>
-                        <p class="desc">고객 맞춤형 컨텐츠 제작을 통해 최고의 효율을 보여드립니다.</p>
+                        <p class="title">플레이</p>
+                        <p class="desc"></p>
                     </div>
                 </a>
             </li>
             <li class="item digital">
                 <a href="business-service/index.html#digital-campaign" class="inner">
                     <div class="info">
-                        <span class="number">06</span>
+                        <!-- <span class="number">06</span> -->
                         <div class="icon digital">
                             <p class="item1">
                                 <svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -357,8 +353,8 @@ get_header();
 </svg>
                             </p>
                         </div>
-                        <p class="title">프로모션</p>
-                        <p class="desc">광고주의 브랜드의 아이덴티티를 위해 최고의 성공사례를 보여드립니다.</p>
+                        <p class="title">네트워크</p>
+                        <p class="desc"></p>
                     </div>
                 </a>
             </li>

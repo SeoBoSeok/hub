@@ -82,7 +82,7 @@
 /* 탭 */
 .tab {display:inline-block; vertical-align:middle; width:100%;}
 .tab ul {display:inline-block; vertical-align:middle; width:100%; width:calc(100% + 20px); margin-left:-10px;}
-.tab li {display:inline-block; vertical-align:middle; float:left; width:100%;}
+.tab li {display:inline-block; vertical-align:middle; width:100%;}
 .tab.div2 li {width:50%;} .tab.div3 li {width:33.333%;} .tab.div4 li {width:25%;} .tab.div5 li {width:20%;} .tab.div6 li {width:16.666%;} .tab.div7 li {width:14.285%;} .tab.div8 li {width:12.5%;} .tab.div9 li {width:11.111%;} .tab.div10 li {width:10%;}
 .tab a {display:block; height:40px; margin:0 10px; padding:0px 10px; border-radius:3px; background-color:#fff; font-size:13px; font-family:'Montserrat', Noto Sans KR, sans-serif; font-weight:900; color:#111427; line-height:40px; text-align:center; overflow:hidden; text-overflow:ellipsis; word-break:break-all; box-shadow:0 20px 40px rgba(17, 20, 39, 0.10); transition:0.2s; -webkit-transition:0.2s;}
 .tab a:hover {background-color:#111427; color:#ffe618;}

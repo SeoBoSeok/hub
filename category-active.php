@@ -41,7 +41,7 @@ get_header();
 					<!-- <p class="ct_k">
 						<span>성공적인 프로젝트를 약속합니다!</span>
 					</p> -->
-					<h2 class="ct_m">액티브</h2>
+					<h2 class="ct_m">active</h2>
 				</div>
 				<div id="page" class="c_wrap box">
 					<!-- <div class="tab div5"> -->

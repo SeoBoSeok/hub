@@ -44,7 +44,9 @@
 			// liquid_action( 'header' );
 			liquid_action( 'after_header' );
 		?>
-
+		<?php if(is_front_page()) { ?>
+		<section id="main_image_bg"></section>
+		<?php } ?>
 		<main <?php liquid_helper()->attr( 'content' ); ?>>
 
 			<?php liquid_action( 'before_contents_wrap' ); ?>
@@ -74,10 +76,10 @@
 						<a href="/introduce"><span>공스타 소개</span></a>
 					</li>
 					<li>
-						<a href="/category/interactive"><span>인터렉티브</span></a>
+						<a href="/category/interactive"><span>콘텐츠</span></a>
 					</li>
 					<li>
-						<a href="/category/active"><span>액티브</span></a>
+						<a href="/category/active"><span>플레이</span></a>
 					</li>
 					<li>
 						<a href="/category/network"><span>네트워크</span></a>
