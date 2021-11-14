@@ -485,7 +485,7 @@
 
 @media all and (max-width:1400px) {
 /* 헤더 */
-#header .h_logo {left:50px; top:50px;}
+#header .h_logo {left:50px; top:15px;}
 
 #header .h_gnb {right:50px; top:50px;}
 #header .h_gnb .hg_wrap li {margin-left:40px;}
