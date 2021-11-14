@@ -802,7 +802,11 @@
 }
 
 
-
+@media all and (max-width:991px) {
+	.main #contents .c_portfolio .cp_list > ul > li {
+		width: 100%;
+	}
+}
 
 
 @media all and (max-width:800px) {
