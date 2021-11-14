@@ -304,7 +304,7 @@
 
 @media all and (max-width:1700px) {
 /* 헤더 */
-#header .h_logo {left:65px; top:65px;}
+#header .h_logo {left:65px; top:15px;}
 
 #header .h_gnb {right:65px; top:65px;}
 #header .h_gnb .hg_wrap li {margin-left:60px;}
