@@ -481,6 +481,12 @@ get_header();
 							?> 
 							<li>
 								<div class="cpl_wrap">
+									<div class="cpl_pic" style="background-image:url('<?php echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ) ?>');">
+										<div class="cplp_info">
+											<a href="<?php the_permalink(); ?>"><span class="blind">MORE</span></a>
+											<strong>VIEW</strong>
+										</div>
+									</div>
 									<div class="cpl_info">
 										<div class="cpli_title">
 											<strong><?php the_title(); ?></strong>
@@ -501,12 +507,6 @@ get_header();
 											</li>
 										</ul>
 									</div>
-									<div class="cpl_pic" style="background-image:url('<?php echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ) ?>');">
-										<div class="cplp_info">
-											<a href="<?php the_permalink(); ?>"><span class="blind">MORE</span></a>
-											<strong>VIEW</strong>
-										</div>
-									</div>
 								</div>
 							</li>  
 						<?php endforeach; ?> 
@@ -517,6 +517,12 @@ get_header();
 														<li>
 
 								<div class="cpl_wrap">
+									<div class="cpl_pic" style="background-image:url('nbadm/data/uploads/9d702e9dd6034d3e73ef315479b329d11561727947_17590.jpg');">
+										<div class="cplp_info">
+											<a href="portfolio/view%EF%B9%96idx=56.html"><span class="blind">MORE</span></a>
+											<strong>VIEW</strong>
+										</div>
+									</div>
 									<div class="cpl_info">
 										<div class="cpli_title">
 											<strong>픽썸 ICO 상장커뮤니티 1111</strong>
@@ -536,12 +542,6 @@ get_header();
 																									<span><a href="http://pickthumb.com" target="_blank">pickthumb.com</a></span>
 																							</li>
 										</ul>
-									</div>
-									<div class="cpl_pic" style="background-image:url('nbadm/data/uploads/9d702e9dd6034d3e73ef315479b329d11561727947_17590.jpg');">
-										<div class="cplp_info">
-											<a href="portfolio/view%EF%B9%96idx=56.html"><span class="blind">MORE</span></a>
-											<strong>VIEW</strong>
-										</div>
 									</div>
 								</div>
 							</li>
