@@ -643,7 +643,7 @@
 
 @media all and (max-width:1180px) {
 /* 헤더 */
-#header .h_logo {left:15px; top:25px; width:150px;}
+#header .h_logo {left:15px; top:0px; width:150px;}
 #header .h_logo i.hl_e {left:2px; opacity:0;}
 #header .h_logo i.hl_w {left:2px; opacity:0;}
 #header .h_logo i.hl_b {left:22px;}
@@ -805,6 +805,12 @@
 @media all and (max-width:991px) {
 	.main #contents .c_portfolio .cp_list > ul > li {
 		width: 100%;
+	}
+	#header {
+		height: 80px;
+	}
+	#main_image_bg {
+		margin-top: 80px;
 	}
 }
 
