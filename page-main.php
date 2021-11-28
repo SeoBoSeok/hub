@@ -78,7 +78,7 @@ get_header();
 				</div>
 				<div class="ci_slogan">
 					<div class="cis_wrap">
-						<img src="../images/new/logo.png" class="logo">
+						<img src="/wp-content/themes/hub/images/new/logo.png" class="logo">
 						<div><h3 class="underline">공주의 모든 정보</h3></div>
 						<div><h3>공스타에서 확인하세요</h3></div>
 						<!-- <p>
@@ -86,7 +86,7 @@ get_header();
 							<span>온라인 서비스 컨설팅과 홈페이지, 어플리케이션, 솔루션 개발 서비스를 제공하고 있습니다.</span> --
 						</p> -->
 						<!-- <a href="about/index.html" class="btn arrow">MORE</a> -->
-						<button><img src="../images/new/arrow-right-wh.png"></button>
+						<button><img src="/wp-content/themes/hub/images/new/arrow-right-wh.png"></button>
 					</div>
 				</div>
 			</div>
@@ -111,27 +111,27 @@ get_header();
 	<style type="text/css">
 		@font-face {
 			font-family: "AppleSDGothicNeo";
-			src: url("../fonts/AppleSDGothicNeoH.ttf") format('truetype');
+			src: url("/wp-content/themes/hub/fonts/AppleSDGothicNeoH.ttf") format('truetype');
 			font-weight: 900;
 		}
 		@font-face {
 			font-family: "AppleSDGothicNeo";
-			src: url("../fonts/AppleSDGothicNeoB.ttf") format('truetype');
+			src: url("/wp-content/themes/hub/fonts/AppleSDGothicNeoB.ttf") format('truetype');
 			font-weight: 700;
 		}
 		@font-face {
 			font-family: "AppleSDGothicNeo";
-			src: url("../fonts/AppleSDGothicNeoM.ttf") format('truetype');
+			src: url("/wp-content/themes/hub/fonts/AppleSDGothicNeoM.ttf") format('truetype');
 			font-weight: 500;
 		}
 		@font-face {
 			font-family: "AppleSDGothicNeo";
-			src: url("../fonts/AppleSDGothicNeoL.ttf") format('truetype');
+			src: url("/wp-content/themes/hub/fonts/AppleSDGothicNeoL.ttf") format('truetype');
 			font-weight: 200;
 		}
 		@font-face {
 			font-family: "SCDream3";
-			src: url("../fonts/SCDream3.otf") format('opentype');
+			src: url("/wp-content/themes/hub/fonts/SCDream3.otf") format('opentype');
 		}
 
 		button.dots {
@@ -565,11 +565,11 @@ get_header();
 			<div class="wrap">
 				<div class="contents-header">
 					<div class="contents-header-inner">
-						<img src="../images/new/contents-title.png"/>
+						<img src="/wp-content/themes/hub/images/new/contents-title.png"/>
 						<div class="title-n-menu">
 							<div class="title">
 								<span>HOT</span>
-								<span class="image"><img src="../images/new/hot.png"/></span>
+								<span class="image"><img src="/wp-content/themes/hub/images/new/hot.png"/></span>
 								<span>한 공주 로컬 콘텐츠</span>
 							</div>
 							<div class="menu">
@@ -583,7 +583,7 @@ get_header();
 		
 				<div class="card-list">
 					<a href="" class="card-item type-1">
-						<div class="image" style="background-image: url('../images/new/1_공주대_무용과_최선무용단,_웅진백제의_별이_된_고마.jpg');"></div>
+						<div class="image" style="background-image: url('/wp-content/themes/hub/images/new/1_공주대_무용과_최선무용단,_웅진백제의_별이_된_고마.jpg');"></div>
 						<div class="content">
 							<div class="label">#공연전시</div>
 							<div class="title">
@@ -595,7 +595,7 @@ get_header();
 						</div>
 					</a>
 					<a href="" class="card-item type-1">
-						<div class="image" style="background-image: url('../images/new/KakaoTalk_Photo_2021-11-26-21-10-43 002.jpg');"></div>
+						<div class="image" style="background-image: url('/wp-content/themes/hub/images/new/KakaoTalk_Photo_2021-11-26-21-10-43 002.jpg');"></div>
 						<div class="content">
 							<div class="label">#공연전시</div>
 							<div class="title">
@@ -607,7 +607,7 @@ get_header();
 						</div>
 					</a>
 					<a href="" class="card-item type-2">
-						<div class="image" style="background-image: url('../images/new/mu.jpg');"></div>
+						<div class="image" style="background-image: url('/wp-content/themes/hub/images/new/mu.jpg');"></div>
 						<div class="content">
 							<div class="title color-wh">
 								<span>공주문화센터 -> 클래스</span>
@@ -616,7 +616,7 @@ get_header();
 							</div>
 						</div>
 						<div class="btn-wrap">
-							<button><img src="../images/new/class.png"/><span>클래스 오픈</span></button>
+							<button><img src="/wp-content/themes/hub/images/new/class.png"/><span>클래스 오픈</span></button>
 						</div>
 					</a>
 					<a href="" class="card-item type-3">
@@ -631,10 +631,10 @@ get_header();
 							<div class="sub">Lee Song Yi , Yang Song Yi  /  루치아의뜰</div>
 							<button class="dots"><span></span></button>
 						</div>
-						<div class="image" style="background-image: url('../images/new/KakaoTalk_Photo_2021-11-26-21-10-43 004.jpg');"></div>
+						<div class="image" style="background-image: url('/wp-content/themes/hub/images/new/KakaoTalk_Photo_2021-11-26-21-10-43 004.jpg');"></div>
 					</a>
 					<a href="" class="card-item type-1">
-						<div class="image" style="background-image: url('../images/new/KakaoTalk_Photo_2021-11-26-21-10-43 005.jpg');"></div>
+						<div class="image" style="background-image: url('/wp-content/themes/hub/images/new/KakaoTalk_Photo_2021-11-26-21-10-43 005.jpg');"></div>
 						<div class="content">
 							<div class="label">#공연전시</div>
 							<div class="title">
@@ -647,7 +647,7 @@ get_header();
 					</a>
 					<a href="" class="card-item type-4">
 						<div class="image">
-							<img src="../images/new/smilepng.png"/>
+							<img src="/wp-content/themes/hub/images/new/smilepng.png"/>
 						</div>
 						<div class="content">
 							<div class="title">
@@ -656,11 +656,11 @@ get_header();
 							</div>
 						</div>
 						<div class="btn-wrap">
-							<button>광고하러 가기<img src="../images/new/arrow-right.png"></button>
+							<button>광고하러 가기<img src="/wp-content/themes/hub/images/new/arrow-right.png"></button>
 						</div>
 					</a>
 					<a href="" class="card-item type-2 right-circle">
-						<div class="image" style="background-image: url('../images/new/KakaoTalk_Photo_2021-11-26-21-10-43 006.jpg');"></div>
+						<div class="image" style="background-image: url('/wp-content/themes/hub/images/new/KakaoTalk_Photo_2021-11-26-21-10-43 006.jpg');"></div>
 						<div class="content">
 							<div class="title color-wh">
 								<span>버터, 계란, 우유 NO!</span>
@@ -669,11 +669,11 @@ get_header();
 							</div>
 						</div>
 						<div class="btn-wrap">
-							<button><img src="../images/new/class.png"/><span>클래스 오픈</span></button>
+							<button><img src="/wp-content/themes/hub/images/new/class.png"/><span>클래스 오픈</span></button>
 						</div>
 					</a>
 					<a href="" class="card-item type-1">
-						<div class="image bg-effect-1 color-yellow" style="background-image: url('../images/new/KakaoTalk_Photo_2021-11-26-21-10-43 007.jpg');"></div>
+						<div class="image bg-effect-1 color-yellow" style="background-image: url('/wp-content/themes/hub/images/new/KakaoTalk_Photo_2021-11-26-21-10-43 007.jpg');"></div>
 						<div class="content">
 							<div class="label">#공연전시</div>
 							<div class="title">
@@ -688,7 +688,7 @@ get_header();
 
 				<div class="banner">
 					<a href="">
-						<img src="../images/new/banner.png"/>
+						<img src="/wp-content/themes/hub/images/new/banner.png"/>
 					</a>
 				</div>
 			</div>
@@ -779,7 +779,7 @@ get_header();
 			</div> -->
 			<div class="f_wrap box">
 				<div class="f_info">
-					<img src="../images/new/logo-2.png" class="logo"/>
+					<img src="/wp-content/themes/hub/images/new/logo-2.png" class="logo"/>
 					<div class="company-info">
 						<div style="margin-bottom: 10px;">대표자 송국진 | 사업자번호 1234-234-212342</div>
 						<div>주소  충청남도 공주시 메이크로 123 19, 공주대학교 2층 (공주동)</div>
@@ -856,7 +856,7 @@ get_header();
 							});
 
 							// Create a marker and set its position.
-							var image = '../images/common/icon_location.png';
+							var image = '/wp-content/themes/hub/images/common/icon_location.png';
 							var beachMarker = new google.maps.Marker({
 								position: myLatLng,
 								map: map,
