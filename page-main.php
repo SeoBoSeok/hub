@@ -697,7 +697,7 @@ get_header();
 	<!-- Contents S -->
 
 
-	
+
 
 
 </div>
@@ -811,5 +811,5 @@ get_header();
 <!-- </body> -->
 <!-- </html> -->
 <?php
-// get_footer();
+	get_footer();
 ?>
