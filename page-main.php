@@ -781,7 +781,7 @@ get_header();
 				<div class="f_info">
 					<img src="./images/new/logo-2.png" class="logo"/>
 					<div class="company-info">
-						<div style="margin-bottom: 10px;">대표자 홍길동 | 사업자번호 1234-234-212342</div>
+						<div style="margin-bottom: 10px;">대표자 송국진 | 사업자번호 1234-234-212342</div>
 						<div>주소  충청남도 공주시 메이크로 123 19, 공주대학교 2층 (공주동)</div>
 					</div>
 					<div class="email">대표메일 gongstar@naver.com</div>
@@ -822,9 +822,9 @@ get_header();
 			</div>
 		</div>
 		<hr />
-		<div class="f_download">
+		<!-- <div class="f_download">
 			<a href="#!"><span><strong>COMPANY</strong> BROCHURE</span><i></i></a>
-		</div>
+		</div> -->
 		<hr />
 		<div class="f_copyright">
 			&copy; 2021 <strong>공스타</strong>
