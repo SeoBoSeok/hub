@@ -942,5 +942,5 @@ get_header();
 <!-- </body> -->
 <!-- </html> -->
 <?php
-get_footer();
+// get_footer();
 ?>

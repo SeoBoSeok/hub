@@ -44,7 +44,7 @@
 			// liquid_action( 'header' );
 			liquid_action( 'after_header' );
 		?>
-		<?php if(is_front_page()) { ?>
+		<?php if(false) { ?>
 		<section id="main_image_bg"></section>
 		<?php } ?>
 		<main <?php liquid_helper()->attr( 'content' ); ?>>
