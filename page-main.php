@@ -111,27 +111,27 @@ get_header();
 	<style type="text/css">
 		@font-face {
 			font-family: "AppleSDGothicNeo";
-			src: url("./fonts/AppleSDGothicNeoH.ttf") format('truetype');
+			src: url("../fonts/AppleSDGothicNeoH.ttf") format('truetype');
 			font-weight: 900;
 		}
 		@font-face {
 			font-family: "AppleSDGothicNeo";
-			src: url("./fonts/AppleSDGothicNeoB.ttf") format('truetype');
+			src: url("../fonts/AppleSDGothicNeoB.ttf") format('truetype');
 			font-weight: 700;
 		}
 		@font-face {
 			font-family: "AppleSDGothicNeo";
-			src: url("./fonts/AppleSDGothicNeoM.ttf") format('truetype');
+			src: url("../fonts/AppleSDGothicNeoM.ttf") format('truetype');
 			font-weight: 500;
 		}
 		@font-face {
 			font-family: "AppleSDGothicNeo";
-			src: url("./fonts/AppleSDGothicNeoL.ttf") format('truetype');
+			src: url("../fonts/AppleSDGothicNeoL.ttf") format('truetype');
 			font-weight: 200;
 		}
 		@font-face {
 			font-family: "SCDream3";
-			src: url("./fonts/SCDream3.otf") format('opentype');
+			src: url("../fonts/SCDream3.otf") format('opentype');
 		}
 
 		button.dots {
