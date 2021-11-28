@@ -697,140 +697,9 @@ get_header();
 	<!-- Contents S -->
 
 
+	
 
 
-
-
-	<style type="text/css">
-		footer {
-			background-color: #111427;
-		}
-		#footer .f_wrap {
-			padding: 25px 20px;
-			margin: 0 -20px;
-			font-size: 12px;
-			color: #a7acb3;
-		}
-		#footer .f_wrap .f_info {
-			display: grid;
-			grid-template-columns: 140px auto auto;
-			gap: 32px;
-			align-items: end;
-			justify-content: left;
-			padding-bottom: 23px;
-			border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-		}
-		#footer .f_wrap .f_info > img.logo {
-			width: 100%;
-			max-width: 100%;
-		}
-		#footer .f_wrap .f_info .company-info {
-			text-align: left;
-		}
-		#footer .f_wrap .copyright {
-			margin-top: 13px;
-		}
-		#footer .f_copyright,
-		#footer .f_download {
-			bottom: 100px
-		}
-
-		@media (max-width: 800px) {
-			#footer .f_wrap {
-				padding: 14px 12px;
-				margin: 0;
-			}
-			#footer .f_wrap .f_info {
-				gap: 12px;
-				justify-content: stretch;
-				border-bottom: none;
-				padding-bottom: 15px;
-			}
-			#footer .f_wrap .f_info .company-info {
-				grid-column-end: span 3;
-			    order: 1;
-				padding-top: 12px;
-				border-top: 1px solid rgba(255, 255, 255, 0.5);
-			}
-			#footer .f_wrap .f_info .email {
-				grid-column-end: span 2;
-				align-self: center;
-				justify-self: end;
-			}
-		}
-		@media (max-width: 560px) {
-			#footer .f_wrap .f_info {
-				grid-template-columns: 66px auto auto;
-			}
-		}
-	</style>
-	<!-- Footer S -->
-	<footer id="footer">
-		<div class="wrap">
-			<!-- <div class="f_title">
-				!-- <p class="ft_e">
-					<span><mark>The most important step is understanding and</mark></span><br />
-					<span><mark>Empathizing with project.</mark></span>
-				</p>
-				<p class="ft_k">
-					<span>공스타는 e비즈니스 마케팅 에이전시입니다.</span>
-				</p>
-				<h2 class="ft_m"></h2> --
-			</div> -->
-			<div class="f_wrap box">
-				<div class="f_info">
-					<img src="/wp-content/themes/hub/images/new/logo-2.png" class="logo"/>
-					<div class="company-info">
-						<div style="margin-bottom: 10px;">대표자 송국진 | 사업자번호 1234-234-212342</div>
-						<div>주소  충청남도 공주시 메이크로 123 19, 공주대학교 2층 (공주동)</div>
-					</div>
-					<div class="email">대표메일 gongstar@naver.com</div>
-				</div>
-				<div class="copyright">
-					© 2021  GONGSTAR ALL rights reserved
-				</div>
-				<!-- <div class="f_info">
-					<ul>
-						<li>
-							<strong>COMPANY</strong>
-							<span class="cm">(주)공스타</span>
-						</li>
-						<li class="fi_address">
-							<strong>ADDRESS</strong>
-							<span>서울특별시 마포구 양화로10길 19, 상록빌딩 2층 202호</span>
-						</li>
-						<li>
-							<strong>BUSINESS LICENSE</strong>
-							<span>332-81-00662</span>
-						</li>
-						<li>
-							<strong>TEL</strong>
-							<span><a href="tel:0264044224">02-6404-4224</a></span>
-						</li>
-						<li>
-							<strong>E-MAIL</strong>
-							<span><a href="mailto:info@.co.kr">info@.co.kr</a></span>
-						</li>
-					</ul>
-				</div> -->
-				<!-- <div class="f_btn">
-					<ul>
-						<li><a href="contact/index.html" class="btn big t2 arrow">REQEUST</a></li>
-						<li><a href="#location" class="btn big arrow">LOCATION</a></li>
-					</ul>
-				</div> -->
-			</div>
-		</div>
-		<hr />
-		<!-- <div class="f_download">
-			<a href="#!"><span><strong>COMPANY</strong> BROCHURE</span><i></i></a>
-		</div> -->
-		<hr />
-		<div class="f_copyright">
-			&copy; 2021 <strong>공스타</strong>
-		</div>
-	</footer>
-	<!-- Footer E -->
 </div>
 
 <!-- 팝업, 오시는 길 S -->
@@ -916,15 +785,15 @@ get_header();
 </script>
 
 <!-- AceCounter Log Gathering Script V.7.5.AMZ2019080601 -->
-<script language='javascript'>
+<!-- <script language='javascript'>
 	var _AceGID=(function(){var Inf=['gtp13.acecounter.com','8080','AH2A43490577012','AW','0','NaPm,Ncisy','ALL','0']; var _CI=(!_AceGID)?[]:_AceGID.val;var _N=0;var _T=new Image(0,0);if(_CI.join('.').indexOf(Inf[3])<0){ _T.src =( location.protocol=="https:"?"https://"+Inf[0]:"http://"+Inf[0]+":"+Inf[1]) +'/?cookie'; _CI.push(Inf);  _N=_CI.length; } return {o: _N,val:_CI}; })();
 	var _AceCounter=(function(){var G=_AceGID;var _sc=document.createElement('script');var _sm=document.getElementsByTagName('script')[0];if(G.o!=0){var _A=G.val[G.o-1];var _G=(_A[0]).substr(0,_A[0].indexOf('.'));var _C=(_A[7]!='0')?(_A[2]):_A[3];var _U=(_A[5]).replace(/\,/g,'_');_sc.src=(location.protocol.indexOf('http')==0?location.protocol:'http:')+'//cr.acecounter.com/Web/AceCounter_'+_C+'.js?gc='+_A[2]+'&py='+_A[4]+'&gd='+_G+'&gp='+_A[1]+'&up='+_U+'&rd='+(new Date().getTime());_sm.parentNode.insertBefore(_sc,_sm);return _sc.src;}})();
-</script>
-<noscript><img src='http://gtp13.acecounter.com:8080/?uid=AH2A43490577012&amp;je=n&amp;' border='0' width='0' height='0' alt=''></noscript>
+</script> -->
+<!-- <noscript><img src='http://gtp13.acecounter.com:8080/?uid=AH2A43490577012&amp;je=n&amp;' border='0' width='0' height='0' alt=''></noscript> -->
 <!-- AceCounter Log Gathering Script End -->
 
 <!--네이버 에널리스틱스-->
-<script src="js/lib.js"></script>
+<script src="/wp-content/themes/hub/js/lib.js"></script>
 <!-- Footer E -->
 <script type="text/javascript" src="/wp-content/themes/hub/assets/vendors/flickity/flickity.pkgd.min.js" id="flickity-js"></script>
 <script type="text/javascript" src="/wp-content/themes/hub/assets/vendors/flickity/flickity-fade.min.js" id="flickity-fade-js"></script>
