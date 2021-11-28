@@ -12,7 +12,7 @@
 			</div>
 			<?php liquid_action( 'after_contents_wrap' ); ?>
 		</main>
-<?php if(is_front_page()) { ?>
+<?php if(false) { ?>
 <div class="elementor-section-wrap">
 	<section class="full-width elementor-section-full_width elementor-element">
 		<div class="responsive">
