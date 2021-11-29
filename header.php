@@ -25,6 +25,9 @@
 	<script src="/wp-content/themes/hub/js/owl.carousel.min.js"></script>
 	<script src="/wp-content/themes/hub/js/jquery.easing.1.3.min.js"></script>
 	<script src="/wp-content/themes/hub/js/jquery.appear.js"></script>
+	<style>
+		#lqd-contents-wrap {padding-left:0; padding-right: 0;}
+	</style>
 </head>
 
 <body <?php body_class(); ?> <?php liquid_helper()->attr( 'body' ); ?>>
@@ -56,35 +59,35 @@
 			<?php liquid_action( 'before_content' ); ?>
 
 			<header id="header">
-		<div class="h_logo">
-			<a href="/" title="Go to Home">
-				<img src="/wp-content/uploads/2021/10/KakaoTalk_Photo_2021-09-28-12-51-17-1.png" alt="공스타 로고" />
-				<h1 class="blind">GONG STAR</h1>
-			</a>
-		</div>
-		<hr />
-		<nav class="h_gnb">
-			<h2 class="blind">GNB</h2>
-			<i class="hg_icon"></i>
-			<button type="button" class="hg_btn"><span class="blind">Menu Button</span></button>
-			<div class="hg_wrap">
-				<ul>
-					<li>
-						<a href="/" class="on"><span>HOME</span></a>
-					</li>
-					<li>
-						<a href="/introduce"><span>공스타 소개</span></a>
-					</li>
-					<li>
-						<a href="/category/interactive"><span>콘텐츠</span></a>
-					</li>
-					<li>
-						<a href="/category/active"><span>플레이</span></a>
-					</li>
-					<li>
-						<a href="/category/network"><span>네트워크</span></a>
-					</li>
-				</ul>
+			<div class="h_logo">
+				<a href="/" title="Go to Home">
+					<img src="/wp-content/uploads/2021/10/KakaoTalk_Photo_2021-09-28-12-51-17-1.png" alt="공스타 로고" />
+					<h1 class="blind">GONG STAR</h1>
+				</a>
 			</div>
-		</nav>
-	</header>
+			<hr />
+			<nav class="h_gnb">
+				<h2 class="blind">GNB</h2>
+				<i class="hg_icon"></i>
+				<button type="button" class="hg_btn"><span class="blind">Menu Button</span></button>
+				<div class="hg_wrap">
+					<ul>
+						<li>
+							<a href="/" class="on"><span>HOME</span></a>
+						</li>
+						<li>
+							<a href="/introduce"><span>공스타 소개</span></a>
+						</li>
+						<li>
+							<a href="/category/interactive"><span>콘텐츠</span></a>
+						</li>
+						<li>
+							<a href="/category/active"><span>플레이</span></a>
+						</li>
+						<li>
+							<a href="/category/network"><span>네트워크</span></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
