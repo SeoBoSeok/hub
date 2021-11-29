@@ -3,6 +3,101 @@ get_header();
 ?>
 <style id='liquid-stylesheet-inline-css' type='text/css'>.lqd-post-content, .lqd-post-header .entry-excerpt{}.h1,h1{}.h2,h2{}.h3,h3{}.h4,h4{}.h5,h5{}.h6,h6{}.titlebar-inner h1{}.titlebar-inner p{}#lqd-site-content, .page-scheme-dark #lqd-site-content{background-color:#ffffff;}@media screen and (min-width: 992px){body.has-sidebar #lqd-contents-wrap{padding-top:25px;}}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1611647846323{padding-top: 60px !important;padding-right: 15px !important;padding-bottom: 60px !important;padding-left: 15px !important;}.vc_custom_1611647676110{padding-top: 50px !important;padding-bottom: 50px !important;}background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1605866388558{padding-top: 55px !important;padding-right: 20px !important;padding-bottom: 55px !important;padding-left: 20px !important;background-color: #f8f8f8 !important;}.vc_custom_1605862055966{border-left-width: 1px !important;border-left-color: #d6d6d6 !important;border-left-style: solid !important;}.vc_custom_1605861416783{padding-top: 120px !important;padding-bottom: 120px !important;background-image: url(https://asymmetric-corporate.liquid-themes.com/wp-content/uploads/2020/11/Image-1@2x.jpg?id=4405) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1605861706719{padding-top: 45px !important;padding-right: 20px !important;padding-bottom: 45px !important;padding-left: 20px !important;}.vc_custom_1605862068479{border-top-width: 1px !important;border-top-color: #d6d6d6 !important;border-top-style: solid !important;}.vc_custom_1605861771468{padding-top: 80px !important;padding-bottom: 80px !important;background-image: url(https://asymmetric-corporate.liquid-themes.com/wp-content/uploads/2020/11/image@2x.jpg?id=4408) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1605861946359{padding-top: 50px !important;padding-right: 20px !important;padding-bottom: 50px !important;padding-left: 20px !important;}.vc_custom_1605862146064{background-image: url(https://asymmetric-corporate.liquid-themes.com/wp-content/uploads/2020/11/Placeholder@2x.jpg?id=4407) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1605866598911{padding-top: 60px !important;padding-right: 20px !important;padding-bottom: 60px !important;padding-left: 20px !important;background-color: #081b22 !important;}.vc_custom_1605863324342{padding-top: 45vh !important;background-image: url(https://asymmetric-corporate.liquid-themes.com/wp-content/uploads/2020/11/3@2x.jpg?id=4404) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1605863469633{border-right-width: 0px !important;border-right-color: #dbdbdb !important;border-right-style: solid !important;}.vc_custom_1605864705668{margin-bottom: 0px !important;}.vc_custom_1605864495896{margin-bottom: 0px !important;}.vc_custom_1605864517984{margin-bottom: 0px !important;}.vc_custom_1605864727545{margin-bottom: 0px !important;}.vc_custom_1605864542950{margin-bottom: 0px !important;}.vc_custom_1605864739369{margin-bottom: 0px !important;}.vc_custom_1605864517984{margin-bottom: 0px !important;}.vc_custom_1611647696279{padding-right: 15px !important;padding-left: 15px !important;}.vc_custom_1611647573238{padding-right: 15px !important;padding-left: 15px !important;}.vc_custom_1611647710260{padding-right: 15px !important;padding-left: 15px !important;}.vc_custom_1611647585170{padding-right: 15px !important;padding-left: 15px !important;}.vc_custom_1611647721289{padding-right: 15px !important;padding-left: 15px !important;}.vc_custom_1611647900671{margin-top: 20px !important;margin-bottom: 20px !important;}.vc_custom_1611647912775{margin-top: 20px !important;margin-bottom: 20px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	<link rel="stylesheet" href="/wp-content/themes/hub/css/init.css" />
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<style type="text/css">
+		#contents .c_intro,
+		#contents .c_intro .wrap,
+		#contents .c_intro .ci_visual,
+		#contents .c_intro .ci_visual .civ_slide,
+		#contents .c_intro .ci_visual .civ_slide .item {
+			min-height: 100vh;
+		}
+		#contents .c_intro .ci_slogan .cis_wrap {
+			top: calc(50% - 30px);
+			height: initial;
+			margin-top: 0;
+			transform: translate(0, -50%);
+		}
+		#contents .c_intro .ci_slogan .cis_wrap:before {
+			content: none;
+		}
+		#contents .c_intro .ci_slogan .cis_wrap h3 {
+			position: relative;
+			width: inherit;
+			height: inherit;
+			top: inherit;
+			margin-top: 0;
+			color: #1d1d1d;
+			font-size: 50px;
+			line-height: 1.5;
+		}
+		#contents .c_intro .ci_slogan .cis_wrap h3.underline:before {
+			content: "";
+			position: absolute;
+			bottom: 10px;
+			width: 100%;
+			height: 28px;
+			background-color: #f9e032;
+			z-index: -1;
+		}
+		#contents .c_intro .ci_slogan .cis_wrap button {
+			position: relative;
+			margin-top: 68px;
+			left: 60px;
+			width: 55px;
+		}
+		#contents .c_intro .ci_slogan .cis_wrap button img {
+			width: 100%;
+		}
+		#contents .c_intro .ci_slogan .cis_wrap img.logo {
+			display: block;
+			left: 60px;
+			position: relative;
+			width: 50px;
+			margin-bottom: 42px;
+		}
+
+		@media (max-width: 1180px) {
+			#contents .c_intro .ci_slogan .cis_wrap button,
+			#contents .c_intro .ci_slogan .cis_wrap img.logo {
+				left: 35px;
+			}
+		}
+		@media (max-width: 800px) {
+			#contents .c_intro .ci_slogan {
+				display: block;
+				left: 0;
+				z-index: 1;
+				pointer-events: none;
+			}
+			#contents .c_intro .ci_slogan .cis_wrap {
+				top: 90px;
+			    transform: inherit;
+			}
+			#contents .c_intro .ci_slogan .cis_wrap img.logo,
+			#contents .c_intro .ci_slogan .cis_wrap button {
+				display: none;
+			}
+			#contents .c_intro .ci_slogan .cis_wrap h3 {
+				font-size: 35px;
+			}
+			#contents .c_intro .ci_slogan .cis_wrap h3.underline:before {
+				bottom: 6px;
+				height: 11px;
+				background-color: white;
+			}
+		}
+		@media (max-width: 560px) {
+			#aside .a_quick {
+				left: -11px;
+			}
+			#contents .c_intro .ci_slogan .cis_wrap {
+				top: 60px;
+			}
+			#contents .c_intro .ci_slogan .cis_wrap h3 {
+				font-size: 25px;
+			}
+		}
+	</style>
 <div id="wrap" class="main">
 	<!-- Header S -->
 	<header id="header">
