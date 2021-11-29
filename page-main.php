@@ -478,6 +478,12 @@ get_header();
 			display: grid;
 			grid-template-columns: 4fr 6fr;
 		}
+		#contents-2 .c_contents .card-list .card-item.type-3:hover {
+			box-shadow: 0 20px 25px rgb(0 0 0 / 10%), 0 10px 10px rgb(0 0 0 / 4%);
+			-webkit-transform: translateY(-4px);
+			-moz-transform: translateY(-4px);
+			transform: translateY(-4px);			
+		}
 		#contents-2 .c_contents .card-list .card-item.type-3 .content .label {
 			margin-bottom: 30px;
 		}
