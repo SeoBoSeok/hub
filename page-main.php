@@ -905,6 +905,71 @@ get_header();
 <!-- AceCounter Log Gathering Script End -->
 <!-- </body> -->
 <!-- </html> -->
+
+<style type="text/css">
+		footer {
+			background-color: #111427;
+		}
+		#footer .f_wrap {
+			padding: 25px 20px;
+			margin: 0 -20px;
+			font-size: 12px;
+			color: #a7acb3;
+		}
+		#footer .f_wrap .f_info {
+			display: grid;
+			grid-template-columns: 140px auto auto;
+			gap: 32px;
+			align-items: end;
+			justify-content: left;
+			padding-bottom: 23px;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+		}
+		#footer .f_wrap .f_info > img.logo {
+			width: 100%;
+			max-width: 100%;
+		}
+		#footer .f_wrap .f_info .company-info {
+			text-align: left;
+		}
+		#footer .f_wrap .copyright {
+			margin-top: 13px;
+		}
+		#footer .f_copyright,
+		#footer .f_download {
+			bottom: 100px
+		}
+
+		@media (max-width: 800px) {
+			#footer .f_wrap {
+				padding: 14px 12px;
+				margin: 0;
+			}
+			#footer .f_wrap .f_info {
+				gap: 12px;
+				justify-content: stretch;
+				border-bottom: none;
+				padding-bottom: 15px;
+			}
+			#footer .f_wrap .f_info .company-info {
+				grid-column-end: span 3;
+			    order: 1;
+				padding-top: 12px;
+				border-top: 1px solid rgba(255, 255, 255, 0.5);
+			}
+			#footer .f_wrap .f_info .email {
+				grid-column-end: span 2;
+				align-self: center;
+				justify-self: end;
+			}
+		}
+		@media (max-width: 560px) {
+			#footer .f_wrap .f_info {
+				grid-template-columns: 66px auto auto;
+			}
+		}
+	</style>
+
 <?php
 	get_footer();
 ?>
