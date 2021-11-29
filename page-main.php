@@ -565,7 +565,7 @@ get_header();
 
 		@media (max-width: 560px) {
 			#contents-2 .c_contents {
-				padding-top: 38px;
+				padding-top: 76px;
 			}
 			#contents-2 .c_contents .contents-header-inner {
 				justify-items: start;
