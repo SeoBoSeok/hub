@@ -930,7 +930,7 @@
 /* 헤더 */
 #header .h_logo {left:10px; top:0;}
 
-#header .h_gnb {right:5px; top:5px;}
+#header .h_gnb {right:5px; top:10px;}
 #wrap.main #header .h_logo i.hl_bar {background-color:#fff;}
 #wrap.off #header .h_logo i.hl_bar {background-color:#ffe618;}
 
