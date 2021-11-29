@@ -906,7 +906,7 @@ get_header();
 <!-- AceCounter Log Gathering Script End -->
 
 <!--네이버 에널리스틱스-->
-<script src="/wp-content/themes/hub/js/lib.js"></script>
+
 <!-- Footer E -->
 <script type="text/javascript" src="/wp-content/themes/hub/assets/vendors/flickity/flickity.pkgd.min.js" id="flickity-js"></script>
 <script type="text/javascript" src="/wp-content/themes/hub/assets/vendors/flickity/flickity-fade.min.js" id="flickity-fade-js"></script>
