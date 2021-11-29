@@ -72,9 +72,9 @@
 #contents .c_intro .ci_visual .civ_slide .owl-dot span {display:block;}
 #contents .c_intro .ci_visual .civ_wrap {display:inline-block; vertical-align:middle; position:absolute; left:0; right:0; top:50%; height:780px; margin-top:-390px; background-repeat:no-repeat; background-size:auto 780px; background-position:center;}
 #contents .c_intro .ci_visual .t1 {background-color:#ffe618;}
-#contents .c_intro .ci_visual .t1 .civ_wrap {background-image:url("../images/visual_t1.jpg");}
+#contents .c_intro .ci_visual .t1 .civ_wrap {background-image:url("/wp-content/themes/hub/images/images/visual_t1.jpg");}
 #contents .c_intro .ci_visual .t2 {background-color:#c0dae9;}
-#contents .c_intro .ci_visual .t2 .civ_wrap {background-image:url("../images/visual_t2.jpg");}
+#contents .c_intro .ci_visual .t2 .civ_wrap {background-image:url("/wp-content/themes/hub/images/images/visual_t2.jpg");}
 #contents .c_intro .ci_visual .civ_wrap .counter {display:inline-block; vertical-align:middle; position:absolute; left:50%; top:50%; width:160px; margin-top:120px; margin-left:-80px; font-size:80px; font-weight:900; color:#fff; line-height:80px; letter-spacing:-1px; text-align:left; text-shadow:0 20px 40px rgba(17, 20, 39, 0.15);}
 #contents .c_intro .ci_visual .civ_wrap .btn {position:absolute; left:50%; top:50%; margin-top:140px; margin-left:-75px;}
 #contents .c_intro .ci_slogan {position:absolute; left:50%; right:0; top:0; bottom:0;}
