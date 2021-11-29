@@ -61,6 +61,9 @@ get_header();
 			#contents .c_intro .ci_slogan .cis_wrap img.logo {
 				left: 35px;
 			}
+			#contents .c_intro .ci_slogan .cis_wrap h3 {
+				font-size: 34px;
+			}
 		}
 		@media (max-width: 800px) {
 			#contents .c_intro .ci_slogan {
