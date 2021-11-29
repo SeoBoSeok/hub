@@ -963,7 +963,7 @@ get_header();
 
 		@media (max-width: 800px) {
 			#footer .f_wrap {
-				padding: 14px 12px;
+				padding: 14px 22px;
 				margin: 0;
 			}
 			#footer .f_wrap .f_info {
