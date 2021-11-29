@@ -850,7 +850,7 @@ get_header();
 						}
 
 					</script>
-					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7Xp8h4aoIJqisIJdggs6TDsB1JW3k6-A&amp;callback=initMap" async defer></script>
+					<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7Xp8h4aoIJqisIJdggs6TDsB1JW3k6-A&amp;callback=initMap" async defer></script> -->
 				</div>
 				<div class="p_right">
 					<div class="p_info">
