@@ -320,7 +320,7 @@ get_header();
 			width: 100%;
 			min-width: 80px;
 			max-width: 150px;
-			padding: 24px 0px;
+			padding: 17px 0px;
 			border-radius: 35px;
 			font-size: 15px;
 			font-weight: 900;
@@ -331,7 +331,7 @@ get_header();
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
 			grid-template-rows: repeat(auto-fit, minmax(0, auto));
-			gap: 24px 28px;
+			gap: 17px 28px;
 			grid-auto-flow: dense;
 		}
 		#contents-2 .c_contents .card-list .card-item {
@@ -454,7 +454,7 @@ get_header();
 		}
 		#contents-2 .c_contents .card-list .card-item.type-2 .btn-wrap button {
 			display: grid;
-			grid-template-columns: 24px auto;
+			grid-template-columns: 17px auto;
 			gap: 7px;
 			align-items: center;
 			justify-content: center;
