@@ -105,7 +105,8 @@
 		}
 		#footer .f_copyright,
 		#footer .f_download {
-			bottom: 100px
+			bottom: 100px;
+			z-index: 99;
 		}
 
 		@media (max-width: 800px) {
