@@ -9,7 +9,7 @@ get_header();
 		#contents .c_intro .ci_visual,
 		#contents .c_intro .ci_visual .civ_slide,
 		#contents .c_intro .ci_visual .civ_slide .item {
-			min-height: 100vh;
+			min-height: calc(100vh - 80px);
 		}
 		#contents .c_intro .ci_slogan .cis_wrap {
 			top: calc(50% - 30px);
