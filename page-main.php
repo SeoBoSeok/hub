@@ -408,7 +408,7 @@ get_header();
 			grid-row-end: span 20;
 		}
 		#contents-2 .c_contents .card-list .card-item.type-1 .image {
-			padding-top: 81.26%;
+			padding-top: 92%;
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: center;
