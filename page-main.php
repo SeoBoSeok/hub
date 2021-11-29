@@ -70,8 +70,8 @@ get_header();
 				pointer-events: none;
 			}
 			#contents .c_intro .ci_slogan .cis_wrap {
-				top: 90px;
-			    transform: inherit;
+				top: 130px;
+				transform: inherit;
 			}
 			#contents .c_intro .ci_slogan .cis_wrap img.logo,
 			#contents .c_intro .ci_slogan .cis_wrap button {
