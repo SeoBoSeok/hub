@@ -12,6 +12,7 @@
 			</div>
 			<?php liquid_action( 'after_contents_wrap' ); ?>
 		</main>
+<link rel="stylesheet" href="/wp-content/themes/hub/css/commons.css" />		
 <?php if(false) { ?>
 <div class="elementor-section-wrap">
 	<section class="full-width elementor-section-full_width elementor-element">
