@@ -331,7 +331,7 @@ get_header();
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
 			grid-template-rows: repeat(auto-fit, minmax(0, auto));
-			gap: 17px 28px;
+			gap: 24px 28px;
 			grid-auto-flow: dense;
 		}
 		#contents-2 .c_contents .card-list .card-item {
