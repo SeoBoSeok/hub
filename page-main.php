@@ -91,7 +91,7 @@ get_header();
 				left: -11px;
 			}
 			#contents .c_intro .ci_slogan .cis_wrap {
-				top: 60px;
+				top: 120px;
 			}
 			#contents .c_intro .ci_slogan .cis_wrap h3 {
 				font-size: 25px;
