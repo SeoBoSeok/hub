@@ -61,7 +61,7 @@
 			<header id="header">
 			<div class="h_logo">
 				<a href="/" title="Go to Home">
-					<img src="/wp-content/uploads/2021/10/KakaoTalk_Photo_2021-09-28-12-51-17-1.png" alt="공스타 로고" />
+					<img src="/wp-content/uploads/2021/11/gonstar_logo.png" alt="공스타 로고" />
 					<h1 class="blind">GONG STAR</h1>
 				</a>
 			</div>
