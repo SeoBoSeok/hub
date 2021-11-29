@@ -100,7 +100,7 @@ get_header();
 	</style>
 <div id="wrap" class="main">
 	<!-- Header S -->
-	<header id="header">
+	<!-- <header id="header">
 		<div class="h_logo">
 			<a href="index.html" title="Go to Home">
 				<i class="hl_n"></i><i class="hl_e"></i><i class="hl_w"></i><i class="hl_b"></i><i class="hl_i"></i><i class="hl_r"></i><i class="hl_d"></i><i class="hl_bar"></i>
@@ -132,7 +132,7 @@ get_header();
 				</ul>
 			</div>
 		</nav>
-	</header>
+	</header> -->
 	<!-- Header E -->
 	<hr />
 	<!-- Aside S -->
