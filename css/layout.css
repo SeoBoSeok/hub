@@ -380,9 +380,9 @@
 
 @media all and (max-width:1540px) {
 /* 헤더 */
-#header .h_logo {left:55px; top:15px;}
+#header .h_logo {left:55px; top:0;}
 
-#header .h_gnb {right:55px; top:55px;}
+#header .h_gnb {right:55px; top:25px;}
 #header .h_gnb .hg_wrap li {margin-left:50px;}
 
 
