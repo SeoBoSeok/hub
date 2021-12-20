@@ -611,7 +611,7 @@ get_header();
 		}
 	</style>
 <link rel="stylesheet" href="/wp-content/uploads/elementor/css/custom-frontend-lite.min.css">
-<div id="contents">
+<div id="contents-2">
 	<section class="c_portfolio">
 			<div class="wrap">
 				<div class="c_title">
@@ -635,7 +635,7 @@ get_header();
 						<!-- </ul> -->
 					<!-- </div> -->
 					<div class="cp_list" id="box_local" style="display:block">
-					<div class="wrap">
+					<div class="c_contents">
 						<div class="card-list">
 							<?php
 								$args = array( 'category' => 2, 'post_type' =>  'post' ); 
