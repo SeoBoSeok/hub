@@ -610,7 +610,7 @@ get_header();
 			}
 		}
 	</style>
-<link rel="stylesheet" href="wp-content/uploads/elementor/css/custom-frontend-lite.min.css">
+<link rel="stylesheet" href="/wp-content/uploads/elementor/css/custom-frontend-lite.min.css">
 <div id="contents-2">
 	<section class="c_portfolio">
 			<div class="">
