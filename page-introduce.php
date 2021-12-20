@@ -7,7 +7,7 @@
 
 get_header();
 ?>
-<link rel="stylesheet" href="/wp-content/uploads/elementor/css/custom-frontend-lite.min.css">
+<!-- <link rel="stylesheet" href="/wp-content/uploads/elementor/css/custom-frontend-lite.min.css"> -->
 <style>
   .introduce_bg {
     position: absolute;

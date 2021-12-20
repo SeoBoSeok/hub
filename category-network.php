@@ -29,7 +29,7 @@ get_header();
 <style>
 	.titlebar {display: none !important;}
 </style>
-<link rel="stylesheet" href="/wp-content/uploads/elementor/css/custom-frontend-lite.min.css">
+<!-- <link rel="stylesheet" href="/wp-content/uploads/elementor/css/custom-frontend-lite.min.css"> -->
 <div id="contents">
 	<section class="c_portfolio">
 			<div class="wrap">

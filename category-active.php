@@ -26,7 +26,7 @@ get_header();
 
 	// endif;
 	?>
-<link rel="stylesheet" href="/wp-content/uploads/elementor/css/custom-frontend-lite.min.css">
+<!-- <link rel="stylesheet" href="/wp-content/uploads/elementor/css/custom-frontend-lite.min.css"> -->
 <style>
 	.titlebar {display: none !important;}
 </style>
