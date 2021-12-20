@@ -613,7 +613,7 @@ get_header();
 <link rel="stylesheet" href="/wp-content/uploads/elementor/css/custom-frontend-lite.min.css">
 <div id="contents-2">
 	<section class="c_portfolio">
-			<div class="wrap">
+			<div class="">
 				<div class="c_title">
 					<!-- <p class="ct_e">
 						<span><mark>Passion leads to design, Design leads to performance,</mark></span><br />
