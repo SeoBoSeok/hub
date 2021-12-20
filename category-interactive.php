@@ -17,12 +17,12 @@ get_header();
 
 	if ( have_posts() ) :
 
-		get_template_part( 'templates/category', 'layout' );
+		// get_template_part( 'templates/category', 'layout' );
 
 	// If no content, include the "No posts found" template.
 	else :
 
-		get_template_part( 'templates/content/error' );
+		// get_template_part( 'templates/content/error' );
 
 	endif;
 	?>
