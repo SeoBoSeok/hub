@@ -71,21 +71,26 @@
 				<i class="hg_icon"></i>
 				<button type="button" class="hg_btn"><span class="blind">Menu Button</span></button>
 				<div class="hg_wrap">
+				<?php
+						$link = $_SERVER['REQUEST_URI'];
+						$link_array = explode('/',$link);
+						$pagel = end($link_array);
+				?>
 					<ul>
 						<li>
-							<a href="/" class="on"><span>HOME</span></a>
+							<a href="/" class="<?php echo $pagel == "" ? "on" : "";?>"><span>HOME</span></a>
 						</li>
 						<li>
-							<a href="/introduce"><span>공스타 소개</span></a>
+							<a href="/introduce" class="<?php echo $pagel == "introduce" ? "on" : "";?>"><span>공스타 소개</span></a>
 						</li>
 						<li>
-							<a href="/category/interactive"><span>콘텐츠</span></a>
+							<a href="/category/interactive" class="<?php echo $pagel == "interactive" ? "on" : "";?>"><span>콘텐츠</span></a>
 						</li>
 						<li>
-							<a href="/category/active"><span>플레이</span></a>
+							<a href="/category/active" class="<?php echo $pagel == "active" ? "on" : "";?>"><span>플레이</span></a>
 						</li>
 						<li>
-							<a href="/category/network"><span>네트워크</span></a>
+							<a href="/category/network" class="<?php echo $pagel == "network" ? "on" : "";?>"><span>네트워크</span></a>
 						</li>
 					</ul>
 				</div>
