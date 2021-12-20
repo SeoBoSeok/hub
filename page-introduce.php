@@ -8,101 +8,143 @@
 get_header();
 ?>
 <link rel="stylesheet" href="/wp-content/uploads/elementor/css/custom-frontend-lite.min.css">
-<div id="sec1" class="fusion-fullwidth fullwidth-box fusion-blend-mode who_we_are pad_top pad_bot nonhundred-percent-fullwidth">
-  <div class="fusion-builder-row fusion-row ">
-    <div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last mobile_padding 1_1" style="margin-top:0px;margin-bottom:0px;">
-      <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
-      <div class="fusion-title title fusion-sep-none fusion-title-center fusion-title-size-two section_tit fusion-border-below-title" style="margin-top:0px;margin-bottom:0px;">
-        <h2 class="title-heading-center">Who We Are</h2>
-      </div>
-      <p class="section_stit c666" style="text-align: center;">가치를 창조하는 똑똑한 꿀벌 비즈플로우</p>
-      <div class="cross_icon_box"> 
-        <img class="cross_icon" src="/wp-content/uploads/2021/10/cross_black.svg" alt="cross"></div>
-        <p class="who_top_t" style="text-align: center;">비즈플로우는 세상에서가장 부지런한 곤충으로 알려진<br> <b>꿀벌의 움직임에서 <b class="m_br"></b>영감을 얻어 시작되었습니다</b></p>
-        <p class="who_mid_t" style="text-align: center;">부지런하고 성실한 움직임으로 세상 여기저기를 날아다니며 새로운 생명을 탄생시키는 꿀벌의 모습은<br> 비즈플로우가 가고자하는 길과 닮아있습니다. 온라인 이라는 새로운 세상 속 모든 파트너들의 꿈을 연결하여 새로운 비전과<br> 희망을 창조하고 불가능을 가능으로 바꿀 집념으로 고객의 비즈니스를 성공으로 이끄는것, 급변하는 비즈니스 환경 속 트랜드를<br> 이끌고 INSIGHT를 제시하는 솔루션 파트너이자 크리에이터그룹.</p>
-        <p class="who_bot_t" style="text-align: center;">끊임없는 탐구와 진화를 통해<br> 트렌드를 리드하며 최고의 결과를 창조하겠습니다.</p>
-          <div class="fusion-clearfix"></div>
-      </div>
-  </div>
-<div id="who_circle_div" class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last who_circle_div 1_1" style="margin-top:0px;margin-bottom:0px;">
-  <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
-  <div class="fusion-builder-row fusion-builder-row-inner fusion-row ">
-    <div data-animationtype="fadeInLeft" data-animationduration="1.0" class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third fusion-column-first who_circle l_cir fusion-one-third fusion-column-first who_circle l_cir fusion-no-small-visibility fusion-animated 1_3" style="margin-top: 0px; margin-bottom: 0px; width: calc(30.6636%); margin-right: 4%; visibility: visible; animation-duration: 1s;">
-      <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
-        <div class="imageframe-align-center">
-          <span class="fusion-imageframe imageframe-none imageframe-1 hover-type-none cir_icon">
-          <img src="http://beesflow.cdn3.cafe24.com/img/B.png" width="" height="" alt="BUSINESS" title="" class="img-responsive"></span>
+<style>
+  .introduce_bg {
+    position: absolute;
+    height: 500px;
+    background-color: #f9e032;
+    width: 100%;
+    bottom: 0;
+  }
+  section.c_about #page {margin-bottom: 150px; border-radius: 20px;}
+</style>
+<!-- Contents S -->
+<div id="contents">
+  <section class="c_about">
+    <div class="wrap">
+      <!-- <div class="c_title">
+        <h2 class="ct_m">ABOUT US</h2>
+      </div> -->
+      <style>
+        .Play-Archive {
+          display: inline-block;
+          width: 513px;
+          padding: 100px 0;
+          margin: 38px 0 0;
+          font-family: Montserrat;
+          font-size: 4rem;
+          font-weight: 700;
+          text-align: center;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 2.12;
+          letter-spacing: normal;
+          color: #1d1d1d;
+        }
+        .title_wrapper {
+          display: inline-block;
+          width: 100%;
+          text-align: left;
+        }
+      </style>
+      <span class="Play-Archive">
+        Play Archive
+      </span>
+      <div id="page" class="c_wrap box">
+        <!-- <h3 class="title t1 bold bar s1"><mark>ABOUT US</mark></h3> -->
+        <div class="title_wrapper"><h3 class="fl title bold deco s1"><mark>Startups Archive Gongju</mark></h3></div>
+        <div class="ca_txt text left">
+          <p class="big light s1">
+          매일 많은 콘텐츠들이 만들어지고 사라집니다.<br>
+공스타는 지역의 콘텐츠를 지키(SAVE)고<br>
+도시를 새롭게 아카이브합니다.
+            <!-- 많은 <strong class="bold">914</strong>명의  -->
+            <!-- <mark class="medium marker"><mark>“뉴버드 덕분에 웃을 수 있었고, </mark></mark><mark class="medium marker"><mark>만족스러웠고, </mark></mark><mark class="medium marker"><mark>사업에 </mark></mark><mark class="medium marker"><mark>큰 </mark></mark><mark class="medium marker"><mark>도움이 </mark></mark><mark class="medium marker"><mark>되었다”</mark></mark>고 들어왔습니다.<br />
+            그리고 앞으로도 듣고 싶습니다.<br />
+            &nbsp;<br />
+            <mark class="giant thin">뉴버드의 열정과 변화가 시들지 않는 큰 원동력이기 때문입니다.</mark> -->
+          </p>
         </div>
-        <p class="cir_tit" style="text-align: center;">BUSINESS</p>
-        <p class="cir_stit" style="text-align: center;">VALUE CREATOR</p>
-        <p class="cir_text" style="text-align: center;">오랜 노하우를 바탕으로 체계적이고<br> 진보적인 인프라 제공</p>
-      </div></div><div data-animationtype="fadeIn" data-animationduration="1.0" class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third who_circle c_cir mid_circle fusion-one-third who_circle c_cir mid_circle fusion-no-small-visibility fusion-animated 1_3" style="margin-top: 0px; margin-bottom: 0px; width: calc(30.6636%); margin-right: 4%; visibility: visible; animation-duration: 1s;">
-    <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
-      <div class="imageframe-align-center">
-        <span class="fusion-imageframe imageframe-none imageframe-2 hover-type-none cir_icon">
-        <img src="http://beesflow.cdn3.cafe24.com/img/E.png" width="" height="" alt="ELECTRONIC" title="" class="img-responsive"></span>
+        <div class="ca_pic"></div>
+        <!-- <div class="ca_number number_point">
+          <ul>
+            <li>
+              <strong>PROJECTS</strong>
+              <p class="number">447</p>
+            </li>
+            <li>
+              <strong>CLIENTS</strong>
+              <p class="number">412</p>
+            </li>
+            <li>
+              <strong>WORKERS</strong>
+              <p><span class="number">14</span>+</p>
+            </li>
+            <li>
+              <strong>AVERAGE CAREER</strong>
+              <p><span class="number">7</span>+</p>
+            </li>
+          </ul>
+        </div> -->
+        <div class="ca_overview">
+          <h3 class="fl title bold deco s1"><mark>MISSION</mark></h3>
+          <ul class="text middle left cb">
+            <li>
+              <strong class="bold ck s1">Save</strong>
+              <p>지역의 콘텐츠는 지역 주민들이 만들어왔습니다. 그들의 콘텐츠가 시간의 
+흐름속에 사라지지 않도록 저장하고 정리하여 새로운 메타버스를 만들어냅니다.
+</p>
+            </li>
+            <li>
+              <strong class="bold ck s1">Local</strong>
+              <p>지역의 콘텐츠는 지역 주민들이 만들어왔습니다. 그들의 콘텐츠가 시간의 
+흐름속에 사라지지 않도록 저장하고 정리하여 새로운 메타버스를 만들어냅니다.
+</p>
+            </li>
+            <li>
+              <strong class="bold ck s1">Archive</strong>
+              <p>지역의 따듯한 일상과 유익한 정보들,
+콘텐츠와 수 많은 사람들 모두 이곳에서 볼 수 있습니다.
+</p>
+            </li>
+            <!-- <li>
+              <strong class="bold ck s1">SINCE</strong>
+              <p>2012년 10월</p>
+            </li>
+            <li>
+              <strong class="bold ck s1">ADDRESS</strong>
+              <p>서울특별시 마포구 양화로10길 19, 상록빌딩 2층 202호</p>
+            </li>
+            <li>
+              <strong class="bold ck s1">BUSINESS</strong>
+              <p>Web, Mobile, App, E-commerce, Solution, Ad/Marketing</p>
+            </li> -->
+          </ul>
+        </div>
+        <div class="ca_vision">
+          <ul>
+            <li>상호작용<p>오프라인을 온라인으로
+리디자인 합니다. 그리하여
+인터렉티브한 도시재생을
+실현합니다.</p></li>
+            <li>지속가능<p>지역에서 활동하는 기업들이
+모여 각자의 역할을 통해
+끊임없이 콘텐츠를 수집하고
+만들어갑니다.</p></li>
+            <li>네트워크<p>공주의 다양한 기업들과
+컨소시움하여 아카이브하고, 
+프로젝트를 통해
+새로운 콘텐츠를 만들어갑니다.</p></li>
+          </ul>
+        </div>
       </div>
-      <p class="cir_tit" style="text-align: center;">ELECTRONIC</p>
-      <p class="cir_stit" style="text-align: center;">TREND MAKERS</p>
-      <p class="cir_text" style="text-align: center;">뛰어난 기술력과 차별화된 감각으로<br> 최적의 솔루션 제공</p>
-    </div></div><div data-animationtype="fadeInRight" data-animationduration="1.0" class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third fusion-column-last who_circle r_cir fusion-one-third fusion-column-last who_circle r_cir fusion-no-small-visibility fusion-animated 1_3" style="margin-top: 0px; margin-bottom: 0px; width: calc(30.6636%); visibility: visible; animation-duration: 1s;">
-    <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
-      <div class="imageframe-align-center">
-        <span class="fusion-imageframe imageframe-none imageframe-3 hover-type-none cir_icon">
-        <img src="http://beesflow.cdn3.cafe24.com/img/E.png" width="" height="" alt="EMOTION" title="" class="img-responsive"></span>
-      </div>
-      <p class="cir_tit" style="text-align: center;">EMOTION</p>
-      <p class="cir_stit" style="text-align: center;">INSIGHT PROVIDER</p>
-      <p class="cir_text" style="text-align: center;">끊임없는 탐구와 개발, 차별화된<br> 디자인 감성으로 브랜드 가치 극대화</p>
     </div>
-  </div>
+    <div class="c_bg"></div>
+  </section>
 </div>
-<div class="fusion-clearfix"></div>
-<!-- -->
-<div id="sec3" class="fusion-fullwidth fullwidth-box fusion-blend-mode what_we_do pad_top pad_bot mobile_padding nonhundred-percent-fullwidth" style="background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;">
-  <div class="fusion-builder-row fusion-row ">
-    <div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1" style="margin-top:0px;margin-bottom:0px;">
-      <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
-        <div class="fusion-title title fusion-sep-none fusion-title-center fusion-title-size-two section_tit fusion-border-below-title" style="margin-top:0px;margin-bottom:0px;">
-          <h2 class="title-heading-center">What We Do</h2>
-        </div>
-        <p class="section_stit c666" style="text-align: center;">비즈플로우는 E-Business Total Service Provider를 지향하며<br> IMC 차원에서의 마케팅 솔루션을 제공합니다</p>
-        <div class="cross_icon_box">
-          <img class="cross_icon" src="/wp-content/uploads/2021/10/cross_black.svg" alt="cross">
-        </div>
-        <div class="fusion-clearfix"></div>
-      </div>
-    </div>
-    <div id="what_table" class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last what_table 1_1" style="margin-top:0px;margin-bottom:0px;">
-      <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
-        <div class="fusion-builder-row fusion-builder-row-inner fusion-row ">
-          <div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_2  fusion-one-half fusion-column-first what_table_in what_left fusion-one-half fusion-column-first what_table_in what_left 1_2" style="margin-top: 0px;margin-bottom: 0px;width:50%;width:calc(50% - ( ( 4% ) * 0.5 ) );margin-right:4%;">
-            <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
-              <div class="w_table_tit"> Web&amp;Mobile<br>
-                <span class="c_7c">Division</span>
-              </div>
-              <p class="w_table_text" style="text-align: center;">고객의 니즈와 비즈니스에 부합하는<br> 차별화된 맞춤형 디자인개발부로<br> 새로움을 향한 끊임없는 진화된 서비스를 전달합니다</p>
-              <p class="w_table_serv" style="text-align: center;">service</p>
-              <p class="w_table_item" style="text-align: center;">-워드프레스 -반응형웹 -원페이지 -모바일웹<br> -쇼핑몰제작 –랜딩페이지 -상세페이지&amp;사진촬영<br> -어플리케이션&amp;웹개발 -브랜딩&amp;프린팅</p>
-            </div>
-          </div>
-          <div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_2  fusion-one-half fusion-column-last what_table_in what_right fusion-one-half fusion-column-last what_table_in what_right 1_2" style="margin-top: 0px;margin-bottom: 0px;width:50%;width:calc(50% - ( ( 4% ) * 0.5 ) );">
-            <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;" data-bg-url="">
-              <div class="w_table_tit"> Event&amp;Promotion<br> 
-                <span class="c_7c">Division</span>
-              </div>
-              <p class="w_table_text" style="text-align: center;">BTL 마케팅, 프로모션 전문 사업부로<br> 젊은 감각과 숙련된 노하우로<br> 이색 프로젝트의 제작과 연출을 진행합니다</p>
-              <p class="w_table_serv" style="text-align: center;">service</p>
-              <p class="w_table_item" style="text-align: center;">-온라인 연계 오프라인 통합 마케팅 -런칭 -전시<br> -기업의 마케팅 프로모션 -문화 행사 -축제-스포츠 이벤트<br> -국제회의 -기업 회의 -세미나 -의전 행사 등</p>
-            </div>
-          </div>
-        </div>
-        <div class="fusion-clearfix"></div>
-      </div>
-    </div>
-  </div>
-</div>
+<!-- Contents E -->
 <!-- -->
 <div class="fusion-sep-clear"></div>
+<div class="c_bg2"></div>
 <?php
 get_footer();

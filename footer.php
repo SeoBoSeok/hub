@@ -11,6 +11,7 @@
 			<?php liquid_action( 'after_content' ); ?>
 			</div>
 			<?php liquid_action( 'after_contents_wrap' ); ?>
+			<div class="introduce_bg"></div>
 		</main>
 <link rel="stylesheet" href="/wp-content/themes/hub/css/commons.css" />		
 <?php if(false) { ?>

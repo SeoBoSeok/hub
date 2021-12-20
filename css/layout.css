@@ -113,7 +113,7 @@
 #contents .c_wrap .sort {margin-bottom:30px;}
 #contents .c_wrap .btn_wrap {margin-top:30px;}
 
-#contents .c_about .ca_txt {margin-bottom:60px;}
+#contents .c_about .ca_txt {margin-bottom:60px; padding-top: 30px;}
 #contents .c_about .ca_pic {display:inline-block; vertical-align:middle; width:100%; height:350px; margin-bottom:100px; border-radius:5px; background-image:url("../images/about/pic_sketch.jpg"); background-repeat:no-repeat; background-size:cover; background-position:center; box-shadow:0 20px 40px rgba(17, 20, 39, 0.1); transition:0.2s; -webkit-transition:0.2s;}
 #contents .c_about .ca_number {margin-bottom:100px;}
 #contents .c_about .ca_number ul {display:inline-block; vertical-align:middle; width:100%;}
@@ -420,7 +420,7 @@
 #contents .c_wrap > .title {margin-bottom:40px;}
 #contents .c_wrap .tab {margin-bottom:20px;}
 
-#contents .c_about .ca_txt {margin-bottom:40px;}
+#contents .c_about .ca_txt {margin-bottom:40px; padding-top: 10px; display: inline-block; width: 100%;}
 #contents .c_about .ca_pic {height:320px; margin-bottom:80px;}
 #contents .c_about .ca_number {margin-bottom:80px;}
 #contents .c_about .ca_overview {margin-bottom:60px;}

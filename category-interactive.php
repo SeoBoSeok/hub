@@ -15,16 +15,16 @@
 
 get_header();
 
-	// if ( have_posts() ) :
+	if ( have_posts() ) :
 
-	// 	get_template_part( 'templates/category', 'layout' );
+		get_template_part( 'templates/category', 'layout' );
 
 	// If no content, include the "No posts found" template.
-	// else :
+	else :
 
-	// 	get_template_part( 'templates/content/error' );
+		get_template_part( 'templates/content/error' );
 
-	// endif;
+	endif;
 	?>
 <style>
 	.titlebar {display: none !important;}
