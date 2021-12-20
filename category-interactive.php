@@ -298,64 +298,6 @@ get_header();
 			top: 50%;
 			margin-top: -2px;
 		}
-
-		#contents-2 {
-			min-height: 1000px;
-			font-family: "AppleSDGothicNeo", sans-serif;
-		}
-		#contents-2 .c_contents {
-			padding-top: 200px;
-			background-color: white;
-		}
-		#contents-2 .c_contents .contents-header-inner {
-			display: grid;
-			/* grid-template-columns: repeat(2, auto); */
-			grid-template-columns: 246px auto;
-			gap: 30px;
-			align-items: center;
-			justify-items: center;
-			justify-content: start;
-		}
-		#contents-2 .c_contents .contents-header img {
-			width: 100%;
-			max-width: 300px;
-		}
-		#contents-2 .c_contents .contents-header .title-n-menu {
-			margin-top: 40px;
-		}
-		#contents-2 .c_contents .contents-header .title-n-menu .title {
-			font-size: 40px;
-			font-weight: 800;
-			line-height: 1;
-			color: #1d1d1d;
-		}
-		#contents-2 .c_contents .contents-header .title-n-menu .title span {
-			display: inline-block;
-			vertical-align: middle;
-		}
-		#contents-2 .c_contents .contents-header .title-n-menu .title span.image {
-			width: 40px;
-			font-size: 0;
-		}
-		#contents-2 .c_contents .contents-header .title-n-menu .menu {
-			display: grid;
-			grid-template-columns: repeat(3, auto);
-			gap: 11px;
-			align-items: center;
-			justify-items: center;
-			margin-top: 15px;
-		}
-		#contents-2 .c_contents .contents-header .title-n-menu .menu .menu-item {
-			width: 100%;
-			min-width: 80px;
-			max-width: 150px;
-			padding: 17px 0px;
-			border-radius: 35px;
-			font-size: 15px;
-			font-weight: 900;
-			color: #1d1d1d;
-			background-color: #e7e7e7;
-		}
 		#contents-2 .c_contents .card-list {
 			display: grid;
 			grid-template-columns: repeat(3, 1fr);
