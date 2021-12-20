@@ -184,40 +184,6 @@ get_header();
 	<!-- Contents S -->
 	<div id="contents">
 		<div id="portfolio" class="c_position"></div>
-		<section class="c_intro height">
-			<div class="wrap height">
-				<div class="ci_visual">
-					<div class="civ_slide owl-carousel">
-						<div class="item height t1">
-							<div class="civ_wrap">
-								<strong class="counter">447</strong>
-							</div>
-						</div>
-						<div class="item height t2">
-							<div class="civ_wrap">
-								<a href="#!" class="btn">VIEW</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="ci_slogan">
-					<div class="cis_wrap">
-						<img src="/wp-content/themes/hub/images/new/logo.png" class="logo">
-						<div><h3 class="underline">공주의 모든 정보</h3></div>
-						<div><h3>공스타에서 확인하세요</h3></div>
-						<!-- <p>
-							!-- <span><strong>공스타는 E-비즈니스 마케팅 에이전시 입니다.</strong></span>
-							<span>온라인 서비스 컨설팅과 홈페이지, 어플리케이션, 솔루션 개발 서비스를 제공하고 있습니다.</span> --
-						</p> -->
-						<!-- <a href="about/index.html" class="btn arrow">MORE</a> -->
-						<button><img src="/wp-content/themes/hub/images/new/arrow-right-wh.png"></button>
-					</div>
-				</div>
-			</div>
-			<div class="ci_scroll">
-				<a href="#portfolio" class="scroll"><i></i><span>SCROLL</span></a>
-			</div>
-		</section>
 	</div>
 	<!-- Contents E -->
 	<hr />
