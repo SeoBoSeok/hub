@@ -74,7 +74,7 @@
 				<?php
 						$link = $_SERVER['REQUEST_URI'];
 						$link_array = explode('/',$link);
-						$pagel = end($link_array);
+						$pagel = $link_array[count($link_array)-2];
 				?>
 					<ul>
 						<li>
