@@ -54,44 +54,59 @@ get_header();
 						<!-- </ul> -->
 					<!-- </div> -->
 					<div class="cp_list" id="box_local" style="display:block">
-						<ul>
-						<?php
-							$args = array( 'category' => 2, 'post_type' =>  'post' ); 
-							$postslist = get_posts( $args );    
-							foreach ($postslist as $post) :  setup_postdata($post); 
-							?> 
-							<li>
-								<div class="cpl_wrap">
-									<div class="cpl_info">
-										<div class="cpli_title">
-											<strong><?php the_title(); ?></strong>
-											<span></span>
+					<div class="wrap">
+						<div class="card-list">
+							<?php
+								$args = array( 'category' => 2, 'post_type' =>  'post' ); 
+								$postslist = get_posts( $args );    
+								foreach ($postslist as $post) :  setup_postdata($post); 
+								?>
+								<a href="<?php the_permalink(); ?>" class="card-item type-1">
+									<div class="image" style="background-image: url('<?php echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ) ?>');"></div>
+									<div class="content">
+										<div class="label">#<?php echo get_post_meta( get_the_ID(), 'post-link-url', true);?></div>
+										<div class="title">
+											<span><?php the_title(); ?></span>
+											<span><?php echo get_post_meta( get_the_ID(), 'post-quote-url', true); ?></span>
 										</div>
-										<ul>
-											<li>
-												<strong><mark>TYPE</mark></strong>
-												<span><?php echo get_post_meta( get_the_ID(), 'post-link-url', true);?></span>
-											</li>
-											<li>
-												<strong><mark>DETAILS</mark></strong>
-												<span><?php echo get_post_meta( get_the_ID(), 'post-quote-url', true); ?></span>
-											</li>
-											<li>
-												<strong><mark>URL</mark></strong>
-												<span><a href="<?php echo get_post_meta( get_the_ID(), 'post-video-url', true);?>" target="_blank"><?php echo get_post_meta( get_the_ID(), 'post-video-url', true);?></a></span>
-											</li>
-										</ul>
+										<div class="sub">2021-10-11</div>
+										<button class="dots"><span></span></button>
 									</div>
-									<div class="cpl_pic" style="background-image:url('<?php echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ) ?>');">
-										<div class="cplp_info">
-											<a href="<?php the_permalink(); ?>"><span class="blind">MORE</span></a>
-											<strong>VIEW</strong>
+								</a>
+								<!-- <li>
+									<div class="cpl_wrap">
+										<div class="cpl_info">
+											<div class="cpli_title">
+												<strong><?php the_title(); ?></strong>
+												<span></span>
+											</div>
+											<ul>
+												<li>
+													<strong><mark>TYPE</mark></strong>
+													<span><?php echo get_post_meta( get_the_ID(), 'post-link-url', true);?></span>
+												</li>
+												<li>
+													<strong><mark>DETAILS</mark></strong>
+													<span><?php echo get_post_meta( get_the_ID(), 'post-quote-url', true); ?></span>
+												</li>
+												<li>
+													<strong><mark>URL</mark></strong>
+													<span><a href="<?php echo get_post_meta( get_the_ID(), 'post-video-url', true);?>" target="_blank"><?php echo get_post_meta( get_the_ID(), 'post-video-url', true);?></a></span>
+												</li>
+											</ul>
+										</div>
+										<div class="cpl_pic" style="background-image:url('<?php echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ) ?>');">
+											<div class="cplp_info">
+												<a href="<?php the_permalink(); ?>"><span class="blind">MORE</span></a>
+												<strong>VIEW</strong>
+											</div>
 										</div>
 									</div>
-								</div>
-							</li>  
-						<?php endforeach; ?> 
-						</ul>
+								</li>   -->
+							<?php endforeach; ?> 
+
+						</div>
+					</div>
 					</div>
 				</div>
 			</div>
