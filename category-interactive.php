@@ -622,9 +622,9 @@ get_header();
 					<!-- <p class="ct_k">
 						<span>성공적인 프로젝트를 약속합니다!</span>
 					</p> -->
-					<h2 class="ct_m">interactive</h2>
+					<!-- <h2 class="ct_m">interactive</h2> -->
 				</div>
-				<div id="page" class="c_wrap box">
+				<div id="page" class="c_wrap">
 					<!-- <div class="tab div5"> -->
 						<!-- <ul> -->
 							<!-- <li><a href="#!" id="a_local" onClick="chg_portfolio('local')" class="cp_a on">로컬 컨텐츠</a></li>
