@@ -129,8 +129,9 @@ get_header();
 		#contents-2 .c_contents {
 			padding-top: 100px;
 		}
-		#contents-2 .c_contents .contents-header .title-n-menu {
+		#contents-2 .c_contents .contents-header .title-n-menu.sub {
 			text-align: left;
+			padding-bottom: 50px;
 		}
 		#contents-2 .c_contents .contents-header .title-n-menu .menu.sub {float: left; grid-template-columns: repeat(3, auto)}
 		#contents-2 .c_contents .contents-header .title-n-menu::after {
@@ -233,7 +234,7 @@ get_header();
 					<!-- </div> -->
 					<div class="cp_list" id="box_local" style="display:block">
 					<div class="contents-header">
-						<div class="title-n-menu">
+						<div class="title-n-menu sub">
 							<div class="title">
 								<!-- <span>HOT</span> -->
 								<span class="image"><img src="/wp-content/themes/hub/images/new/hot.png"></span>
