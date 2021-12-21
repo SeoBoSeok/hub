@@ -237,7 +237,7 @@ get_header();
 						<div class="title-n-menu sub">
 							<div class="title">
 								<!-- <span>HOT</span> -->
-								<span class="image"><img src="/wp-content/themes/hub/images/new/hot.png"></span>
+								<span class="image"><img src="/wp-content/themes/hub/assets/img/logotitle.png"></span>
 								<span>콘텐츠</span>
 							</div>
 							<div class="menu sub">
