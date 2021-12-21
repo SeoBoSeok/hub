@@ -133,6 +133,11 @@ get_header();
 			text-align: left;
 		}
 		#contents-2 .c_contents .contents-header .title-n-menu .menu.sub {float: left; grid-template-columns: repeat(3, auto)}
+		#contents-2 .c_contents .contents-header .title-n-menu .menu.sub::after {
+			content: "";
+			display: table;
+			clear: both;
+		}
 	</style>
 <div id="wrap" class="main">
 	<!-- Header S -->
