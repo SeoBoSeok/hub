@@ -30,6 +30,7 @@ get_header();
 			color: #1d1d1d;
 			font-size: 50px;
 			line-height: 1.5;
+			left: 60px;
 		}
 		#contents .c_intro .ci_slogan .cis_wrap h3.underline:before {
 			content: "";
