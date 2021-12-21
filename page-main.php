@@ -165,14 +165,14 @@ get_header();
 					<div class="civ_slide owl-carousel">
 						<div class="item height t1">
 							<div class="civ_wrap">
-								<strong class="counter">447</strong>
+								<!-- <strong class="counter">447</strong> -->
 							</div>
 						</div>
-						<div class="item height t2">
+						<!-- <div class="item height t2">
 							<div class="civ_wrap">
 								<a href="#!" class="btn">VIEW</a>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 				<div class="ci_slogan">
