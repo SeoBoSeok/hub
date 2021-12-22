@@ -76,7 +76,7 @@
 		liquid_action( 'footer' );
 		?>
 		<style type="text/css">
-		footer {
+		#footer {
 			background-color: #111427;
 		}
 		#footer .f_wrap {
