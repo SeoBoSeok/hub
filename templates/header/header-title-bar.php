@@ -81,7 +81,7 @@ elseif( is_home() ) {
 	$heading = liquid_helper()->get_option( 'blog-title-bar-heading', 'html' );
 }
 elseif( is_search() ) {
-	$heading = sprintf( esc_html__( 'Search Results for: %s', 'hub' ), '<span>' . get_search_query() . '</span>' );
+	$heading = sprintf( esc_html__( '%s 검색 결과입니다', 'hub' ), '<span>' . get_search_query() . '</span>' );
 	$subheading = liquid_helper()->get_option( 'search-title-bar-subheading', 'html' );
 }
 elseif( is_post_type_archive( 'liquid-portfolio' ) || is_tax( 'liquid-portfolio-category' ) ) {

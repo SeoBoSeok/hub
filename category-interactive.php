@@ -185,12 +185,12 @@ get_header();
 				<li><a href="mailto:info@.co.kr"><i class="aq_icon mail"></i><span class="blind">Send to mail</span></a></li>
 			</ul>
 		</div>
-		<div class="a_customer">
+		<!-- <div class="a_customer">
 			<h2 class="ac_title">SEARCH</h2>
 			<a href="tel:0264044224" class="">
 				<svg data-v-ae75f7f2="" data-v-9760bdba="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" class="ico_search"><g data-v-ae75f7f2="" fill="none" fill-rule="evenodd"><g data-v-ae75f7f2="" stroke-width="1.6"><g data-v-ae75f7f2="" transform="translate(-308 -16) translate(312 20)"><circle data-v-ae75f7f2="" cx="8.944" cy="8.944" r="8.944"></circle> <path data-v-ae75f7f2="" d="M14.987 14.987L21.017 21.017"></path></g></g></g></svg>
 			</a>
-		</div>
+		</div> -->
 	</aside>
 	<!-- Aside E -->
 	<hr />
@@ -295,7 +295,46 @@ get_header();
 									</div>
 								</li>   -->
 							<?php endforeach; ?> 
+							<?php
+							wp_reset_postdata();
+$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+// print_r($paged);
+$args = array(
+    'post_type'=>'post', // Your post type name
+    'posts_per_page' => 6,
+    'paged' => $paged,
+);
 
+$loop = new WP_Query( $args );
+if ( $loop->have_posts() ) {
+    while ( $loop->have_posts() ) : $loop->the_post();
+
+             // YOUR CODE
+						// the_contnet();
+						the_title();
+						echo '<br>';
+						// echo '1111';
+
+    endwhile;
+
+    $total_pages = $loop->max_num_pages;
+
+    if ($total_pages > 1){
+
+        $current_page = max(1, get_query_var('paged'));
+
+        echo paginate_links(array(
+            'base' => get_pagenum_link(1) . '%_%',
+            'format' => '/page/%#%',
+            'current' => $current_page,
+            'total' => $total_pages,
+            'prev_text'    => __('« prev'),
+            'next_text'    => __('next »'),
+        ));
+    }    
+}
+wp_reset_postdata();
+?>
 						</div>
 					</div>
 					</div>

@@ -138,3 +138,30 @@ $(document).ready(function() {
 	var classUrl = location.href.split("#")[1];
 	$("." + classUrl).addClass("on");
 });
+
+/* 검색창 */ 
+document.querySelector('.ico_close').addEventListener('click', function(){
+	document.querySelector('.search_layer').style.display = 'none';
+  document.querySelector('.area_search').style.transform = 'translateY(-200px)';
+  document.querySelector('.area_search').style.opacity = '0';
+  document.querySelector('.inner_layer').style.opacity = '0';
+	document.querySelector('.inner_layer').style.transform = 'translateY(0)';
+	document.querySelector('#contents').style.transform = 'translateY(0)';
+	$('body').removeClass('open_search');
+});
+
+document.querySelector('.area_util .btn_search').addEventListener('click', function(){
+	$("html, body").animate({ scrollTop: 0 }, "slow");
+	$('body').addClass('open_search');
+	document.querySelector('#contents').style.transform = 'translateY(300px)';
+	document.querySelector('.search_layer').style.display = 'block';
+  document.querySelector('.inner_layer').style.opacity = '1';
+	document.querySelector('.area_search').style.opacity = '1';
+	document.querySelector('.inner_layer').style.transform = 'translateY(100px)';
+	document.querySelector('.area_search').style.transform = 'translateY(100px)';
+});
+
+document.getElementById('search_form').addEventListener('submit', function(e){
+	e.preventDefault();
+	window.location.href = '/?s=' + $('#inpSearch').val();
+});

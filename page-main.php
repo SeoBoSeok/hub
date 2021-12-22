@@ -148,12 +148,12 @@ get_header();
 				<li><a href="mailto:info@.co.kr"><i class="aq_icon mail"></i><span class="blind">Send to mail</span></a></li>
 			</ul>
 		</div>
-		<div class="a_customer">
+		<!-- <div class="a_customer">
 			<h2 class="ac_title">SEARCH</h2>
 			<a href="tel:0264044224" class="">
 				<svg data-v-ae75f7f2="" data-v-9760bdba="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" class="ico_search"><g data-v-ae75f7f2="" fill="none" fill-rule="evenodd"><g data-v-ae75f7f2="" stroke-width="1.6"><g data-v-ae75f7f2="" transform="translate(-308 -16) translate(312 20)"><circle data-v-ae75f7f2="" cx="8.944" cy="8.944" r="8.944"></circle> <path data-v-ae75f7f2="" d="M14.987 14.987L21.017 21.017"></path></g></g></g></svg>
 			</a>
-		</div>
+		</div> -->
 	</aside>
 	<!-- Aside E -->
 	<hr />

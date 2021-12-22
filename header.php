@@ -92,7 +92,56 @@
 						<li>
 							<a href="/category/network" class="<?php echo $pagel == "network" ? "on" : "";?>"><span>네트워크</span></a>
 						</li>
+						<li>
+						<div class="area_util">
+							<button data-v-9760bdba="" type="button" class="btn_search" style=""><span data-v-9760bdba="" class="screen_out">검색창 열기</span> <svg data-v-ae75f7f2="" data-v-9760bdba="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" class="ico_search"><g data-v-ae75f7f2="" fill="none" fill-rule="evenodd"><g data-v-ae75f7f2="" stroke-width="1.6"><g data-v-ae75f7f2="" transform="translate(-308 -16) translate(312 20)"><circle data-v-ae75f7f2="" cx="8.944" cy="8.944" r="8.944"></circle> <path data-v-ae75f7f2="" d="M14.987 14.987L21.017 21.017"></path></g></g></g></svg></button>
+						</div>
+						</li>
 					</ul>
 				</div>
 			</nav>
 		</header>
+		<div class="search_layer">
+
+    <div data-v-c8bf84c8="" class="inner_layer">
+      <div data-v-c8bf84c8="" class="layer_head"><strong data-v-c8bf84c8=""><a data-v-c8bf84c8="" href="/"><span
+              data-v-c8bf84c8="" class="screen_out">gongstar</span>
+						</a></strong></div>
+      <div data-v-c8bf84c8="" class="layer_body">
+        <h2 data-v-c8bf84c8="" class="screen_out">검색</h2>
+        <div data-v-c8bf84c8="" class="area_search">
+          <div data-v-c8bf84c8="" class="group_search">
+            <form data-v-c8bf84c8="" autocomplete="off" class="wrap_search" id="search_form"><svg data-v-4267c0f5="" data-v-c8bf84c8=""
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" class="ico_search_bold">
+                <title data-v-4267c0f5="">검색</title>
+                <g data-v-4267c0f5="" fill="none" fill-rule="evenodd">
+                  <g data-v-4267c0f5="" transform="translate(-333 -214) translate(309 192) translate(24 22)">
+                    <path data-v-4267c0f5="" d="M0 0H28V28H0z"></path>
+                    <circle data-v-4267c0f5="" cx="12.944" cy="12.944" r="8.944" stroke-width="2.5" class="stroke">
+                    </circle>
+                    <path data-v-4267c0f5="" d="M18.987 18.987L25.017 25.017" stroke-width="2.5" class="stroke"></path>
+                  </g>
+                </g>
+              </svg> <input data-v-c8bf84c8="" type="text" id="inpSearch" placeholder="무엇이 궁금하신가요?"> <label
+                data-v-c8bf84c8="" for="inpSearch" class="screen_out">검색어</label></form>
+            <div data-v-df070f3a="" data-v-c8bf84c8="" class="wrap_tag"><a data-v-df070f3a="" href="javascript;"
+                class="link_tag">#공주</a><a data-v-df070f3a="" href="javascript;" class="link_tag">#행사</a><a
+                data-v-df070f3a="" href="javascript;" class="link_tag">#원데이</a></div>
+          </div>
+          <!---->
+        </div> <button data-v-c8bf84c8="" type="button" class="btn_close"><span data-v-c8bf84c8="" class="screen_out">검색창
+            닫기</span> <svg data-v-7171d635="" data-v-c8bf84c8="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"
+            class="ico_close">
+            <g data-v-7171d635="" fill="none" fill-rule="evenodd" stroke-linecap="square">
+              <g data-v-7171d635="" stroke-width="1.6">
+                <path data-v-7171d635="" d="M0 0.5L16.5 17.5"
+                  transform="translate(-547 -167) translate(187 145) translate(360 22) translate(6 5)"></path>
+                <path data-v-7171d635="" d="M0 0.5L16.5 17.5"
+                  transform="translate(-547 -167) translate(187 145) translate(360 22) translate(6 5) matrix(-1 0 0 1 17 0)">
+                </path>
+              </g>
+            </g>
+          </svg></button>
+      </div>
+    </div>
+  </div>
