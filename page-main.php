@@ -347,33 +347,6 @@ get_header();
 	</div>
 	<!-- Contents S -->
 
-
-<?php
-// global $wp_query;
-// $query_images_args = array(
-// 		'post_type'      => 'attachment',
-// 		'post_mime_type' => 'image',
-// 		'post_status'    => 'inherit',
-// 		'posts_per_page' => - 1
-// );
-
-// $query_images = new WP_Query( $query_images_args );
-
-
-// var_dump($wp_query->query_vars);
-
-// $images = array();
-// foreach ( $query_images->posts as $image ) {
-// 		$images[] = wp_get_attachment_url( $image->ID );
-// }
-
-// print_r($images);
-
-// echo get_the_post_thumbnail_url(get_the_ID());
-?>
-
-
-
 </div>
 
 <script>

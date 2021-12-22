@@ -246,7 +246,7 @@ get_header();
 						</div>
 						<div class="card-list">
 							<?php
-								$args = array( 'category' => 3, 'post_type' =>  'post' ); 
+								$args = array( 'category' => 3, 'post_type' =>  'post', 'posts_per_page' => 2 ); 
 								$postslist = get_posts( $args );    
 								foreach ($postslist as $post) :  setup_postdata($post); 
 								?>
@@ -293,7 +293,14 @@ get_header();
 									</div>
 								</li>   -->
 							<?php endforeach; ?> 
-
+							<?php
+    $links = paginate_links( array(
+			'type' => 'array',
+			'prev_next' => true,
+			'prev_text' => '<span aria-hidden="true">' . wp_kses_post( __( '<i class="lqd-icn-ess icon-ion-ios-arrow-back"></i>', 'hub' ) ) . '</span>',
+			'next_text' => '<span aria-hidden="true">' . wp_kses_post( __( '<i class="lqd-icn-ess icon-ion-ios-arrow-forward"></i>', 'hub' ) ) . '</span>'
+		));
+							?>
 						</div>
 					</div>
 					</div>
