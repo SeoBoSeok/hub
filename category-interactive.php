@@ -295,46 +295,6 @@ get_header();
 									</div>
 								</li>   -->
 							<?php endforeach; ?> 
-							<?php
-							wp_reset_postdata();
-$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-// print_r($paged);
-$args = array(
-    'post_type'=>'post', // Your post type name
-    'posts_per_page' => 6,
-    'paged' => $paged,
-);
-
-$loop = new WP_Query( $args );
-if ( $loop->have_posts() ) {
-    while ( $loop->have_posts() ) : $loop->the_post();
-
-             // YOUR CODE
-						// the_contnet();
-						the_title();
-						echo '<br>';
-						// echo '1111';
-
-    endwhile;
-
-    $total_pages = $loop->max_num_pages;
-
-    if ($total_pages > 1){
-
-        $current_page = max(1, get_query_var('paged'));
-
-        echo paginate_links(array(
-            'base' => get_pagenum_link(1) . '%_%',
-            'format' => '/page/%#%',
-            'current' => $current_page,
-            'total' => $total_pages,
-            'prev_text'    => __('« prev'),
-            'next_text'    => __('next »'),
-        ));
-    }    
-}
-wp_reset_postdata();
-?>
 						</div>
 					</div>
 					</div>
