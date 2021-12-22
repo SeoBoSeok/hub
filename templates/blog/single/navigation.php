@@ -25,7 +25,7 @@ if ($prev_post_ID || $next_post_ID):
 						<polyline stroke-linecap="square" stroke-miterlimit="10" points="9,19 2,12 9,5 " stroke-linejoin="miter"></polyline>
 					</g>
 				</svg>
-				<?php esc_html_e( 'Previous Article', 'hub' ); ?>
+				<?php // esc_html_e( 'Previous Article', 'hub' ); ?>이전글
 			</span>
 			<span class="nav-title"><?php echo wp_kses_post( $prev_post_title ); ?></span>
 		</a>
@@ -47,7 +47,7 @@ if ($prev_post_ID || $next_post_ID):
 						<polyline stroke-linecap="square" stroke-miterlimit="10" points="9,19 2,12 9,5 " stroke-linejoin="miter"></polyline>
 					</g>
 				</svg>
-				<?php esc_html_e( 'Next Article', 'hub' ); ?>
+				<?php //esc_html_e( 'Next Article', 'hub' ); ?>다음글
 			</span>
 			<span class="nav-title"><?php echo wp_kses_post( $next_post_title ); ?></span>
 		</a>
