@@ -45,7 +45,7 @@
 				<?php if( function_exists( 'liquid_portfolio_share' ) ) : ?>
 					<?php liquid_portfolio_share( get_post_type(), array(
 						'class' => 'social-icon social-icon-shaped social-icon-circle branded social-icon-sm',
-						'before' => '<span class="share-links"><span class="text-uppercase ltr-sp-1">'. esc_html__( 'Share On', 'hub' ) .'</span>',
+						'before' => '<span class="share-links"><span class="text-uppercase ltr-sp-1">'. esc_html__( '공유하기', 'hub' ) .'</span>',
 						'after' => '</span>'
 					) ); ?>
 				<?php endif; ?>

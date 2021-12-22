@@ -647,7 +647,7 @@ $this->sections[] = array(
 			'type'     => 'text',
 			'id'       => 'post-related-title',
 			'title'    => esc_html__( 'Title of Related Posts', 'hub' ),
-			'default'  => 'You may also like',
+			'default'  => '관련글',
 			'required' => array(
 				'post-related-enable',
 				'equals',
