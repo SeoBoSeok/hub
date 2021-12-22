@@ -18,7 +18,7 @@ if( empty( $related_posts_view ) ) {
 	<div class="container">
 		
 		<?php if( !empty( $heading ) ) { ?>
-			<h3 class="related-posts-title"><?php echo esc_html( $heading ) ?></h3>
+			<h3 class="related-posts-title"><?php // echo esc_html( $heading ) ?> 관련 콘텐츠</h3>
 		<?php } ?>
 
 		<div class="row">
