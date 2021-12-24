@@ -295,6 +295,7 @@ wp_reset_postdata();
 								<span><?php echo get_the_title($post_list[3]); ?></span>
 								<!-- <span>오래된 골목을</span>
 								<span>변화시킨 힘</span> -->
+								<span><?php echo get_the_excerpt($post_list[3]); ?></span>
 							</div>
 							<div class="sub"><?php echo get_the_author($post_list[3]); ?></div>
 							<button class="dots"><span></span></button>
