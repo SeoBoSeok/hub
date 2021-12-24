@@ -246,7 +246,8 @@ get_header();
 						</div>
 						<div class="card-list">
 							<?php
-								$args = array( 'category' => 3, 'post_type' =>  'post', 'posts_per_page' => 2 ); 
+							 	$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+								$args = array( 'category' => 61, 'post_type' =>  'post', 'posts_per_page' => 2, 'paged' => $paged); 
 								$postslist = get_posts( $args );    
 								foreach ($postslist as $post) :  setup_postdata($post); 
 								?>
@@ -293,6 +294,7 @@ get_header();
 									</div>
 								</li>   -->
 							<?php endforeach; ?>
+							1111
 							<?php
 		// Set up paginated links.
 	    $links = paginate_links( array(

@@ -231,85 +231,104 @@ get_header();
 					</div>
 				</div>
 
-				<!-- <div class="card-list"> -->
-<?php
+				<div class="card-list">
+				<?php
 $args = array(
 	'post_type' => 'post',
-	'posts_per_page' => 8
+	'posts_per_page' => 7
 );
 // the query
 $query = new WP_Query( $args );
-$post_list = array();
-if ( $query->have_posts() ) {
-	while ( $query->have_posts() ) {
-		$query->the_post();
-		array_push($post_list, get_the_Id());
+// echo the_title();
+// echo the_time();
+// echo the_category();
+// echo the_meta();
+// echo the_post_thumbnail();
+// The Loop
+	if ( $query->have_posts() ) {
+		while ( $query->have_posts() ) {
+			$query->the_post();
+			?>
+					<a href="" class="card-item type-1">
+						<div class="image" style="background-image: url('<?php //echo the_post_thumbnail();?>');"></div>
+						<div class="content">
+							<div class="label">#<?php //echo the_category();?></div>
+							<div class="title">
+								<span><?php //echo the_title();?></span>
+							</div>
+							<div class="sub"><?php //echo the_time();?></div>
+							<button class="dots"><span></span></button>
+						</div>
+					</a>
+			<?
+		}
 	}
-}
-// print_r($post_list);
-wp_reset_postdata();
-
+	// contents of the Loop go here
+	// endwhile : endif;
+/* Restore original Post Data */
+// wp_reset_postdata();
 ?>
 				<div class="card-list">
-				<a href="" class="card-item type-1">
-						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[0]); ?>');"></div>
+					<a href="" class="card-item type-1">
+						<div class="image" style="background-image: url('/wp-content/themes/hub/images/new/1_공주대_무용과_최선무용단,_웅진백제의_별이_된_고마.jpg');"></div>
 						<div class="content">
-							<div class="label">#<?php $cat = get_the_category($post_list[0]); echo $cat[0]->name; ?></div>
+							<div class="label">#공연전시</div>
 							<div class="title">
-								<span><?php echo get_the_title($post_list[0]); ?></span>
-								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
+								<span>공주고마무용단 정기공연</span>
+								<span>'스펙트럼(Spectrum) 개최'</span>
 							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[0]); ?></div>
+							<div class="sub">2021-10-11</div>
 							<button class="dots"><span></span></button>
 						</div>
 					</a>
 					<a href="" class="card-item type-1">
-						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[1]); ?>');"></div>
+						<div class="image" style="background-image: url('/wp-content/themes/hub/images/new/KakaoTalk_Photo_2021-11-26-21-10-43 002.jpg');"></div>
 						<div class="content">
-							<div class="label">#<?php $cat = get_the_category($post_list[1]); echo $cat[0]->name; ?></div>
+							<div class="label">#공연전시</div>
 							<div class="title">
-								<span><?php echo get_the_title($post_list[1]); ?></span>
-								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
+								<span>공주고마무용단 정기공연</span>
+								<span>'스펙트럼(Spectrum) 개최'</span>
 							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[1]); ?></div>
+							<div class="sub">2021-10-11</div>
 							<button class="dots"><span></span></button>
 						</div>
 					</a>
 					<a href="" class="card-item type-2">
-						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[2]); ?>');"></div>
+						<div class="image" style="background-image: url('/wp-content/themes/hub/images/new/mu.jpg');"></div>
 						<div class="content">
 							<div class="title color-wh">
-								<span><?php echo get_the_category($post_list[2]); ?></span>
-								<span><?php echo get_the_excerpt($post_list[2]); ?></span>
-								<span><?php $cat = get_the_category($post_list[2]); echo $cat[0]->name; ?></span>
+								<span>공주문화센터 -> 클래스</span>
+								<span>아기자기 귀여운 코바늘</span>
+								<span>에어팟 케이스 만들기!</span>
 							</div>
 						</div>
 						<div class="btn-wrap">
-							<button><img src="/wp-content/themes/hub/images/new/class.png"/><span><?php echo get_the_title($post_list[2]); ?></span></button>
+							<button><img src="/wp-content/themes/hub/images/new/class.png"/><span>클래스 오픈</span></button>
 						</div>
 					</a>
 					<a href="" class="card-item type-3">
 						<div class="content">
-							<div class="label">#<?php $cat = get_the_category($post_list[3]); echo $cat[0]->name; ?></div>
+							<div class="label">#공연전시</div>
+							<div class="label">#공연전시</div>
 							<div class="title">
-								<span><?php echo get_the_title($post_list[3]); ?></span>
-								<!-- <span>오래된 골목을</span>
-								<span>변화시킨 힘</span> -->
+								<span>루치아의 뜰</span>
+								<span>오래된 골목을</span>
+								<span>변화시킨 힘</span>
 							</div>
-							<div class="sub"><?php echo get_the_author($post_list[3]); ?></div>
+							<div class="sub">Lee Song Yi , Yang Song Yi  /  루치아의뜰</div>
 							<button class="dots"><span></span></button>
 						</div>
-						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[3]); ?>');"></div>
+						<div class="image" style="background-image: url('/wp-content/themes/hub/images/new/KakaoTalk_Photo_2021-11-26-21-10-43 004.jpg');"></div>
 					</a>
 					<a href="" class="card-item type-1">
-						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[4]); ?>');"></div>
+						<div class="image" style="background-image: url('/wp-content/themes/hub/images/new/KakaoTalk_Photo_2021-11-26-21-10-43 005.jpg');"></div>
 						<div class="content">
-							<div class="label">#<?php $cat = get_the_category($post_list[4]); echo $cat[0]->name; ?></div>
+							<div class="label">#공연전시</div>
 							<div class="title">
-								<span><?php echo get_the_title($post_list[4]); ?></span>
-								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
+								<span>공주고마무용단 정기공연</span>
+								<span>'스펙트럼(Spectrum) 개최'</span>
 							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[4]); ?></div>
+							<div class="sub">2021-10-11</div>
 							<button class="dots"><span></span></button>
 						</div>
 					</a>
@@ -328,12 +347,12 @@ wp_reset_postdata();
 						</div>
 					</a>
 					<a href="" class="card-item type-2 right-circle">
-						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[5]); ?>'');"></div>
+						<div class="image" style="background-image: url('/wp-content/themes/hub/images/new/KakaoTalk_Photo_2021-11-26-21-10-43 006.jpg');"></div>
 						<div class="content">
 							<div class="title color-wh">
-								<span><?php echo get_the_title($post_list[5]); ?></span>
-								<span><?php $cat = get_the_category($post_list[5]); echo $cat[0]->name; ?></span>
-								<span><?php echo get_the_date('Y-m-d', $post_list[5]); ?></span>
+								<span>버터, 계란, 우유 NO!</span>
+								<span>예쁘고 맛있는 비건</span>
+								<span>디저트 만들기</span>
 							</div>
 						</div>
 						<div class="btn-wrap">
@@ -341,14 +360,14 @@ wp_reset_postdata();
 						</div>
 					</a>
 					<a href="" class="card-item type-1">
-						<div class="image bg-effect-1 color-yellow" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[6]); ?>');"></div>
+						<div class="image bg-effect-1 color-yellow" style="background-image: url('/wp-content/themes/hub/images/new/KakaoTalk_Photo_2021-11-26-21-10-43 007.jpg');"></div>
 						<div class="content">
-							<div class="label">#<?php $cat = get_the_category($post_list[6]); echo $cat[0]->name; ?></div>
+							<div class="label">#공연전시</div>
 							<div class="title">
-								<span><?php echo get_the_title($post_list[6]); ?></span>
-								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
+								<span>공주고마무용단 정기공연</span>
+								<span>'스펙트럼(Spectrum) 개최'</span>
 							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[6]); ?></div>
+							<div class="sub">2021-10-11</div>
 							<button class="dots"><span></span></button>
 						</div>
 					</a>
@@ -356,7 +375,7 @@ wp_reset_postdata();
 
 				<div class="banner">
 					<a href="">
-						<img src="<?php echo get_the_post_thumbnail_url(get_the_ID()) ?>"/>
+						<img src="<?php //echo get_the_post_thumbnail_url(get_the_ID()) ?>"/>
 					</a>
 				</div>
 			</div>
