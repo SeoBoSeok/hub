@@ -235,7 +235,7 @@ get_header();
 <?php
 $args = array(
 	'post_type' => 'post',
-	'posts_per_page' => 8
+	'posts_per_page' => 7
 );
 // the query
 $query = new WP_Query( $args );
@@ -251,7 +251,7 @@ wp_reset_postdata();
 
 ?>
 				<div class="card-list">
-				<a href="" class="card-item type-1">
+				<a href="<?php echo get_post_permalink($post_list[0]);?>" class="card-item type-1">
 						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[0]); ?>');"></div>
 						<div class="content">
 							<div class="label">#<?php $cat = get_the_category($post_list[0]); echo $cat[0]->name; ?></div>
@@ -263,7 +263,7 @@ wp_reset_postdata();
 							<button class="dots"><span></span></button>
 						</div>
 					</a>
-					<a href="" class="card-item type-1">
+					<a href="<?php echo get_post_permalink($post_list[1]);?>" class="card-item type-1">
 						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[1]); ?>');"></div>
 						<div class="content">
 							<div class="label">#<?php $cat = get_the_category($post_list[1]); echo $cat[0]->name; ?></div>
@@ -275,12 +275,12 @@ wp_reset_postdata();
 							<button class="dots"><span></span></button>
 						</div>
 					</a>
-					<a href="" class="card-item type-2">
+					<a href="<?php echo get_post_permalink($post_list[2]);?>" class="card-item type-2">
 						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[2]); ?>');"></div>
 						<div class="content">
 							<div class="title color-wh">
-								<span><?php echo get_the_category($post_list[2]); ?></span>
-								<span><?php echo get_the_excerpt($post_list[2]); ?></span>
+								<span><?php //echo get_the_category($post_list[2]); ?></span>
+								<span><?php //echo get_the_excerpt($post_list[2]); ?></span>
 								<span><?php $cat = get_the_category($post_list[2]); echo $cat[0]->name; ?></span>
 							</div>
 						</div>
@@ -288,7 +288,7 @@ wp_reset_postdata();
 							<button><img src="/wp-content/themes/hub/images/new/class.png"/><span><?php echo get_the_title($post_list[2]); ?></span></button>
 						</div>
 					</a>
-					<a href="" class="card-item type-3">
+					<a href="<?php echo get_post_permalink($post_list[3]);?>" class="card-item type-3">
 						<div class="content">
 							<div class="label">#<?php $cat = get_the_category($post_list[3]); echo $cat[0]->name; ?></div>
 							<div class="title">
@@ -301,7 +301,7 @@ wp_reset_postdata();
 						</div>
 						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[3]); ?>');"></div>
 					</a>
-					<a href="" class="card-item type-1">
+					<a href="<?php echo get_post_permalink($post_list[4]);?>" class="card-item type-1">
 						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[4]); ?>');"></div>
 						<div class="content">
 							<div class="label">#<?php $cat = get_the_category($post_list[4]); echo $cat[0]->name; ?></div>
@@ -313,7 +313,7 @@ wp_reset_postdata();
 							<button class="dots"><span></span></button>
 						</div>
 					</a>
-					<a href="" class="card-item type-4">
+					<a href="#;" class="card-item type-4">
 						<div class="image">
 							<img src="/wp-content/themes/hub/images/new/smilepng.png"/>
 						</div>
@@ -327,7 +327,7 @@ wp_reset_postdata();
 							<button>광고하러 가기<img src="/wp-content/themes/hub/images/new/arrow-right.png"></button>
 						</div>
 					</a>
-					<a href="" class="card-item type-2 right-circle">
+					<a href="<?php echo get_post_permalink($post_list[5]);?>" class="card-item type-2 right-circle">
 						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[5]); ?>'');"></div>
 						<div class="content">
 							<div class="title color-wh">
@@ -340,7 +340,7 @@ wp_reset_postdata();
 							<button><img src="/wp-content/themes/hub/images/new/class.png"/><span>클래스 오픈</span></button>
 						</div>
 					</a>
-					<a href="" class="card-item type-1">
+					<a href="<?php echo get_post_permalink($post_list[6]);?>" class="card-item type-1">
 						<div class="image bg-effect-1 color-yellow" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[6]); ?>');"></div>
 						<div class="content">
 							<div class="label">#<?php $cat = get_the_category($post_list[6]); echo $cat[0]->name; ?></div>
