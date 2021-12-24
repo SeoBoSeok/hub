@@ -332,13 +332,13 @@ wp_reset_postdata();
 						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[5]); ?>'');"></div>
 						<div class="content">
 							<div class="title color-wh">
-								<span><?php echo get_the_title($post_list[5]); ?></span>
+								<span><?php //echo get_the_title($post_list[5]); ?></span>
 								<span><?php $cat = get_the_category($post_list[5]); echo $cat[0]->name; ?></span>
 								<span><?php echo get_the_date('Y-m-d', $post_list[5]); ?></span>
 							</div>
 						</div>
 						<div class="btn-wrap">
-							<button><img src="/wp-content/themes/hub/images/new/class.png"/><span>클래스 오픈</span></button>
+							<button><img src="<?php echo get_the_post_thumbnail_url($post_list[5]);?>"/><span><?php echo get_the_title($post_list[5]); ?></span></button>
 						</div>
 					</a>
 					<a href="<?php echo get_post_permalink($post_list[6]);?>" class="card-item type-1">
