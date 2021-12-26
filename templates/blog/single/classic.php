@@ -43,11 +43,11 @@
 		<?php if( function_exists( 'liquid_portfolio_share' ) ) : ?>
 			<?php liquid_portfolio_share( get_post_type(), array(
 				'class' => 'social-icon',
-				'before' => '<span class="share-links d-flex align-items-center"><span class="text-uppercase ltr-sp-1">'. esc_html__( '공유하기', 'hub' ) .'</span>',
+				'before' => '<span class="share-links d-flex align-items-center">',
 				'after' => '</span>'
 			) ); ?>
 		<?php endif; ?>
-
+		<!-- <span class="text-uppercase ltr-sp-1">'. esc_html__( '공유하기', 'hub' ) .'</span> -->
 		</div>
 		
 		<?php endif; ?>
