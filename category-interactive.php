@@ -16,16 +16,6 @@
 <style>
 	.lqd-lp-grid {padding: 60px 0;}
 </style>
-<div class="title-n-menu sub">
-	<div class="title">
-		<!-- <span>HOT</span> -->
-		<span class="image"><img src="/wp-content/themes/hub/assets/img/logotitle.png"></span>
-		<span>콘텐츠</span>
-	</div>
-	<div class="menu sub">
-		<button class="menu-item">전체</button>
-	</div>
-</div>
 <?php
 get_header();
 
