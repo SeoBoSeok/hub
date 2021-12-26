@@ -533,7 +533,7 @@ button.dots:before {
 }
 button.dots:after {
 	top: 10%;
-	margin-top: 0px;
+	margin-top: -1px;
 }
 button.dots span {
 	top: 50%;
