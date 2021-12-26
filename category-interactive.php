@@ -14,7 +14,7 @@
  */
 ?>
 <style>
-	body.category #lqd-contents-wrap {padding-top: 130px; padding-bottom: 130px;}
+	.lqd-lp-grid {padding: 60px 0;}
 </style>
 <?php
 get_header();
