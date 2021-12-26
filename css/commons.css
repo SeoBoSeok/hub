@@ -600,6 +600,43 @@ button.dots span {
 	color: #1d1d1d;
 	background-color: #e7e7e7;
 }
+#lqd-contents-wrap .title-n-menu {
+	margin-top: 60px;
+	text-align: left;
+}
+#lqd-contents-wrap .title-n-menu .title {
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 1;
+	color: #1d1d1d;
+}
+#lqd-contents-wrap .title-n-menu .title span {
+	display: inline-block;
+	vertical-align: middle;
+}
+#lqd-contents-wrap .title-n-menu .title span.image {
+	width: 40px;
+	font-size: 0;
+}
+#lqd-contents-wrap .title-n-menu .menu {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	gap: 11px;
+	align-items: center;
+	/* justify-items: center; */
+	margin-top: 40px;
+}
+#lqd-contents-wrap .title-n-menu .menu .menu-item {
+	width: 100%;
+	min-width: 80px;
+	max-width: 150px;
+	padding: 10px 0px;
+	border-radius: 35px;
+	font-size: 15px;
+	font-weight: 900;
+	color: #1d1d1d;
+	background-color: #e7e7e7;
+}
 #contents-2 .c_contents .card-list {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);

@@ -45,7 +45,18 @@ class Liquid_CategoryBlog extends LD_Blog {
 
 		$before = $after = $filter_id = '';
 
-		
+		?>
+		<div class="title-n-menu sub">
+			<div class="title">
+				<!-- <span>HOT</span> -->
+				<span class="image"><img src="/wp-content/themes/hub/assets/img/logotitle.png"></span>
+				<span><?php echo get_the_category(get_the_id())[0]->name; ?></span>
+			</div>
+			<div class="menu sub">
+				<button class="menu-item">전체</button>
+			</div>
+		</div>
+		<?php
 
 		if ( class_exists( 'Liquid_Elementor_Addons' ) ) {
 			echo '<div class="lqd-lp-grid">';
