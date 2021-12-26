@@ -45,6 +45,8 @@ class Liquid_CategoryBlog extends LD_Blog {
 
 		$before = $after = $filter_id = '';
 
+		
+
 		if ( class_exists( 'Liquid_Elementor_Addons' ) ) {
 			echo '<div class="lqd-lp-grid">';
 			$items_height = 'items_height';

@@ -247,7 +247,7 @@ get_header();
 						<div class="card-list">
 							<?php
 							 	$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-								$args = array( 'category' => 61, 'post_type' =>  'post', 'posts_per_page' => 2, 'paged' => $paged); 
+								$args = array( 'category' => 61, 'post_type' =>  'post'); 
 								$postslist = get_posts( $args );    
 								foreach ($postslist as $post) :  setup_postdata($post); 
 								?>
