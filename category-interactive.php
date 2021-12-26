@@ -12,7 +12,11 @@
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  */
-
+?>
+<style>
+	body.category #lqd-contents-wrap {padding-top: 130px; padding-bottom: 130px;}
+</style>
+<?php
 get_header();
 
 	if ( have_posts() ) :
