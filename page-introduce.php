@@ -24,7 +24,7 @@ get_header();
       <style>
         .Play-Archive {
           display: inline-block;
-          width: 513px;
+          /* width: 513px; */
           padding: 0 0 80px;
           margin: 0;
           font-family: Montserrat;
