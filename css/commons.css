@@ -154,7 +154,7 @@
 .input {display:block; vertical-align:middle; box-sizing:border-box; width:100%; height:50px; margin:0; padding:0px; -webkit-appearance:none; -moz-appearance:none; appearance:none; border:none; border-radius:3px; background-color:#fff;
 	font-size:14px; color:#111427; letter-spacing:0px; line-height:50px; text-align:left; text-indent:15px; box-shadow:0 20px 40px rgba(17, 20, 39, 0.1) !important; transition:0.2s; -webkit-transition:0.2s;}
 .input:hover {background-color:#ffe618;}
-.select {display:block; vertical-align:middle; position:relative; box-sizing:border-box; width:100%; height:50px; margin:0; padding:0 15px; -webkit-appearance:none; -moz-appearance:none; appearance:none; border:none; border-radius:3px; background-color:#fff; background-image:url("../images/common/icon_arrow_select.png"); background-image:url("../images/ie/icon_arrow_select.png")\9; background-repeat:no-repeat; background-size:7px 4px; background-position:right 15px center;
+.select {display:block; vertical-align:middle; position:relative; box-sizing:border-box; width:100%; height:50px; margin:0; padding:0 15px; -webkit-appearance:none; -moz-appearance:none; appearance:none; border:none; border-radius:3px; background-color:#fff; background-image:url("https://gongstar.kr/wp-content/themes/hub/images/common/icon_arrow_select.png"); background-image:url("https://gongstar.kr/wp-content/themes/hub/images/ie/icon_arrow_select.png")\9; background-repeat:no-repeat; background-size:7px 4px; background-position:right 15px center;
 	font-size:14px; color:#111427; letter-spacing:0px; line-height:50px; text-align:left; box-shadow:0 20px 40px rgba(17, 20, 39, 0.1); transition:0.2s; -webkit-transition:0.2s;}
 .select:hover {background-color:#ffe618;}
 .select::-ms-expand {opacity:0;}
@@ -387,6 +387,9 @@
 
 
 @media all and (max-width:800px) {
+/* 영역구분 */
+.wrap {margin: 0 40px;}
+	
 /* 타이틀 */
 .title {font-size:22px; line-height:32px;}
 .title.t1, .title .t1 {font-size:35px; line-height:45px;}
@@ -470,33 +473,33 @@
 
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-.select {background-image:url("../images/ie/icon_arrow_select.png");}
+.select {background-image:url("https://gongstar.kr/wp-content/themes/hub/images/ie/icon_arrow_select.png");}
 }
-html.edge .select {background-image:url("../images/ie/icon_arrow_select.png");}
+html.edge .select {background-image:url("https://gongstar.kr/wp-content/themes/hub/images/ie/icon_arrow_select.png");}
 
 @font-face {
 	font-family: "AppleSDGothicNeo";
-	src: url("/wp-content/themes/hub/fonts/AppleSDGothicNeoH.ttf") format('truetype');
+	src: url("https://gongstar.kr/wp-content/themes/hub/fonts/AppleSDGothicNeoH.ttf") format('truetype');
 	font-weight: 900;
 }
 @font-face {
 	font-family: "AppleSDGothicNeo";
-	src: url("/wp-content/themes/hub/fonts/AppleSDGothicNeoB.ttf") format('truetype');
+	src: url("https://gongstar.kr/wp-content/themes/hub/fonts/AppleSDGothicNeoB.ttf") format('truetype');
 	font-weight: 700;
 }
 @font-face {
 	font-family: "AppleSDGothicNeo";
-	src: url("/wp-content/themes/hub/fonts/AppleSDGothicNeoM.ttf") format('truetype');
+	src: url("https://gongstar.kr/wp-content/themes/hub/fonts/AppleSDGothicNeoM.ttf") format('truetype');
 	font-weight: 500;
 }
 @font-face {
 	font-family: "AppleSDGothicNeo";
-	src: url("/wp-content/themes/hub/fonts/AppleSDGothicNeoL.ttf") format('truetype');
+	src: url("https://gongstar.kr/wp-content/themes/hub/fonts/AppleSDGothicNeoL.ttf") format('truetype');
 	font-weight: 200;
 }
 @font-face {
 	font-family: "SCDream3";
-	src: url("/wp-content/themes/hub/fonts/SCDream3.otf") format('opentype');
+	src: url("https://gongstar.kr/wp-content/themes/hub/fonts/SCDream3.otf") format('opentype');
 }
 
 button.dots {
