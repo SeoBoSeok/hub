@@ -156,14 +156,17 @@
 				<div class="f_info">
 					<img src="/wp-content/themes/hub/images/new/logo-2.png" class="logo"/>
 					<div class="company-info">
-						<div style="margin-bottom: 10px;">대표자 송국진 | 사업자번호 1234-234-212342</div>
-						<div>주소  충청남도 공주시 메이크로 123 19, 공주대학교 2층 (공주동)</div>
+						<div style="margin-bottom: 10px;">대표자 송유진 | 사업자번호 821-86-02205</div>
+						<div>주소 공주시 공주대학로 56 산학연구관 510호</div>
 					</div>
-					<div class="email">대표메일 gongstar@naver.com</div>
+					<div class="email">대표메일 gongstar2021@gmail.com</div>
 				</div>
 				<div class="copyright">
-					© 2021  GONGSTAR ALL rights reserved
+					© <span id="year">2021</span>  GONGSTAR ALL rights reserved
 				</div>
+				<script>
+					document.querySelector("#year").innerText = new Date().getFullYear();
+				</script>
 				<!-- <div class="f_info">
 					<ul>
 						<li>
