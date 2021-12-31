@@ -186,7 +186,7 @@ get_header();
 							<span>온라인 서비스 컨설팅과 홈페이지, 어플리케이션, 솔루션 개발 서비스를 제공하고 있습니다.</span> --
 						</p> -->
 						<!-- <a href="about/index.html" class="btn arrow">MORE</a> -->
-						<button><img src="/wp-content/themes/hub/images/new/arrow-right-wh.png"></button>
+						<button onclick="javascript:window.location.href='/introduce/';"><img src="/wp-content/themes/hub/images/new/arrow-right-wh.png"></button>
 					</div>
 				</div>
 			</div>
@@ -223,9 +223,9 @@ get_header();
 								<span>한 공주 로컬 콘텐츠</span>
 							</div>
 							<div class="menu">
-								<button class="menu-item">콘텐츠</button>
-								<button class="menu-item">플레이</button>
-								<button class="menu-item">네트워크</button>
+								<button onclick="javascript:window.location.href='/category/interactive/'" class="menu-item">콘텐츠</button>
+								<button onclick="javascript:window.location.href='/category/active/'" class="menu-item">플레이</button>
+								<button onclick="javascript:window.location.href='/category/network/'" class="menu-item">네트워크</button>
 							</div>
 						</div>
 					</div>

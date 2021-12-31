@@ -603,6 +603,10 @@ button.dots span {
 	color: #1d1d1d;
 	background-color: #e7e7e7;
 }
+#contents-2 .c_contents .contents-header .title-n-menu .menu .menu-item:hover {
+	background-color: #fff079;
+	/* color: white; */
+}
 #lqd-contents-wrap .title-n-menu {
 	margin-top: 60px;
 	text-align: left;
