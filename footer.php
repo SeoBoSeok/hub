@@ -205,7 +205,7 @@
 		</div> -->
 		<hr />
 		<div class="f_copyright">
-			&copy; 2021 <strong>공스타</strong>
+			&copy; 2022 <strong>공스타</strong>
 		</div>
 	</footer>
 	<!-- Footer E -->
