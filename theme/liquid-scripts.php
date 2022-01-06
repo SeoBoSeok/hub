@@ -424,7 +424,7 @@ class Liquid_Theme_Assets extends Liquid_Base {
     }
 
     public function get_css_uri($file = '') {
-        return $this->get_theme_uri('assets/css/'.$file.'.css');
+        return $this->get_theme_uri('assets/css/'.$file.'.css?v1');
     }
 
     public function get_elements_uri( $file = '' ) {
