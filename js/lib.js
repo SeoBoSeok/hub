@@ -5,10 +5,10 @@ function funLoad(){
 }
 window.onload = funLoad;
 window.onresize = funLoad;
-$(window).scroll(function() {
-	var scTop = $(window).scrollTop();
-	head_nav(scTop);
-});
+// $(window).scroll(function() {
+// 	var scTop = $(window).scrollTop();
+// 	head_nav(scTop);
+// });
 
 
 /* 높이 변화 */
