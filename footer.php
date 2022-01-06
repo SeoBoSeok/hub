@@ -217,7 +217,7 @@
 
 	<?php liquid_action( 'after' ) ?>
 	
-	<script src="/wp-content/themes/hub/js/lib.js"></script>
+	<script src="/wp-content/themes/hub/js/lib.js?v1"></script>
 	
 	<?php wp_footer(); ?>
 
