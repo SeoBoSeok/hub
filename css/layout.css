@@ -127,7 +127,7 @@
 #contents .c_about .ca_overview li strong {display:inline-block; position: relative; vertical-align:middle; position:absolute; left:0; top:0; width:140px; padding:15px 0; }  /* border-top:#a8a9b5 solid 1px; */
 #contents .c_about .ca_overview li strong::before {position: absolute; content: ""; display:table; left: 0; top:0; width: 100px; height: 100px	; border-radius: 50%; background-color: #ffef81;}
 #contents .c_about .ca_overview li strong span {position: absolute; top: 35px; left: 50px; font-size: 1.7rem;}
-#contents .c_about .ca_overview li p {display:block; margin-left:170px; padding:20px 0; border-top:#a8a9b5 solid 1px; font-size: 1.3rem; margin-bottom: 0;}
+#contents .c_about .ca_overview li p {display:flex; min-height: 95px; align-items: center; margin-left:170px; padding:20px 0; border-top:#a8a9b5 solid 1px; font-size: 1.3rem; margin-bottom: 0;}
 #contents .c_about .ca_vision {display:inline-block; vertical-align:middle; width:100%;}
 #contents .c_about .ca_vision ul {display: flex;justify-content: center;align-items: center;}
 #contents .c_about .ca_vision li { display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; width: 33.33%; height: 0; margin-left: -40px; padding-bottom: 33.33%; border-radius: 50%; box-sizing: border-box; background-color: #fff079; font-size: 20px; font-weight: 900; color: #111427; line-height: 1.13; font-weight: 300; color: #1d1d1d; } /* line-height:250px; /*
