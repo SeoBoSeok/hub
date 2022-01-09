@@ -14,6 +14,11 @@
  */
 
 get_header();
+?>
+<style>
+	.lqd-lp-grid {padding: 60px 0;}
+</style>
+<?php
 
 	if ( have_posts() ) :
 

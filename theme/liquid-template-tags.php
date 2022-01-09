@@ -495,7 +495,7 @@ function liquid_header_trigger_button(  $args = array() ) {
 	$args = array_map( 'esc_attr', $args );
 	
 	?>
-	<div class="header-module">	
+	<!-- <div class="header-module">	
 		<button type="button" role="button" <?php foreach ( $args as $name => $value ) { echo " $name=" . '"' . $value . '"'; } ?>>
 			<span class="bars">
 				<span class="bars-inner">
@@ -505,7 +505,7 @@ function liquid_header_trigger_button(  $args = array() ) {
 				</span>
 			</span>
 		</button>
-	</div>
+	</div> -->
 <?php }
 
 
