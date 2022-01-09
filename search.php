@@ -27,7 +27,7 @@ get_header();
 		<div class="title">
 			<!-- <span>HOT</span> -->
 			<span class="image"><img src="/wp-content/themes/hub/assets/img/logotitle.png"></span>
-			<span><?php echo $pagel; ?></span>
+			<span>search : <?php echo urldecode($pagel); ?></span>
 		</div>
 	</div>	
 	<hr />
