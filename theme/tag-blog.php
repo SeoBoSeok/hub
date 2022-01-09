@@ -48,12 +48,16 @@ class Liquid_TagBlog extends LD_Blog {
 		$i = 0;
 
 		$before = $after = $filter_id = '';
+
+		$link = $_SERVER['REQUEST_URI'];
+		$link_array = explode('/',$link);
+		$pagel = $link_array[count($link_array)-1];
 		?>
 		<div class="title-n-menu sub">
 			<div class="title">
 				<!-- <span>HOT</span> -->
 				<span class="image"><img src="/wp-content/themes/hub/assets/img/logotitle.png"></span>
-				<span>tag : <?php echo get_the_tags(get_the_id())[0]->name; ?></span>
+				<span>tag : <?php echo $pagel; ?></span> <?php //echo get_the_tags(get_the_id())[0]->name; ?>
 			</div>
 		</div>
 		<?php
