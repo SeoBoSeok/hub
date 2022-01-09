@@ -18,6 +18,18 @@ get_header();
 		footer.main-footer {display: none !important;}
 	</style>
 	<div id="wrap" class="main">
+	<?php
+	$link = $_SERVER['REQUEST_URI'];
+	$link_array = explode('?s=',$link);
+	$pagel = $link_array[count($link_array)-1];
+	?>
+	<div class="title-n-menu sub">
+		<div class="title">
+			<!-- <span>HOT</span> -->
+			<span class="image"><img src="/wp-content/themes/hub/assets/img/logotitle.png"></span>
+			<span><?php echo $pagel; ?></span>
+		</div>
+	</div>	
 	<hr />
 	<!-- Aside S -->
 	<aside id="aside">
