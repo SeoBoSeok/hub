@@ -554,6 +554,9 @@ button.dots span {
 #contents-2 .c_contents.sub {
 	padding-top: 100px;
 }
+.search #contents-2 .c_contents.sub {
+	padding-top: 50px;
+}
 #contents-2 .c_contents .contents-header-inner {
 	display: grid;
 	/* grid-template-columns: repeat(2, auto); */
