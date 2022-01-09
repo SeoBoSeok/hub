@@ -260,7 +260,7 @@ wp_reset_postdata();
 								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
 							</div>
 							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[0]); ?></div>
-							<button class="dots"><span></span></button>
+							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>
 					<a href="<?php echo get_post_permalink($post_list[1]);?>" class="card-item type-1">
@@ -272,7 +272,7 @@ wp_reset_postdata();
 								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
 							</div>
 							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[1]); ?></div>
-							<button class="dots"><span></span></button>
+							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>
 					<a href="<?php echo get_post_permalink($post_list[2]);?>" class="card-item type-2">
@@ -298,7 +298,7 @@ wp_reset_postdata();
 								<span></span>
 							</div>
 							<div class="sub"><?php echo get_the_excerpt($post_list[3]); ?><?php //echo get_the_author($post_list[3]); ?></div>
-							<button class="dots"><span></span></button>
+							<!-- <button class="dots"><span></span></button> -->
 						</div>
 						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[3]); ?>');"></div>
 					</a>
@@ -311,7 +311,7 @@ wp_reset_postdata();
 								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
 							</div>
 							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[4]); ?></div>
-							<button class="dots"><span></span></button>
+							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>
 					<a href="#;" class="card-item type-4">
@@ -350,7 +350,7 @@ wp_reset_postdata();
 								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
 							</div>
 							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[6]); ?></div>
-							<button class="dots"><span></span></button>
+							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>
 				</div>
