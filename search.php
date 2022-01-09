@@ -68,7 +68,7 @@ get_header();
 <a href="<?php the_permalink(); ?>" class="card-item type-1">
 									<div class="image" style="background-image: url('<?php echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ) ?>');"></div>
 									<div class="content">
-										<div class="label">#<?php echo get_the_category( get_the_ID() );?></div>
+										<div class="label">#<?php echo get_the_category( get_the_ID() )[0]->name;?></div>
 										<div class="title">
 											<span><?php the_title(); ?></span>
 											<span><?php echo get_post_meta( get_the_ID(), 'post-quote-url', true); ?></span>
