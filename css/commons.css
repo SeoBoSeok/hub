@@ -740,7 +740,7 @@ button.dots span {
 	background-position: center;
 }
 #contents-2 .c_contents .card-list .card-item.type-1 .content {
-	padding: 21px 24px;
+	padding: 21px 24px 15px;
 	background-color: #fff;
 }
 #contents-2 .c_contents .card-list .card-item.type-1 .content .title {
