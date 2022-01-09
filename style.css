@@ -272,3 +272,6 @@ Main image bg
 .open_search .search_layer:before {
 	opacity: .9;
 }
+.blog-nav {
+	margin-top:30px;
+}
