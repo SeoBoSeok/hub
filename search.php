@@ -80,6 +80,7 @@ get_header();
 
 
 <?php endwhile; // End of the loop. ?>
+						</div>
 <?php
 // Set up paginated links.
 	$links = paginate_links( array(
@@ -93,7 +94,6 @@ if( !empty( $links ) ) {
 
 	printf( '<div class="blog-nav"><nav aria-label="' . esc_attr__( 'Page navigation', 'hub' ) . '"><ul class="pagination"><li>%s</li></ul></nav></div>', join( "</li>\n\t<li>", $links ) );
 }; ?>
-						</div>
 					</div>
 					</div>
 				</div>
