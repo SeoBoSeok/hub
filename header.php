@@ -59,48 +59,48 @@
 			<?php liquid_action( 'before_content' ); ?>
 
 			<header id="header">
-			<div class="h_logo">
-				<a href="/" title="Go to Home">
-					<img src="/wp-content/uploads/2021/11/gonstar_logo.png" alt="공스타 로고" />
-					<h1 class="blind">GONG STAR</h1>
-				</a>
-			</div>
-			<hr />
-			<nav class="h_gnb">
-				<h2 class="blind">GNB</h2>
-				<i class="hg_icon"></i>
-				<button type="button" class="hg_btn"><span class="blind">Menu Button</span></button>
-				<div class="hg_wrap">
-				<?php
-						$link = $_SERVER['REQUEST_URI'];
-						$link_array = explode('/',$link);
-						$pagel = $link_array[count($link_array)-1];
-				?>
-					<ul>
-						<li>
-							<a href="/" class="<?php echo $pagel == "" ? "on" : "";?>"><span>HOME</span></a>
-						</li>
-						<li>
-							<a href="/introduce" class="<?php echo $pagel == "introduce" ? "on" : "";?>"><span>공스타 소개</span></a>
-						</li>
-						<li>
-							<a href="/category/interactive" class="<?php echo $pagel == "interactive" ? "on" : "";?>"><span>콘텐츠</span></a>
-						</li>
-						<li>
-							<a href="/category/active" class="<?php echo $pagel == "active" ? "on" : "";?>"><span>플레이</span></a>
-						</li>
-						<li>
-							<a href="/category/network" class="<?php echo $pagel == "network" ? "on" : "";?>"><span>네트워크</span></a>
-						</li>
-						<li>
-						<div class="area_util">
-							<button data-v-9760bdba="" type="button" class="btn_search" style=""><span data-v-9760bdba="" class="screen_out">검색창 열기</span> <svg data-v-ae75f7f2="" data-v-9760bdba="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" class="ico_search"><g data-v-ae75f7f2="" fill="none" fill-rule="evenodd"><g data-v-ae75f7f2="" stroke-width="1.6"><g data-v-ae75f7f2="" transform="translate(-308 -16) translate(312 20)"><circle data-v-ae75f7f2="" cx="8.944" cy="8.944" r="8.944"></circle> <path data-v-ae75f7f2="" d="M14.987 14.987L21.017 21.017"></path></g></g></g></svg></button>
-						</div>
-						</li>
-					</ul>
+				<div class="h_logo">
+					<a href="/" title="Go to Home">
+						<img src="/wp-content/uploads/2021/11/gonstar_logo.png" alt="공스타 로고" />
+						<h1 class="blind">GONG STAR</h1>
+					</a>
 				</div>
-			</nav>
-		</header>
+				<hr />
+				<nav class="h_gnb">
+					<h2 class="blind">GNB</h2>
+					<i class="hg_icon"></i>
+					<button type="button" class="hg_btn"><span class="blind">Menu Button</span></button>
+					<div class="hg_wrap">
+					<?php
+							$link = $_SERVER['REQUEST_URI'];
+							$link_array = explode('/',$link);
+							$pagel = $link_array[count($link_array)-1];
+					?>
+						<ul>
+							<li>
+								<a href="/" class="<?php echo $pagel == "" ? "on" : "";?>"><span>HOME</span></a>
+							</li>
+							<li>
+								<a href="/introduce" class="<?php echo $pagel == "introduce" ? "on" : "";?>"><span>공스타 소개</span></a>
+							</li>
+							<li>
+								<a href="/category/interactive" class="<?php echo $pagel == "interactive" ? "on" : "";?>"><span>콘텐츠</span></a>
+							</li>
+							<li>
+								<a href="/category/active" class="<?php echo $pagel == "active" ? "on" : "";?>"><span>플레이</span></a>
+							</li>
+							<li>
+								<a href="/category/network" class="<?php echo $pagel == "network" ? "on" : "";?>"><span>네트워크</span></a>
+							</li>
+							<li>
+							<div class="area_util">
+								<button data-v-9760bdba="" type="button" class="btn_search" style=""><span data-v-9760bdba="" class="screen_out">검색창 열기</span> <svg data-v-ae75f7f2="" data-v-9760bdba="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" class="ico_search"><g data-v-ae75f7f2="" fill="none" fill-rule="evenodd"><g data-v-ae75f7f2="" stroke-width="1.6"><g data-v-ae75f7f2="" transform="translate(-308 -16) translate(312 20)"><circle data-v-ae75f7f2="" cx="8.944" cy="8.944" r="8.944"></circle> <path data-v-ae75f7f2="" d="M14.987 14.987L21.017 21.017"></path></g></g></g></svg></button>
+							</div>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
 		<div class="search_layer">
 
     <div data-v-c8bf84c8="" class="inner_layer">

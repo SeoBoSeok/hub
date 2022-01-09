@@ -48,7 +48,15 @@ class Liquid_TagBlog extends LD_Blog {
 		$i = 0;
 
 		$before = $after = $filter_id = '';
-
+		?>
+		<div class="title-n-menu sub">
+			<div class="title">
+				<!-- <span>HOT</span> -->
+				<span class="image"><img src="/wp-content/themes/hub/assets/img/logotitle.png"></span>
+				<span>tag : <?php echo get_the_tags(get_the_id())[0]->name; ?></span>
+			</div>
+		</div>
+		<?php
 		if ( class_exists( 'Liquid_Elementor_Addons' ) ) {
 			echo '<div class="lqd-lp-grid">';
 			$items_height = 'items_height';
