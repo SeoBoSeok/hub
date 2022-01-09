@@ -281,7 +281,8 @@ wp_reset_postdata();
 							<div class="title color-wh">
 								<span><?php //echo get_the_category($post_list[2]); ?></span>
 								<span><?php //echo get_the_excerpt($post_list[2]); ?></span>
-								<span><?php $cat = get_the_category($post_list[2]); echo $cat[0]->name; ?></span>
+								<span># <?php $cat = get_the_category($post_list[2]); echo $cat[0]->name; ?></span>
+								<span><?php echo get_the_date('Y-m-d', $post_list[2]); ?></span>
 							</div>
 						</div>
 						<div class="btn-wrap">
@@ -333,7 +334,7 @@ wp_reset_postdata();
 						<div class="content">
 							<div class="title color-wh">
 								<span><?php //echo get_the_title($post_list[5]); ?></span>
-								<span><?php $cat = get_the_category($post_list[5]); echo $cat[0]->name; ?></span>
+								<span># <?php $cat = get_the_category($post_list[5]); echo $cat[0]->name; ?></span>
 								<span><?php echo get_the_date('Y-m-d', $post_list[5]); ?></span>
 							</div>
 						</div>
