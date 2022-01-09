@@ -273,5 +273,8 @@ Main image bg
 	opacity: .9;
 }
 .blog-nav {
+	display:flex;
+	justify-content: center;
+	align-items: center;
 	margin: 50px auto;
 }
