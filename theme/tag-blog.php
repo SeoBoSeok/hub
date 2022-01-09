@@ -57,7 +57,7 @@ class Liquid_TagBlog extends LD_Blog {
 			<div class="title">
 				<!-- <span>HOT</span> -->
 				<span class="image"><img src="/wp-content/themes/hub/assets/img/logotitle.png"></span>
-				<span>tag : <?php echo $pagel; ?></span> <?php //echo get_the_tags(get_the_id())[0]->name; ?>
+				<span>tag : <?php echo urldecode($pagel); ?></span> <?php //echo get_the_tags(get_the_id())[0]->name; ?>
 			</div>
 		</div>
 		<?php
