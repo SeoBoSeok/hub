@@ -278,3 +278,4 @@ Main image bg
 	align-items: center;
 	margin: 50px auto;
 }
+.blog-nav ul.pagination li a.page-numbers.current, .blog-nav ul.pagination li a.page-numbers:hover{background-color: #f9e032;}
