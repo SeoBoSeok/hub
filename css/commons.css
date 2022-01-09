@@ -725,7 +725,7 @@ button.dots span {
 	font-family: "SCDream3";
 }
 #contents-2 .c_contents .card-list .card-item.type-1 {
-	grid-row-end: span 20;
+	grid-row-end: span 19;
 }
 #contents-2 .c_contents .card-list .card-item.type-1:hover {
 	box-shadow: 0 20px 25px rgb(0 0 0 / 10%), 0 10px 10px rgb(0 0 0 / 4%);
