@@ -853,7 +853,7 @@ button.dots span {
 	text-align: left;
 }
 #contents-2 .c_contents .banner {
-	margin: 165px 0 145px;
+	margin: 100px 0 100px;
 }
 #contents-2 .c_contents .banner a {
 	display: grid;
@@ -876,7 +876,7 @@ button.dots span {
 		padding-top: 90%;
 	}
 	#contents-2 .c_contents .banner {
-		margin: 100px 0 100px;
+		margin: 50px 0 100px;
 	}
 }
 
