@@ -357,9 +357,9 @@ wp_reset_postdata();
 				</div>
 
 				<div class="banner">
-					<a href="">
+					<!-- <a href=""> -->
 						<img src="<?php echo get_the_post_thumbnail_url(get_the_ID()) ?>"/>
-					</a>
+					<!-- </a> -->
 				</div>
 			</div>
 		</section>
