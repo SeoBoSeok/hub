@@ -59,7 +59,7 @@
 #contents .c_position {position:absolute; left:0; right:0; top:10px; height:1px;}
 
 #contents .c_intro {position:relative; overflow:hidden; min-height:900px; background-color:#fff; transition:0.8s; -webkit-transition:0.8s;}
-#contents .c_intro:before {content:""; position:absolute; left:0; right:0; top:50%; height:1px; background-color:#111427; opacity:0.04;}
+/* #contents .c_intro:before {content:""; position:absolute; left:0; right:0; top:50%; height:1px; background-color:#111427; opacity:0.04;} */
 #wrap.off #contents .c_intro {height:0px !important; min-height:0px;}
 #contents .c_intro .wrap {min-height:900px;}
 #contents .c_intro .ci_visual {position:absolute; left:0; right:50%; top:0; bottom:0; min-height:900px; background-color:#ffe618;}

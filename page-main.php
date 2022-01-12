@@ -144,8 +144,8 @@ get_header();
 	<aside id="aside">
 		<div class="a_quick">
 			<ul>
-				<li><a href="#location"><i class="aq_icon location"></i><span class="blind">Location</span></a></li>
-				<li><a href="mailto:info@.co.kr"><i class="aq_icon mail"></i><span class="blind">Send to mail</span></a></li>
+				<li><a href="https://map.kakao.com/?q=%EC%B6%A9%EB%82%A8%20%EA%B3%B5%EC%A3%BC%EC%8B%9C%20%EA%B3%B5%EC%A3%BC%EB%8C%80%ED%95%99%EB%A1%9C%2056&map_type=DEFAULT&map_hybrid=false&from=total" target="_blank"><i class="aq_icon location"></i><span class="blind">Location</span></a></li>
+				<li><a href="mailto:gongstar2021@gmail.com"><i class="aq_icon mail"></i><span class="blind">Send to mail</span></a></li>
 			</ul>
 		</div>
 		<!-- <div class="a_customer">
