@@ -173,11 +173,24 @@ document.getElementById('search_form').addEventListener('submit', function(e){
 });
 
 function copyURI(evt) {
+	console.log(evt.target);
+	var text = evt.target.dataset.url;
 	evt.preventDefault();
-	navigator.clipboard.writeText(evt.target.getAttribute('href')).then(function () {
-		alert('링크가 복사되었습니다.');
-	}, () => {
-		/* clipboard write failed */
-		alert('링크 복사에 실패하였습니다.');
+	console.log(text);
+	if (!navigator.clipboard) {
+    fallbackCopyTextToClipboard(text);
+    return;
+  }
+  navigator.clipboard.writeText(text).then(function() {
+    alert('링크가 복사되었습니다.');
+  }).catch(
+	function(err) {
+		alert('링크 복사에 실패하였습니다. ');
 	});
+	// navigator.clipboard.writeText(evt.target.getAttribute('href')).then(function () {
+	// 	alert('링크가 복사되었습니다.');
+	// }, function () {
+	// 	/* clipboard write failed */
+	// 	alert('링크 복사에 실패하였습니다.');
+	// });
 }
