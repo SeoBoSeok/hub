@@ -56,7 +56,7 @@ $pinterest_image = wp_get_attachment_url( get_post_thumbnail_id(), 'full' );
 						<?php if ( $sticky_share_view === 'with-text-outline' ) echo '<span>' . esc_html__( 'Twitter', 'hub' ) . '</span>' ?>
 					</a>
 				</li>
-				<li>
+				<!-- <li>
 					<a rel="nofollow" target="_blank" href="https://pinterest.com/pin/create/button/?url=&amp;media=<?php echo esc_url( $pinterest_image ); ?>&amp;description=<?php echo urlencode( get_the_title() ); ?>">
 						<i class="fa fa-pinterest-p"></i>
 						<?php if ( $sticky_share_view === 'with-text-outline' ) echo '<span>' . esc_html__( 'Pinterest', 'hub' ) . '</span>' ?>
@@ -67,7 +67,7 @@ $pinterest_image = wp_get_attachment_url( get_post_thumbnail_id(), 'full' );
 						<i class="fa fa-linkedin"></i>
 						<?php if ( $sticky_share_view === 'with-text-outline' ) echo '<span>' . esc_html__( 'Linkedin', 'hub' ) . '</span>' ?>
 					</a>
-				</li>
+				</li> -->
 			</ul>
 		</div>
 	</div>
