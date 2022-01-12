@@ -247,7 +247,7 @@ Main image bg
 	width: 24px;
   height: 24px;
 }
-.search_layer {display: none; margin-bottom: 120px;}
+.search_layer {height:0px;}
 .search_layer:before {
 	background: var(--baseBackground);
 	opacity: 0;
