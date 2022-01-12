@@ -315,7 +315,7 @@ wp_reset_postdata();
 							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>
-					<a href="#;" class="card-item type-4">
+					<a href="mailto:gongstar2021@gmail.com" class="card-item type-4">
 						<div class="image">
 							<img src="/wp-content/themes/hub/images/new/smilepng.png"/>
 						</div>
