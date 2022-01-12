@@ -171,3 +171,13 @@ document.getElementById('search_form').addEventListener('submit', function(e){
 	e.preventDefault();
 	window.location.href = '/?s=' + $('#inpSearch').val();
 });
+
+function copyURI(evt) {
+	evt.preventDefault();
+	navigator.clipboard.writeText(evt.target.getAttribute('href')).then(function () {
+		alert('링크가 복사되었습니다.');
+	}, () => {
+		/* clipboard write failed */
+		alert('링크 복사에 실패하였습니다.');
+	});
+}
