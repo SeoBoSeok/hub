@@ -190,9 +190,9 @@ get_header();
 					</div>
 				</div>
 			</div>
-			<div class="ci_scroll">
+			<!-- <div class="ci_scroll">
 				<a href="#portfolio" class="scroll"><i></i><span>SCROLL</span></a>
-			</div>
+			</div> -->
 		</section>
 	</div>
 	<!-- Contents E -->
