@@ -728,7 +728,7 @@ button.dots span {
 	align-items: center;
 }
 #contents-2 .c_contents .card-list .card-item .content .author {
-	display: none;
+	/* display: none; */
 	font-family: "Rubik",sans-serif;
 	font-weight: 500;
 	color: black;

@@ -259,7 +259,9 @@ wp_reset_postdata();
 								<span><?php echo get_the_title($post_list[1]); ?></span>
 								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
 							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[1]); ?> <span class="author"><?php echo get_the_author($post_list[1]); ?></span></div>
+							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[1]); ?> <span class="author"><?php $author_id = get_post_field ('post_author', $post_list[1]);
+$display_name = get_the_author_meta( 'display_name' , $author_id ); 
+echo $display_name; ?></span></div>
 							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>
@@ -271,7 +273,9 @@ wp_reset_postdata();
 								<span><?php echo get_the_title($post_list[2]); ?></span>
 								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
 							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[2]); ?> <span class="author"><?php echo get_the_author($post_list[2]); ?></span></div>
+							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[2]); ?> <span class="author"><?php $author_id = get_post_field ('post_author', $post_list[2]);
+$display_name = get_the_author_meta( 'display_name' , $author_id ); 
+echo $display_name; ?></span></div>
 							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>
@@ -311,7 +315,9 @@ wp_reset_postdata();
 								<span><?php echo get_the_title($post_list[4]); ?></span>
 								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
 							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[4]); ?> <span class="author"><?php echo get_the_author(); ?></span></div>
+							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[4]); ?> <span class="author"><?php $author_id = get_post_field ('post_author', $post_list[4]);
+$display_name = get_the_author_meta( 'display_name' , $author_id ); 
+echo $display_name; ?></span></div>
 							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>
@@ -350,7 +356,9 @@ wp_reset_postdata();
 								<span><?php echo get_the_title($post_list[6]); ?></span>
 								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
 							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[6]); ?> <span class="author"></span></div>
+							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[6]); ?> <span class="author"><?php $author_id = get_post_field ('post_author', $post_list[6]);
+$display_name = get_the_author_meta( 'display_name' , $author_id ); 
+echo $display_name; ?></span></div>
 							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>
