@@ -259,7 +259,7 @@ wp_reset_postdata();
 								<span><?php echo get_the_title($post_list[1]); ?></span>
 								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
 							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[1]); ?></div>
+							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[1]); ?> <span class="author"><?php echo get_the_author($post_list[1]); ?></span></div>
 							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>
@@ -271,7 +271,7 @@ wp_reset_postdata();
 								<span><?php echo get_the_title($post_list[2]); ?></span>
 								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
 							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[2]); ?></div>
+							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[2]); ?> <span class="author"><?php echo get_the_author($post_list[2]); ?></span></div>
 							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>
@@ -311,7 +311,7 @@ wp_reset_postdata();
 								<span><?php echo get_the_title($post_list[4]); ?></span>
 								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
 							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[4]); ?></div>
+							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[4]); ?> <span class="author"><?php echo get_the_author($post_list[4]); ?></span></div>
 							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>
@@ -350,7 +350,7 @@ wp_reset_postdata();
 								<span><?php echo get_the_title($post_list[6]); ?></span>
 								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
 							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[6]); ?></div>
+							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[6]); ?> <span class="author"><?php echo get_the_author($post_list[6]); ?></span></div>
 							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>

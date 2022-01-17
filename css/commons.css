@@ -723,6 +723,15 @@ button.dots span {
 	font-size: 10px;
 	font-weight: 300;
 	font-family: "SCDream3";
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#contents-2 .c_contents .card-list .card-item .content .author {
+	font-family: "Rubik",sans-serif;
+	font-weight: 500;
+	color: black;
+	font-size: 13px;
 }
 #contents-2 .c_contents .card-list .card-item.type-1 {
 	grid-row-end: span 19;

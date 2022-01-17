@@ -311,9 +311,9 @@
 #footer .f_btn {display:inline-block; vertical-align:middle; position:absolute; right:190px; top:90px;}
 #footer .f_btn li:nth-child(2) {margin-top:50px;}
 
-#footer .f_copyright {display:inline-block; vertical-align:middle; position:fixed; left:80px; bottom:85px; padding:0 50px 0 10px; border-radius:15px; background-color:#fff; font-size:14px; font-weight:600; color:#111427; line-height:30px; transition:0.2s; -webkit-transition:0.2s;}
-#footer .f_copyright:after {content:""; position:absolute; right:10px; bottom:10px; width:30px; height:1px; background-color:#111427;}
-#footer .f_copyright strong {font-weight:800;}
+#footer .f_copyright {display:inline-block; vertical-align:middle; position:fixed; left:80px; bottom:85px; padding:0 10px 0 10px; border-radius:15px; background-color:#fff; font-size:14px; font-weight:600; color:#111427; line-height:30px; transition:0.2s; -webkit-transition:0.2s;}
+/* #footer .f_copyright:after {content:""; position:absolute; right:10px; bottom:10px; width:30px; height:1px; background-color:#111427;} */
+/* #footer .f_copyright strong {font-weight:800;} */
 
 #footer .f_download {display:inline-block; vertical-align:middle; position:fixed; right:80px; bottom:85px; transition:0.2s; -webkit-transition:0.2s;}
 #footer .f_download a {display:block; height:100%; padding:0 6px 0 10px; border-radius:15px; background-color:#fff; font-size:14px; font-weight:600; color:#111427; line-height:30px; transition:0.2s; -webkit-transition:0.2s;}
@@ -392,7 +392,7 @@
 #footer .f_btn li:nth-child(2) {margin-top:40px;}
 
 #footer .f_copyright {left:60px; bottom:65px;}
-
+#footer .f_copyright .f_logo_img {padding-bottom: 3px;}
 #footer .f_download {right:60px; bottom:65px;}
 }
 
@@ -495,7 +495,7 @@
 #footer .f_btn {right:140px; top:60px;}
 #footer .f_btn li:nth-child(2) {margin-top:50px;}
 
-#footer .f_copyright {left:50px; bottom:55px; padding:0 40px 0 10px; font-size:13px;}
+#footer .f_copyright {left:50px; bottom:55px; padding:0 10px 0 10px; font-size:13px;}
 #footer .f_copyright:after {width:20px;}
 
 #footer .f_download {right:50px; bottom:55px;}
@@ -569,7 +569,7 @@
 #footer .f_btn {right:120px; top:50px;}
 #footer .f_btn li:nth-child(2) {margin-top:40px;}
 
-#footer .f_copyright {left:45px; bottom:50px; padding:0 35px 0 10px; font-size:12px;}
+#footer .f_copyright {left:45px; bottom:50px; padding:0 10px 0 10px; font-size:12px;}
 #footer .f_copyright:after {width:15px;}
 
 #footer .f_download {right:45px; bottom:50px;}

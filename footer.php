@@ -205,7 +205,7 @@
 		</div> -->
 		<hr />
 		<div class="f_copyright">
-			&copy; 2022 <strong>공스타</strong>
+			&copy; 2022 <strong>공스타_GONGSTAR  </strong> <img class="f_logo_img" src="/wp-content/themes/hub/assets/img/logotitle.png" alt="2021공스타" width="11" height="11">
 		</div>
 	</footer>
 	<!-- Footer E -->

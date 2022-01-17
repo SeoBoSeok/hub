@@ -85,7 +85,7 @@ get_header();
 											<span><?php the_title(); ?></span>
 											<span><?php echo get_post_meta( get_the_ID(), 'post-quote-url', true); ?></span>
 										</div>
-										<div class="sub"><?php echo get_the_date('y-m-d',get_the_ID()); ?></div>
+										<div class="sub"><?php echo get_the_date('y-m-d',get_the_ID()); ?> <span class="author"><?php echo get_the_author(); ?></span></div>
 										<!-- <button class="dots"><span></span></button> -->
 									</div>
 								</a>
