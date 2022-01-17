@@ -294,33 +294,33 @@ echo $display_name; ?></span></div>
 						</div>
 					</a>
 					
-					<a href="<?php echo get_post_permalink($post_list[4]);?>" class="card-item type-1">
-						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[4]); ?>');"></div>
+					<a href="<?php echo get_post_permalink($post_list[3]);?>" class="card-item type-1">
+						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[3]); ?>');"></div>
 						<div class="content">
 							<div class="label">#<?php $cat = get_the_category($post_list[4]); echo $cat[0]->name; ?></div>
 							<div class="title">
-								<span><?php echo get_the_title($post_list[4]); ?></span>
+								<span><?php echo get_the_title($post_list[3]); ?></span>
 								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
 							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[4]); ?> <span class="author"><?php $author_id = get_post_field ('post_author', $post_list[4]);
+							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[3]); ?> <span class="author"><?php $author_id = get_post_field ('post_author', $post_list[3]);
 $display_name = get_the_author_meta( 'display_name' , $author_id ); 
 echo $display_name; ?></span></div>
 							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>
 
-					<a href="<?php echo get_post_permalink($post_list[3]);?>" class="card-item type-2">
-						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[3]); ?>');"></div>
+					<a href="<?php echo get_post_permalink($post_list[4]);?>" class="card-item type-2">
+						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[4]); ?>');"></div>
 						<div class="content">
 							<div class="title color-wh">
 								<span><?php //echo get_the_category($post_list[2]); ?></span>
 								<span><?php //echo get_the_excerpt($post_list[2]); ?></span>
-								<span># <?php $cat = get_the_category($post_list[3]); echo $cat[0]->name; ?></span>
-								<span><?php echo get_the_date('Y-m-d', $post_list[3]); ?></span>
+								<span># <?php $cat = get_the_category($post_list[4]); echo $cat[0]->name; ?></span>
+								<span><?php echo get_the_date('Y-m-d', $post_list[4]); ?></span>
 							</div>
 						</div>
 						<div class="btn-wrap">
-							<button><img src="/wp-content/themes/hub/images/new/class.png"/><span><?php echo get_the_title(); ?></span></button>
+							<button><img src="/wp-content/themes/hub/images/new/class.png"/><span><?php echo get_the_title($post_list[4]); ?></span></button>
 						</div>
 					</a>
 
@@ -352,7 +352,7 @@ echo $display_name; ?></span></div>
 						</div>
 					</a>
 
-					<a href="<?php echo get_post_permalink($post_list[6]);?>" class="card-item type-1">
+					<a href="<?php echo get_post_permalink($post_list[7]);?>" class="card-item type-1">
 						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[7]); ?>');"></div>
 						<div class="content">
 							<div class="label">#<?php $cat = get_the_category($post_list[7]); echo $cat[0]->name; ?></div>
