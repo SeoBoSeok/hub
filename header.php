@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="/wp-content/themes/hub/css/init.css" />
 	<link rel="stylesheet" href="/wp-content/themes/hub/css/common.css" />
 	<link rel="stylesheet" href="/wp-content/themes/hub/css/layout.css" />
+	<meta name="naver-site-verification" content="d4a4f0dda97f01a27207a091563ec3dde2b64f52" />
 	<!-- <link rel="stylesheet" href="/wp-content/themes/hub/css/owl.carousel.min.css" />
 	<link rel="stylesheet" href="/wp-content/themes/hub/css/owl.theme.default.css" /> -->
 	<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
