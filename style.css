@@ -285,4 +285,4 @@ Main image bg
 	align-items: center;
 	margin: 50px auto;
 }
-#page .page-nav ul.pagination li .page-numbers.current, #page .page-nav ul.pagination li a.page-numbers:hover{background-color: #f9e032; color: black;}
+#wrap .page-nav ul.pagination li .page-numbers.current, #wrap .page-nav ul.pagination li a.page-numbers:hover{background-color: #f9e032; color: black;}
