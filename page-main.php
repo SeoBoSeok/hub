@@ -350,7 +350,7 @@ wp_reset_postdata();
 								<span><?php echo get_the_title($post_list[6]); ?></span>
 								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
 							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[6]); ?> <span class="author"><?php echo get_the_author(); ?></span></div>
+							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[6]); ?> <span class="author"></span></div>
 							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>
