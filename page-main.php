@@ -235,7 +235,7 @@ get_header();
 <?php
 $args = array(
 	'post_type' => 'post',
-	'posts_per_page' => 7
+	'posts_per_page' => 8
 );
 // the query
 $query = new WP_Query( $args );
@@ -353,14 +353,14 @@ echo $display_name; ?></span></div>
 					</a>
 
 					<a href="<?php echo get_post_permalink($post_list[6]);?>" class="card-item type-1">
-						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[6]); ?>');"></div>
+						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[7]); ?>');"></div>
 						<div class="content">
-							<div class="label">#<?php $cat = get_the_category($post_list[6]); echo $cat[0]->name; ?></div>
+							<div class="label">#<?php $cat = get_the_category($post_list[7]); echo $cat[0]->name; ?></div>
 							<div class="title">
-								<span><?php echo get_the_title($post_list[6]); ?></span>
+								<span><?php echo get_the_title($post_list[7]); ?></span>
 								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
 							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[6]); ?> <span class="author"><?php $author_id = get_post_field ('post_author', $post_list[6]);
+							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[7]); ?> <span class="author"><?php $author_id = get_post_field ('post_author', $post_list[7]);
 $display_name = get_the_author_meta( 'display_name' , $author_id ); 
 echo $display_name; ?></span></div>
 							<!-- <button class="dots"><span></span></button> -->
