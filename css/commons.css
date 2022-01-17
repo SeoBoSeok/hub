@@ -749,6 +749,9 @@ button.dots span {
 	background-size: cover;
 	background-position: center;
 }
+#contents-2 .c_contents .card-list .card-item.type-1.big .image {
+	padding-top: 110%;
+}
 #contents-2 .c_contents .card-list .card-item.type-1 .content {
 	padding: 21px 24px 15px;
 	background-color: #fff;

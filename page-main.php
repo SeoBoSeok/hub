@@ -279,7 +279,7 @@ echo $display_name; ?></span></div>
 						</div>
 						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[0]); ?>');"></div>
 					</a>
-					<a href="<?php echo get_post_permalink($post_list[2]);?>" class="card-item type-1">
+					<a href="<?php echo get_post_permalink($post_list[2]);?>" class="card-item type-1 big">
 						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[2]); ?>');"></div>
 						<div class="content">
 							<div class="label">#<?php $cat = get_the_category($post_list[2]); echo $cat[0]->name; ?></div>
@@ -294,7 +294,7 @@ echo $display_name; ?></span></div>
 						</div>
 					</a>
 					
-					<a href="<?php echo get_post_permalink($post_list[3]);?>" class="card-item type-1">
+					<a href="<?php echo get_post_permalink($post_list[3]);?>" class="card-item type-1 big">
 						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[3]); ?>');"></div>
 						<div class="content">
 							<div class="label">#<?php $cat = get_the_category($post_list[4]); echo $cat[0]->name; ?></div>
