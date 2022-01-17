@@ -286,7 +286,7 @@ wp_reset_postdata();
 							</div>
 						</div>
 						<div class="btn-wrap">
-							<button><img src="/wp-content/themes/hub/images/new/class.png"/><span><?php echo get_the_title($post_list[3]); ?></span></button>
+							<button><img src="/wp-content/themes/hub/images/new/class.png"/><span><?php echo get_the_title(); ?></span></button>
 						</div>
 					</a>
 					<a href="<?php echo get_post_permalink($post_list[0]);?>" class="card-item type-3">
@@ -311,7 +311,7 @@ wp_reset_postdata();
 								<span><?php echo get_the_title($post_list[4]); ?></span>
 								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
 							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[4]); ?> <span class="author"><?php echo get_the_author($post_list[4]); ?></span></div>
+							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[4]); ?> <span class="author"><?php echo get_the_author(); ?></span></div>
 							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>
