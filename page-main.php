@@ -251,7 +251,7 @@ wp_reset_postdata();
 
 ?>
 				<div class="card-list">
-				<a href="<?php echo get_post_permalink($post_list[1]);?>" class="card-item type-1">
+					<a href="<?php echo get_post_permalink($post_list[1]);?>" class="card-item type-1">
 						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[1]); ?>');"></div>
 						<div class="content">
 							<div class="label">#<?php $cat = get_the_category($post_list[1]); echo $cat[0]->name; ?></div>
@@ -263,34 +263,6 @@ wp_reset_postdata();
 $display_name = get_the_author_meta( 'display_name' , $author_id ); 
 echo $display_name; ?></span></div>
 							<!-- <button class="dots"><span></span></button> -->
-						</div>
-					</a>
-					<a href="<?php echo get_post_permalink($post_list[2]);?>" class="card-item type-1">
-						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[2]); ?>');"></div>
-						<div class="content">
-							<div class="label">#<?php $cat = get_the_category($post_list[2]); echo $cat[0]->name; ?></div>
-							<div class="title">
-								<span><?php echo get_the_title($post_list[2]); ?></span>
-								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
-							</div>
-							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[2]); ?> <span class="author"><?php $author_id = get_post_field ('post_author', $post_list[2]);
-$display_name = get_the_author_meta( 'display_name' , $author_id ); 
-echo $display_name; ?></span></div>
-							<!-- <button class="dots"><span></span></button> -->
-						</div>
-					</a>
-					<a href="<?php echo get_post_permalink($post_list[3]);?>" class="card-item type-2">
-						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[3]); ?>');"></div>
-						<div class="content">
-							<div class="title color-wh">
-								<span><?php //echo get_the_category($post_list[2]); ?></span>
-								<span><?php //echo get_the_excerpt($post_list[2]); ?></span>
-								<span># <?php $cat = get_the_category($post_list[3]); echo $cat[0]->name; ?></span>
-								<span><?php echo get_the_date('Y-m-d', $post_list[3]); ?></span>
-							</div>
-						</div>
-						<div class="btn-wrap">
-							<button><img src="/wp-content/themes/hub/images/new/class.png"/><span><?php echo get_the_title(); ?></span></button>
 						</div>
 					</a>
 					<a href="<?php echo get_post_permalink($post_list[0]);?>" class="card-item type-3">
@@ -307,6 +279,21 @@ echo $display_name; ?></span></div>
 						</div>
 						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[0]); ?>');"></div>
 					</a>
+					<a href="<?php echo get_post_permalink($post_list[2]);?>" class="card-item type-1">
+						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[2]); ?>');"></div>
+						<div class="content">
+							<div class="label">#<?php $cat = get_the_category($post_list[2]); echo $cat[0]->name; ?></div>
+							<div class="title">
+								<span><?php echo get_the_title($post_list[2]); ?></span>
+								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
+							</div>
+							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[2]); ?> <span class="author"><?php $author_id = get_post_field ('post_author', $post_list[2]);
+$display_name = get_the_author_meta( 'display_name' , $author_id ); 
+echo $display_name; ?></span></div>
+							<!-- <button class="dots"><span></span></button> -->
+						</div>
+					</a>
+					
 					<a href="<?php echo get_post_permalink($post_list[4]);?>" class="card-item type-1">
 						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[4]); ?>');"></div>
 						<div class="content">
@@ -321,21 +308,23 @@ echo $display_name; ?></span></div>
 							<!-- <button class="dots"><span></span></button> -->
 						</div>
 					</a>
-					<a href="mailto:gongstar2021@gmail.com" class="card-item type-4">
-						<div class="image">
-							<img src="/wp-content/themes/hub/images/new/smilepng.png"/>
-						</div>
+
+					<a href="<?php echo get_post_permalink($post_list[3]);?>" class="card-item type-2">
+						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[3]); ?>');"></div>
 						<div class="content">
-							<div class="title">
-								<span>공스타에서</span>
-								<span>광고주를 찾습니다</span>
+							<div class="title color-wh">
+								<span><?php //echo get_the_category($post_list[2]); ?></span>
+								<span><?php //echo get_the_excerpt($post_list[2]); ?></span>
+								<span># <?php $cat = get_the_category($post_list[3]); echo $cat[0]->name; ?></span>
+								<span><?php echo get_the_date('Y-m-d', $post_list[3]); ?></span>
 							</div>
 						</div>
 						<div class="btn-wrap">
-							<button>광고하러 가기<img src="/wp-content/themes/hub/images/new/arrow-right.png"></button>
+							<button><img src="/wp-content/themes/hub/images/new/class.png"/><span><?php echo get_the_title(); ?></span></button>
 						</div>
 					</a>
-					<a href="<?php echo get_post_permalink($post_list[5]);?>" class="card-item type-2 right-circle">
+
+					<a href="<?php echo get_post_permalink($post_list[5]);?>" class="card-item type-2">
 						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[5]); ?>');"></div>
 						<div class="content">
 							<div class="title color-wh">
@@ -349,7 +338,7 @@ echo $display_name; ?></span></div>
 						</div>
 					</a>
 					<a href="<?php echo get_post_permalink($post_list[6]);?>" class="card-item type-1">
-						<div class="image bg-effect-1 color-yellow" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[6]); ?>');"></div>
+						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[6]); ?>');"></div>
 						<div class="content">
 							<div class="label">#<?php $cat = get_the_category($post_list[6]); echo $cat[0]->name; ?></div>
 							<div class="title">
@@ -360,6 +349,36 @@ echo $display_name; ?></span></div>
 $display_name = get_the_author_meta( 'display_name' , $author_id ); 
 echo $display_name; ?></span></div>
 							<!-- <button class="dots"><span></span></button> -->
+						</div>
+					</a>
+
+					<a href="<?php echo get_post_permalink($post_list[6]);?>" class="card-item type-1">
+						<div class="image" style="background-image: url('<?php echo get_the_post_thumbnail_url($post_list[6]); ?>');"></div>
+						<div class="content">
+							<div class="label">#<?php $cat = get_the_category($post_list[6]); echo $cat[0]->name; ?></div>
+							<div class="title">
+								<span><?php echo get_the_title($post_list[6]); ?></span>
+								<!-- <span>'스펙트럼(Spectrum) 개최'</span> -->
+							</div>
+							<div class="sub"><?php echo get_the_date('Y-m-d', $post_list[6]); ?> <span class="author"><?php $author_id = get_post_field ('post_author', $post_list[6]);
+$display_name = get_the_author_meta( 'display_name' , $author_id ); 
+echo $display_name; ?></span></div>
+							<!-- <button class="dots"><span></span></button> -->
+						</div>
+					</a>
+
+					<a href="mailto:gongstar2021@gmail.com" class="card-item type-4">
+						<div class="image">
+							<img src="/wp-content/themes/hub/images/new/smilepng.png"/>
+						</div>
+						<div class="content">
+							<div class="title">
+								<span>공스타에서</span>
+								<span>광고주를 찾습니다</span>
+							</div>
+						</div>
+						<div class="btn-wrap">
+							<button>광고하러 가기<img src="/wp-content/themes/hub/images/new/arrow-right.png"></button>
 						</div>
 					</a>
 				</div>

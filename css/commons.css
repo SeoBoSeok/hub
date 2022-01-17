@@ -803,7 +803,7 @@ button.dots span {
 	margin-top: 3px;
 }
 #contents-2 .c_contents .card-list .card-item.type-3 {
-	grid-row-end: span 20;
+	grid-row-end: span 19;
 	grid-column-end: span 2;
 	display: grid;
 	grid-template-columns: 4fr 6fr;
@@ -833,7 +833,7 @@ button.dots span {
 	background-position: center;
 }
 #contents-2 .c_contents .card-list .card-item.type-4 {
-	grid-row-end: span 11;
+	grid-row-end: span 10;
 	padding: 22px 14px;
 	background-color: #e7e7e7;
 }
