@@ -756,6 +756,9 @@ button.dots span {
 	padding: 21px 24px 15px;
 	background-color: #fff;
 }
+#contents-2 .c_contents .card-list .card-item.type-1.big .content {
+	padding: 28px 24px 15px;
+}
 #contents-2 .c_contents .card-list .card-item.type-1 .content .title {
 	font-size: 18px;
 	font-weight: bold;
