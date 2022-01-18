@@ -14,6 +14,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
+	<meta name="description" content="스타트업 아카이브 공주, 공스타 / 공스타2021 / gongstar / 공주의 모든 것 / 주식회사 공스타">
 	<link rel="stylesheet" href="/wp-content/themes/hub/css/init.css" />
 	<link rel="stylesheet" href="/wp-content/themes/hub/css/common.css" />
 	<link rel="stylesheet" href="/wp-content/themes/hub/css/layout.css" />
