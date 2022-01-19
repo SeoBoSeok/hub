@@ -384,9 +384,9 @@ echo $display_name; ?></span></div>
 				</div>
 
 				<div class="banner">
-					<!-- <a href=""> -->
+					<a href="https://pf.kakao.com/_hxhLxfb">
 						<img src="<?php echo get_the_post_thumbnail_url(get_the_ID()) ?>"/>
-					<!-- </a> -->
+					</a>
 				</div>
 			</div>
 		</section>
