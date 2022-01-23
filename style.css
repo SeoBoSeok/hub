@@ -286,3 +286,4 @@ Main image bg
 	margin: 50px auto;
 }
 #wrap .page-nav ul.pagination li .page-numbers.current, #wrap .page-nav ul.pagination li a.page-numbers:hover{background-color: #f9e032; color: black;}
+.disqus-footer__wrapper{display: none!important;}
