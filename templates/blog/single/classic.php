@@ -49,6 +49,7 @@
 		<?php endif; ?>
 		<!-- <span class="text-uppercase ltr-sp-1">'. esc_html__( '공유하기', 'hub' ) .'</span> -->
 		</div>
+		<div id="disqus_thread"></div>
 		
 		<?php endif; ?>
 		
@@ -75,6 +76,7 @@
 	endif; 
 	
 ?>
+
 
 <?php do_action( 'liquid_end_single_post_container' ); ?>
 
